@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NiuniuYZSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="ming" x="0" y="0" scaleX="1" scaleY="1" width="121" height="59" source="nns_btn1_png"/>
+	<e:Image id="an" scaleX="1" scaleY="1" width="121" height="59" source="nns_zhbtn_png" y="0" x="0" visible="false"/>
+
+	<e:BitmapLabel id="labelDisplay" anchorOffsetX="0" anchorOffsetY="0" font="nns_btnzi_fnt" text="x10" textAlign="center" width="115" letterSpacing="-2" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

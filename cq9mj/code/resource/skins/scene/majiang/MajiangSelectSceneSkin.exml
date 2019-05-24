@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="majiang.MajiangSelectSceneSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16458df3aae" />
+	<e:Group id="resizeGroup" width="1280" height="720" x="0" y="0">
+		<e:Image scaleX="1" scaleY="1" top="0" bottom="0" right="0" left="0" source="mj_xc_bg_jpg"/>
+
+		<e:Group id="leftGroup" left="0" height="643" verticalCenter="38.5" locked="true">
+
+			<e:Image source="mj_xc_bg2_png" x="58" y="118"/>
+			<e:Image id="img_ch_down" y="126.9" anchorOffsetY="0" anchorOffsetX="0" source="xlch_down_png" x="54"/>
+			<e:Image id="img_ch_up" y="150.52" anchorOffsetY="0" anchorOffsetX="0" source="xlch_up_png" x="86.99"/>
+			<e:Image id="img_men0" y="131.52" anchorOffsetY="0" anchorOffsetX="0" x="60" source="menban_png"/>
+
+			<e:Image id="img_dd_down" y="320.66" anchorOffsetY="0" anchorOffsetX="0" source="xzdd_down_png" x="54"/>
+			<e:Image id="img_dd_up" y="344.66" anchorOffsetY="0" anchorOffsetX="0" source="xzdd_up_png" x="87.51"/>
+			<e:Image id="img_men1" y="331.52" anchorOffsetY="0" anchorOffsetX="0" x="60" source="menban_png"/>
+		</e:Group>
+		<e:Group id="rightGroup" anchorOffsetX="0" anchorOffsetY="0" height="391" width="1040" horizontalCenter="70" verticalCenter="50.5">
+			<e:Scroller id="select" height="391" anchorOffsetX="0" anchorOffsetY="0" width="1040" x="0">
+			<e:Group id="contentGroup" anchorOffsetX="0" anchorOffsetY="0" width="1040" height="391">
+				<e:layout>
+					<e:BasicLayout/>
+				</e:layout>
+			</e:Group>
+			</e:Scroller>
+		</e:Group>
+
+
+
+		<e:Group id="topGroup" height="83" left="0" right="0" top="0" touchEnabled="false">
+			<e:Image scaleX="1" scaleY="1" source="hall_bg_s_png" scale9Grid="80,10,79,63" top="0" left="0" width="512" height="82" locked="true"/>
+			<e:Image scaleX="-1" scaleY="1" source="hall_bg_s_png" scale9Grid="80,10,79,63" right="0" top="0" width="512" height="82" locked="true"/>
+			<e:Group id="t_centerGroup" horizontalCenter="-6" top="0">
+				<e:Image scale9Grid="80,10,79,63" source="hall_logo_bg_png"/>
+				<e:Image id="sjmj_title" anchorOffsetY="0" anchorOffsetX="0" source="mj_xc_title_png" width="204" height="66" x="100" y="3.03"/>
+			</e:Group>
+
+
+
+
+
+
+
+
+			<e:Group id="t_leftGroup" width="285" height="75" anchorOffsetY="0" anchorOffsetX="0" left="14" x="94" scaleX="1" scaleY="1" top="4">
+				<e:Image id="nameDb" scaleX="1" scaleY="1" anchorOffsetX="0" width="250" source="hall_namelable_png" x="43.38" y="16" scale9Grid="28,20,20,4" height="42"/>
+				<e:Image scaleX="1" scaleY="1" source="hall_image_bg_png" width="74" height="74" x="2" y="0"/>
+				<e:Image id="select_playerImage" scaleX="1" scaleY="1" width="65" height="65" source="hall_header_2_8_png" x="7" y="3.6"/>
+				<e:Image id="playerIcon" scaleX="1" scaleY="1" source="hall_playerimage_png" x="49" y="40"/>
+				<e:Label id="select_playerName" text="test12344567899" anchorOffsetX="0" textAlign="left" size="20" verticalAlign="middle" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" x="78" verticalCenter="0"/>
+			</e:Group>
+			<e:Group id="t_rightGroup" width="466.67" anchorOffsetX="0" right="0" height="83" top="3">
+				<e:Group id="goldGroup" height="42" width="310" y="20.18" right="171.67000000000002">
+					<e:Image scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" source="hall_namelable_png" scale9Grid="33,17,11,8" height="42" y="0" left="0" right="0"/>
+					<e:Image scaleX="1" scaleY="1" source="hall_gold_png" width="35" height="37" y="0" left="2"/>
+					<e:BitmapLabel id="goldLabel" height="57.25" text="1234567890123.00" anchorOffsetY="0" anchorOffsetX="0" scaleX="0.46" scaleY="0.5" font="font_gold_fnt" letterSpacing="-5" textAlign="center" horizontalCenter="14.5" verticalCenter="-0.5"/>
+				</e:Group>
+				<e:Button id="mj_btn_fdsx" label="" width="45" height="45" x="417.67" y="17">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="hall_quanping_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="recordBtn" label="" x="361.67" y="16" scaleX="1" scaleY="1">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="home_record_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:majiang="majiang.*"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="szBtn" label="" x="304.67" y="17" scaleX="1" scaleY="1">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="majiang_imgs_json.mj_btn_sz_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:majiang="majiang.*"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Button id="helpBtn" label="" scaleY="1" scaleX="1" right="58" top="94">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="main_help_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:majiang="majiang.*"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+
+		</e:Group>
+
+
+
+	</e:Group>
+</e:Skin>

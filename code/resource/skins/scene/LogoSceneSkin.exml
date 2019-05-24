@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LogoSceneSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:game="game.*">
+	<e:Group id="resizeGroup" height="720" width="1280" y="0" x="0">
+		<e:Rect right="0" left="0" bottom="0" top="0" fillColor="0x000000"/>
+		<e:Image source="loading_bg_jpg" left="0" top="0" bottom="0" right="0"/>
+		<e:Group id="progressGroup" width="1008" height="20" horizontalCenter="0" bottom="71">
+			<e:Image y="0" scaleX="1" scaleY="1" scale9Grid="1,9,11,17" source="loading_n2_png" width="1008" x="0"/>
+			<e:Image id="progressBar" fillMode="clip" scaleX="1" scaleY="1" source="loading_n1_png" width="0"/>
+		</e:Group>
+		<e:Label text="正在加载" size="20" textColor="0x997529" horizontalCenter="0" bottom="43"/>
+		<e:Image source="loading_bg1_png" left="30" top="21"/>
+		<e:Image source="loading_bg2_png" bottom="110" horizontalCenter="0"/>
+		<e:Label id="resVersion" text="" size="20" left="0" bottom="22" textColor="0xa5a5a5" fontFamily="Arial"/>
+		<e:Label id="clientVersion" text="" size="20" left="0" bottom="0" textColor="0xa5a5a5" fontFamily="Arial"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BDZPokerSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="130" height="185">
+	<e:Image id="beiImage" width="130" height="185" source="common_pai_1_png" touchEnabled="false"/>
+	<e:Group id="zhengGroup" width="130" height="185" touchEnabled="false" touchChildren="false" visible="false">
+		<e:Image id="zhengImg" x="0" scaleX="1" scaleY="1" width="130" height="185" source="common_pai_2_png" touchEnabled="false"/>
+		<e:BitmapLabel id="valueLabel" x="8.99" y="9" text="6" scaleX="0.5" scaleY="0.5" anchorOffsetX="0" font="common_poker_black_fnt" touchEnabled="false"/>
+		<e:Image id="bigColorImg" scaleX="0.5" scaleY="0.5" right="10" bottom="10" source="common_poper_color_3_png" touchEnabled="false"/>
+		<e:Image id="smallColorImg" x="8.66" y="53.83" scaleX="0.15" scaleY="0.15" source="common_poper_color_3_png" touchEnabled="false"/>
+	</e:Group>
+</e:Skin>

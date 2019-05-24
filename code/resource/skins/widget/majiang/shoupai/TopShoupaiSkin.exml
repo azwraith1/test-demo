@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="majiang.TopShoupaiSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="43" height="53">
+	<e:Image id="bgImage" source="top_shoupai_1_png"/>
+	
+</e:Skin>

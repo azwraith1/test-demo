@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RBWarQSTextSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="64" height="38">
+	<e:Image id="dbImage" source="rb_qs_bar_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Label id="textImage" text="金花" size="19" width="54" textAlign="center" height="19"    textColor="0x552409" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

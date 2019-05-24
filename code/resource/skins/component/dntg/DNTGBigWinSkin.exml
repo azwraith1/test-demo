@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DNTGBigWinSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="bigwinGroup" anchorOffsetX="0" anchorOffsetY="0" left="0" right="0" top="0" bottom="0">
+		<e:Rect id="bigwinStopRect" fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+		<e:Group id="goldDown" width="1280" height="720" x="0" y="0" touchEnabled="false"/>
+		<e:BitmapLabel id="countWonLabel" width="1280" font="dntg_big_win_fnt" text="" textAlign="center" letterSpacing="12" alpha="1" anchorOffsetX="640" anchorOffsetY="0" touchEnabled="false" horizontalCenter="0" bottom="233" height="134"/>
+		<e:Image id="bigwinTitle" source="bigwinplist_json.big_win" horizontalCenter="0" alpha="0" touchEnabled="false" anchorOffsetX="0" anchorOffsetY="70" bottom="483"/>
+	</e:Group>
+</e:Skin>

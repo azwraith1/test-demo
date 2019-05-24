@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GoldDownSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="stop_bigWin_rect" width="1290" height="720" x="0" y="0" fillAlpha="0.7"/>
+</e:Skin>

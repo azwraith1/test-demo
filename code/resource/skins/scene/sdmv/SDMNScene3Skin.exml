@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SDMNScene3Skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:sdmn="sdmn.*">
+	<e:Group id="resizeGroup" width="1280" height="720" x="0" y="0">
+		<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+		<e:Image id="freebg" source="sdmn_freebg1_jpg" left="0" right="0" top="0" bottom="0"/>
+		<e:Group id="freeGroup" left="0" right="0" top="0" bottom="0">
+			<e:Group id="freemulGroup" width="227.33" height="72" anchorOffsetY="0" anchorOffsetX="0" left="0" bottom="146">
+				<e:Image id="bei2" source="sdmn_freemul_1_png" x="5.32" verticalCenter="0.5"/>
+				<e:Image id="bei5" source="sdmn_freemul_2_png" x="81.98" verticalCenter="0.5"/>
+				<e:Image id="bei10" source="sdmn_freemul_3_png" x="158.67" verticalCenter="0.5"/>
+			</e:Group>
+			<e:Group id="freewinGroup" width="1280" horizontalCenter="0" bottom="1">
+				<e:Image source="sdmn_freewin_bg_png" x="0" y="0" scaleX="1" scaleY="1" anchorOffsetY="0" height="145"/>
+				<e:BitmapLabel id="freeTimesLabel" width="170" y="73" anchorOffsetX="0" anchorOffsetY="0" font="sdmn_freewin_text_fnt" text="0" height="27" textAlign="center" x="316"/>
+				<e:BitmapLabel id="freewinLabel" width="179.33" height="27" y="74.04" anchorOffsetX="0" anchorOffsetY="0" font="sdmn_freewin_text_fnt" text="0" x="916.48" textAlign="center" letterSpacing="-2"/>
+			</e:Group>
+			<sdmn:SDMNScroller width="1010" height="540" horizontalCenter="100" verticalCenter="-58"/>
+		</e:Group>
+		<e:Group id="selectGroup" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" visible="false"/>
+	</e:Group>
+</e:Skin>

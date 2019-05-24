@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TopHuShowSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="topHuShow" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image id="image0" x="470.7" source="top_paimian_1_png" visible="false"/>
+		<e:Image id="image1" x="433.5" y="0" source="top_paimian_1_png" visible="false"/>
+		<e:Image id="image2" x="397.83" y="0" anchorOffsetX="0" source="top_paimian_2_png" visible="false"/>
+		<e:Image id="image3" x="361.18" y="0.5" source="top_paimian_3_png" visible="false"/>
+		<e:Image id="image4" x="324.2" source="top_paimian_4_png" visible="false"/>
+		<e:Image id="image5" x="288.2" y="0" source="top_paimian_5_png" visible="false"/>
+		<e:Image id="image6" x="251.89" y="0" source="top_paimian_6_png" visible="false"/>
+		<e:Image id="image7" x="215.33" y="0" source="top_paimian_7_png" visible="false"/>
+		<e:Image id="image8" x="178.65" y="0" source="top_paimian_8_png" visible="false"/>
+		<e:Image id="image9" x="143.04" y="0" source="top_paimian_9_png" visible="false"/>
+		<e:Image id="image10" x="107.32" y="0" source="top_paimian_10_png" visible="false"/>
+		<e:Image id="image11" x="71.05" y="0" source="top_paimian_11_png" visible="false"/>
+		<e:Image id="image12" x="34.67" y="0" source="top_paimian_12_png" visible="false"/>
+		<e:Image id="image13" y="0" source="top_paimian_13_png" visible="false"/>
+		<e:layout>
+		<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="topHuShow_color" touchChildren="true" touchThrough="true" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image id="color13" x="33.61" y="30.58" skewX="6" scaleX="-0.33" scaleY="-0.33" width="92.73" height="92" anchorOffsetX="0" source=""/>
+		<e:Image id="color12" x="71.6" y="30.69" skewX="5" scaleX="-0.33" scaleY="-0.33" width="97.28" height="92" anchorOffsetX="0" source=""/>
+		<e:Image id="color11" x="106.54" y="30.69" skewX="4" scaleX="-0.33" scaleY="-0.33" width="94.25" height="92" anchorOffsetX="0" source=""/>
+		<e:Image id="color10" x="142.78" y="30.69" skewX="3" scaleX="-0.33" scaleY="-0.33" width="92.73" height="92" anchorOffsetX="0" source=""/>
+		<e:Image id="color9" x="178.67" y="30.74" skewX="2" scaleX="-0.33" scaleY="-0.33" width="92.73" height="92" anchorOffsetX="0" source=""/>
+		<e:Image id="color8" x="214.1" y="30.77" skewX="1" scaleX="-0.33" scaleY="-0.33" width="92.74" height="92" anchorOffsetX="0" source=""/>
+		<e:Image id="color7" x="250.32" y="30.79" scaleX="-0.33" scaleY="-0.33" width="92.73" height="92" anchorOffsetX="0" source=""/>
+		<e:Image id="color6" x="287.01" y="30.8" scaleX="-0.33" scaleY="-0.33" width="95.76" height="92" anchorOffsetX="0" source=""/>
+		<e:Image id="color5" x="324.6" y="30.82" scaleX="-0.33" scaleY="-0.33" width="95.76" height="92" skewX="-1.5" anchorOffsetX="0" source=""/>
+		<e:Image id="color4" x="361.09" y="30.83" skewX="-2.5" scaleX="-0.33" scaleY="-0.33" width="95.76" height="92" anchorOffsetX="0" source=""/>
+		<e:Image id="color3" x="399" y="30.84" skewX="-3.5" scaleX="-0.33" scaleY="-0.33" width="98.79" height="92" anchorOffsetX="0" source=""/>
+		<e:Image id="color2" x="435.54" y="30.84" skewX="-5.5" scaleX="-0.33" scaleY="-0.33" width="92.73" height="92" anchorOffsetX="0" source=""/>
+		<e:Image id="color1" x="471.34" y="30.84" skewX="-6" scaleX="-0.33" scaleY="-0.33" width="94.24" height="92" anchorOffsetX="0" source=""/>
+		<e:Image id="color0" x="508.68" y="30.84" skewX="-6" scaleX="-0.33" scaleY="-0.33" width="94.24" height="92" anchorOffsetX="0" source=""/>
+		<e:layout>
+		<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="topHuShow_bei" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image id="bei14" x="430" source="top_paibei_1_png" visible="false"/>
+		<e:Image id="bei13" x="394.1" source="top_paibei_2_png" y="0" visible="false"/>
+		<e:Image id="bei12" x="358.1" source="top_paibei_3_png" y="0" visible="false"/>
+		<e:Image id="bei11" x="321.3" source="top_paibei_4_png" visible="false"/>
+		<e:Image id="bei10" x="285.53" source="top_paibei_5_png" visible="false"/>
+		<e:Image id="bei9" x="249.67" source="top_paibei_6_png" y="0" visible="false"/>
+		<e:Image id="bei8" x="214" source="top_paibei_7_png" visible="false"/>
+		<e:Image id="bei7" x="178.12" source="top_paibei_8_png" y="0" visible="false"/>
+		<e:Image id="bei6" x="142.54" source="top_paibei_9_png" visible="false"/>
+		<e:Image id="bei5" x="107.11" source="top_paibei_10_png" visible="false"/>
+		<e:Image id="bei4" x="70.55" source="top_paibei_11_png" visible="false"/>
+		<e:Image id="bei3" x="35.55" anchorOffsetX="0" source="top_paibei_12_png" visible="false"/>
+		<e:Image id="bei2" source="top_paibei_13_png" visible="false"/>
+		<e:layout>
+		<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

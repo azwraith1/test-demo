@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZajinhuaHallbarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="290" height="300">
+	<e:Group anchorOffsetX="0" anchorOffsetY="0" x="0" width="290" height="300">
+		<e:Group id="dbGroup" x="0" y="0" width="290" height="300">
+		</e:Group>
+
+		<e:Image scaleX="1" scaleY="1" x="93" y="217" source="zjh_hall_df_png"/>
+		<e:Image scaleX="1" scaleY="1" x="95" y="244" source="zjh_hall_zr_png"/>
+		<e:BitmapLabel id="difen" width="51.5" height="20" x="141.5" y="219" rotation="0" anchorOffsetX="0" font="zjh_hall_fen_fnt" text="10" letterSpacing="-5" textAlign="center"/>
+		<e:BitmapLabel id="zhunru" width="60" height="20" x="138.5" y="245" rotation="0" anchorOffsetX="0" text="100" font="zjh_hall_fen_fnt" letterSpacing="-5" textAlign="center"/>
+	</e:Group>
+</e:Skin>

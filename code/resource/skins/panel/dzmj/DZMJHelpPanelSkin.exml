@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DZMJHelpPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1685acced70"/>
+	<e:Group id="resizeGroup" width="1280" height="720" x="0" y="0">
+		<e:Rect id="rects" scaleX="1" scaleY="1" fillAlpha="0.3" left="0" right="0" top="0" bottom="0" locked="true"/>
+		<e:Group scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+			<e:Image scaleX="1" scaleY="1" source="dzmj_alert_db_1_png"/>
+			<e:Image scaleX="1" scaleY="1" source="dzmj_help_title_png" x="343" y="15"/>
+			<e:Image scaleX="1" scaleY="1" x="184.42" y="92.5" width="690.13" height="467" source="dzmj_alert_db_2_png" scale9Grid="30,196,53,78" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Scroller id="scor" width="663.59" height="439.48" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="89.5" verticalCenter="41">
+				<e:Group id="imageGroup" height="485" x="-1.52">
+					<e:Image id="images" y="0" x="0" scaleX="1" scaleY="1" source="dzmj_help_fxgz_png"/>
+				</e:Group>
+			</e:Scroller>
+			<e:Group anchorOffsetY="0" y="107" x="3.16">
+
+
+				<e:RadioButton id="jbgzBtn" label="RadioButton" y="0" x="0">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image source="dzmj_help_db2_png" source.down="dzmj_help_db1_png"/>
+	<e:Image includeIn="down" source="dzmj_help_jbgz1_png" x="22" y="26"/>
+	<e:Image includeIn="up" source="dzmj_help_jbgz2_png" x="22" y="26"/>
+					</e:Skin>
+					</e:skinName>
+				</e:RadioButton>
+				<e:RadioButton id="pxgzBtn" label="RadioButton" y="94" x="0">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image source="dzmj_help_db2_png" source.down="dzmj_help_db1_png"/>
+						<e:Image includeIn="down" x="22" y="26" source="dzmj_help_pxgz2_png"/>
+						<e:Image includeIn="up" x="22" y="26" source="dzmj_help_pxgz2_png"/>
+					</e:Skin>
+					</e:skinName>
+				</e:RadioButton>
+			</e:Group>
+			<e:Button id="closeBtn" label="" x="811.05" y="22">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="dzmj_alert_close_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+		</e:Group>
+	</e:Group>
+</e:Skin>

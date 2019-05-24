@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HjzyTipSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="tipImage" source="wz_hjzy_png" x="0" y="0"/>
+	<e:BitmapLabel id="valueText" x="31.4" y="50.5" font="shu_font_fnt" text="" scaleX="0.4" scaleY="0.4" textAlign="right" width="540" height="125"/>
+</e:Skin>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RightHuShowSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="rightHuShow" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+		<e:Image id="image0" scaleX="1" scaleY="1" source="right_paimian_13_png" visible="false"/>
+		<e:Image id="image1" x="5.61" y="24.95" scaleX="1" scaleY="1" source="right_paimian_12_png" visible="false"/>
+		<e:Image id="image2" x="11.14" y="52" scaleX="1" scaleY="1" source="right_paimian_11_png" visible="false"/>
+		<e:Image id="image3" x="16.01" y="78.9" scaleX="1" scaleY="1" source="right_paimian_10_png" visible="false"/>
+		<e:Image id="image4" x="22.41" y="106.4" scaleX="1" scaleY="1" source="right_paimian_9_png" visible="false"/>
+		<e:Image id="image5" x="28.31" y="134.96" scaleX="1" scaleY="1" source="right_paimian_8_png" visible="false"/>
+		<e:Image id="image6" x="33.61" y="164.36" scaleX="1" scaleY="1" source="right_paimian_7_png" visible="false"/>
+		<e:Image id="image7" x="39.62" y="194.69" scaleX="1" scaleY="1" source="right_paimian_6_png" visible="false"/>
+		<e:Image id="image8" x="45.8" y="225.46" scaleX="1" scaleY="1" source="right_paimian_5_png" visible="false"/>
+		<e:Image id="image9" x="52" y="255.15" scaleX="1" scaleY="1" source="right_paimian_4_png" visible="false"/>
+		<e:Image id="image10" x="59.08" y="287.16" scaleX="1" scaleY="1" source="right_paimian_3_png" visible="false"/>
+		<e:Image id="image11" x="64.98" y="320.23" scaleX="1" scaleY="1" source="right_paimian_2_png" visible="false"/>
+		<e:Image id="image12" x="71.62" y="354.27" scaleX="1" scaleY="1" source="right_paimian_1_png" visible="false"/>
+		<e:Image id="image13" x="78.28" y="388.27" scaleX="1" scaleY="1" source="right_paimian_1_png" visible="false"/>
+	</e:Group>
+	<e:Group id="rightHuShow_color" anchorOffsetX="0" anchorOffsetY="0" scaleX="1">
+		<e:Image id="color1" anchorOffsetX="0" anchorOffsetY="0" y="28.71" skewX="-90" skewY="-100" width="23.3" height="49.66" x="14.97" source=""/>
+		<e:Image id="color0" anchorOffsetX="0" anchorOffsetY="0" y="52.99" skewX="-90" skewY="-100" width="23.3" height="49.66" x="20.72" source=""/>
+		<e:Image id="color2" anchorOffsetX="0" anchorOffsetY="0" y="79.8" skewX="-90" skewY="-100" width="23.3" height="49.66" x="26.13" source=""/>
+		<e:Image id="color3" anchorOffsetX="0" anchorOffsetY="0" y="106.4" skewX="-90" skewY="-100" width="23.3" height="49.66" x="31.48" source=""/>
+		<e:Image id="color4" anchorOffsetX="0" anchorOffsetY="0" y="135.13" skewX="-90" skewY="-100" width="23.3" height="49.66" x="37.59" source=""/>
+		<e:Image id="color5" anchorOffsetX="0" anchorOffsetY="0" y="163.64" skewX="-90" skewY="-100" width="22.91" height="50.86" x="42.82" source=""/>
+		<e:Image id="color6" anchorOffsetX="0" anchorOffsetY="0" y="193.44" skewX="-90" skewY="-100" width="25.07" height="51.26" x="48.27" source=""/>
+		<e:Image id="color7" anchorOffsetX="0" anchorOffsetY="0" y="225.45" skewX="-90" skewY="-100" width="26.09" height="51.66" x="53.95" source=""/>
+		<e:Image id="color8" anchorOffsetX="0" anchorOffsetY="0" y="254.51" skewX="-90" skewY="-100" width="27.41" height="53.46" x="59.37" source=""/>
+		<e:Image id="color9" anchorOffsetX="0" anchorOffsetY="0" y="285.08" skewX="-90" skewY="-100" width="25.66" height="53.86" x="65.57" source=""/>
+		<e:Image id="color10" anchorOffsetX="0" anchorOffsetY="0" y="317.73" skewX="-90" skewY="-100" width="28.95" height="53.46" x="73.25" source=""/>
+		<e:Image id="color11" anchorOffsetX="0" anchorOffsetY="0" y="352.19" skewX="-90" skewY="-100" width="30.37" height="56.26" x="78.05" source=""/>
+		<e:Image id="color12" anchorOffsetX="0" anchorOffsetY="0" y="383.5" skewX="-90" skewY="-100" width="27.42" height="56.46" x="84.5" source=""/>
+		<e:Image id="color13" anchorOffsetX="0" anchorOffsetY="0" y="418.56" skewX="-90" skewY="-100" width="27.42" height="56.46" x="91.7" source=""/>
+	</e:Group>
+	<e:Group id="rightHuShow_bei" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+		<e:Image id="image25" scaleX="1" scaleY="1" source="right_paibei_13_png" visible="false"/>
+		<e:Image id="image27" x="5.61" y="24.95" scaleX="1" scaleY="1" source="right_paibei_12_png" visible="false"/>
+		<e:Image id="image28" x="11.14" y="52" scaleX="1" scaleY="1" source="right_paibei_11_png" visible="false"/>
+		<e:Image id="image29" x="16.01" y="78.9" scaleX="1" scaleY="1" source="right_paibei_10_png" visible="false"/>
+		<e:Image id="image30" x="22.41" y="106.4" scaleX="1" scaleY="1" source="right_paibei_9_png" visible="false"/>
+		<e:Image id="image31" x="28.31" y="134.96" scaleX="1" scaleY="1" source="right_paibei_8_png" visible="false"/>
+		<e:Image id="image32" x="33.61" y="164.36" scaleX="1" scaleY="1" source="right_paibei_7_png" visible="false"/>
+		<e:Image id="image33" x="39.62" y="194.69" scaleX="1" scaleY="1" source="right_paibei_6_png" visible="false"/>
+		<e:Image id="image34" x="45.8" y="225.46" scaleX="1" scaleY="1" source="right_paibei_5_png" visible="false"/>
+		<e:Image id="image35" x="52" y="255.15" scaleX="1" scaleY="1" source="right_paibei_4_png" visible="false"/>
+		<e:Image id="image36" x="59.08" y="287.16" scaleX="1" scaleY="1" source="right_paibei_3_png" visible="false"/>
+		<e:Image id="image37" x="64.98" y="320.23" scaleX="1" scaleY="1" source="right_paibei_2_png" visible="false"/>
+		<e:Image id="image38" x="71.62" y="354.27" scaleX="1" scaleY="1" source="right_paibei_1_png" visible="false"/>
+	</e:Group>
+</e:Skin>

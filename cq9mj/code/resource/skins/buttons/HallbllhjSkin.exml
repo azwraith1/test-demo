@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HallbllhjSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="lhj_Group">
+		<e:Image scaleX="1" scaleY="1" source="hall_lhj1_png"/>
+
+
+
+
+
+		<e:Label id="peoples_lhj" text="7129" x="267.88" y="161.62" anchorOffsetX="0" width="67.27" anchorOffsetY="0" height="20.03" fontFamily="Microsoft YaHei" textColor="0xFFFFFF" verticalAlign="middle" textAlign="left" size="20" scaleX="1" scaleY="1"/>
+		<e:Image scaleX="1" scaleY="1" horizontalCenter="81" verticalCenter="70.5" source="hall_online_png"/>
+	</e:Group>
+	<e:Image id="lhj" scaleX="1" scaleY="1" source="hall_lhjm_png"/>
+	<e:Image scaleX="1" scaleY="1" x="240" y="163" source="mj_qqqd_png"/>
+</e:Skin>

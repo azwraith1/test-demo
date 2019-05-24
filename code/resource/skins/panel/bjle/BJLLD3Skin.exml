@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BJLLD3Skin" xmlns:e="http://ns.egret.com/eui" xmlns:bjle="bjle.*" xmlns:w="http://ns.egret.com/wing" width="216" height="54">
+	<e:Image source="bjl_wg_2_png"/>
+	<bjle:BjlDXJYItem y="0" skinName="BJLXiaoKSkin" id="item1" x="0.5"/>
+	<bjle:BjlDXJYItem x="8.5" y="0" skinName="BJLXiaoKSkin" id="item2"/>
+	<bjle:BjlDXJYItem x="18" y="0" skinName="BJLXiaoKSkin" id="item3"/>
+	<bjle:BjlDXJYItem x="26.5" y="0" skinName="BJLXiaoKSkin" id="item4"/>
+	<bjle:BjlDXJYItem x="36" y="0" skinName="BJLXiaoKSkin" id="item5"/>
+	<bjle:BjlDXJYItem x="44.5" y="0" skinName="BJLXiaoKSkin" id="item6"/>
+	<bjle:BjlDXJYItem x="54.5" y="0" skinName="BJLXiaoKSkin" id="item7"/>
+	<bjle:BjlDXJYItem x="63" y="0" skinName="BJLXiaoKSkin" id="item8"/>
+	<bjle:BjlDXJYItem x="72.5" y="0" skinName="BJLXiaoKSkin" id="item9"/>
+	<bjle:BjlDXJYItem x="81" y="0" skinName="BJLXiaoKSkin" id="item10"/>
+	<bjle:BjlDXJYItem x="90" y="0" skinName="BJLXiaoKSkin" id="item11"/>
+	<bjle:BjlDXJYItem x="98.5" y="0" skinName="BJLXiaoKSkin" id="item12"/>
+	<bjle:BjlDXJYItem x="108.4" y="0" skinName="BJLXiaoKSkin" id="item13"/>
+	<bjle:BjlDXJYItem x="116.9" y="0" skinName="BJLXiaoKSkin" id="item14"/>
+	<bjle:BjlDXJYItem x="126" y="0" skinName="BJLXiaoKSkin" id="item15"/>
+	<bjle:BjlDXJYItem x="134.5" y="0" skinName="BJLXiaoKSkin" id="item16"/>
+	<bjle:BjlDXJYItem x="144.5" y="0" skinName="BJLXiaoKSkin" id="item17"/>
+	<bjle:BjlDXJYItem x="153" y="0" skinName="BJLXiaoKSkin" id="item18"/>
+	<bjle:BjlDXJYItem x="162.25" y="0" skinName="BJLXiaoKSkin" id="item19"/>
+	<bjle:BjlDXJYItem x="170.75" y="0" skinName="BJLXiaoKSkin" id="item20"/>
+	<bjle:BjlDXJYItem x="180.25" y="0" skinName="BJLXiaoKSkin" id="item21"/>
+	<bjle:BjlDXJYItem x="188.75" y="0" skinName="BJLXiaoKSkin" id="item22"/>
+	<bjle:BjlDXJYItem x="198.5" y="0" skinName="BJLXiaoKSkin" id="item23"/>
+	<bjle:BjlDXJYItem x="207" y="0" skinName="BJLXiaoKSkin" id="item24"/>
+</e:Skin>

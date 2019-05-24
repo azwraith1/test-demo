@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HallblbySkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="by" scaleX="1" scaleY="1" source="hall_bym_png" y="3" x="2"/>
+	<e:Group id="by_Group" visible="false">
+		<e:Image id="public_mj0" scaleX="1" scaleY="1" source="by_bg_png" y="2" x="1"/>
+		<e:Image scaleX="1" scaleY="1" x="120.36" y="4.32" source="by_shake_png"/>
+		<e:Image scaleX="1" scaleY="1" x="59.63" y="29.99" source="by_fish_png"/>
+		<e:Image scaleX="1" scaleY="1" x="125.13" y="110.49" source="by_water1_png"/>
+		<e:Image scaleX="1" scaleY="1" x="94.63" y="90.99" source="by_water2_png"/>
+		<e:Image scaleX="1" scaleY="1" x="34.44" y="141.52" source="by_title_png"/>
+		<e:Label id="peoples_by" text="37058" x="253.87" y="163.63" anchorOffsetX="0" width="66.61" anchorOffsetY="0" height="20.03" fontFamily="Microsoft YaHei" textColor="0xFFFFFF" verticalAlign="middle" textAlign="left" size="20" scaleX="1" scaleY="1"/>
+		<e:Image scaleX="1" scaleY="1" source="by_gold_b_png" x="275.33" y="104.67"/>
+		<e:Image scaleX="1" scaleY="1" source="by_gold_m_png" x="45" y="98"/>
+		<e:Image scaleX="1" scaleY="1" source="by_gold_s_png" x="283.5" y="22"/>
+		<e:Image scaleX="1" scaleY="1" source="hall_online_png" x="235" y="163"/>
+	</e:Group>
+	<e:Image scaleX="1" scaleY="1" x="238" y="166" source="mj_qqqd_png"/>
+</e:Skin>

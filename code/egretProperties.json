@@ -1,0 +1,72 @@
+{
+	"native": {
+		"path_ignore": []
+	},
+	"publish": {
+		"web": 0,
+		"native": 1,
+		"path": "bin-release"
+	},
+	"egret_version": "5.0.15",
+	"template": {},
+	"eui": {
+		"exmlRoot": [
+			"resource/skins"
+		],
+		"themes": [
+			"resource/default.thm.json"
+		],
+		"exmlPublishPolicy": "content"
+	},
+	"modules": [
+		{
+			"name": "egret"
+		},
+		{
+			"name": "game"
+		},
+		{
+			"name": "res"
+		},
+		{
+			"name": "eui"
+		},
+		{
+			"name": "tween"
+		},
+		{
+			"name": "socket"
+		},
+		{
+			"name": "puremvc",
+			"path": "../modules/puremvc"
+		},
+		{
+			"name": "underscore",
+			"path": "../modules/underscore"
+		},
+		{
+			"name": "async",
+			"path": "../modules/async"
+		},
+		{
+			"name": "promise",
+			"path": "./promise"
+		},
+		{
+			"name": "dragonBones"
+		},
+		{
+			"name": "mouse",
+			"path": "../modules/mouse"
+		},
+		{
+			"name": "big",
+			"path": "../modules/big"
+		},
+		{
+			"name": "howler",
+			"path": "../modules/howler"
+		}
+	]
+}

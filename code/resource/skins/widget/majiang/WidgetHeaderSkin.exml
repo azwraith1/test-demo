@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WidgetHeaderSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="99" height="89">
+  <e:Image source="header_bg_png" y="1" width="65" height="65" x="17"/>
+  <e:Image id="headerImage" y="1" x="17" width="65" height="65" source="hall_header_1_1_png"/>
+  <e:Image source="header_bar_png" y="50.99" width="65" x="17"/>
+  <e:Label id="nameLabel" text="我的名字" y="51.06" size="15"    width="65" height="15.5" textAlign="center" anchorOffsetX="0" anchorOffsetY="0" x="17.17"/>
+  <e:Image id="goldImage" source="header_lsbar_png" y="71" x="0"/>
+  <e:Label id="goldLabel" text="2000010.00" y="72.5" textColor="0xffdc51"    size="15" anchorOffsetX="0" width="82.83" textAlign="center" x="8"/>
+  <e:Image id="zhuangImage" y="-18" source="q_zhuang_png" x="0" visible="false"/>
+  <e:Image id="colorImage" source="q_type_1_png" y="-18" x="65" visible="false"/>
+  <e:Group id="messageGroup" x="22" anchorOffsetY="0" height="61" y="-66" scaleX="1" scaleY="1" visible="false">
+    <e:Image id="msgBg" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" y="0" source="message_png" x="-6" scale9Grid="51,39,6,8"/>
+    <e:Label id="msgLable" text="方天画戟卡卡卡" x="7" anchorOffsetX="0"    size="25" anchorOffsetY="0" textAlign="left" y="18" verticalAlign="middle" textColor="0xffffff"/>
+    <e:Image id="msgPngBg" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" y="-22" x="-7" source="message_png" scale9Grid="49,40,4,5" width="86" height="102"/>
+    <e:Image id="msgPng" anchorOffsetY="0" anchorOffsetX="0" x="4" source="chat_emoji_9_png" y="-10"/>
+  </e:Group>
+	<e:Image id="tingImage" source="dzmj_tpts_png" y="105" anchorOffsetX="37.5" anchorOffsetY="13.5" horizontalCenter="0" visible="false"/>
+</e:Skin>

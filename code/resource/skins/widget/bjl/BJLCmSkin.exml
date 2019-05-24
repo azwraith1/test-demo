@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BJLCmSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="130" height="128">
+	<e:Group x="0" y="0" width="130" height="128">
+		<e:Image id="dbImage" scaleX="1" scaleY="1" source="bjle_cm_1_png" width="108" height="109" horizontalCenter="0" verticalCenter="4.5"/>
+		<e:Image id="lightImage" scaleX="1" scaleY="1" source="bjle_cm_guang_png" y="0" x="0" visible="false"/>
+		<e:BitmapLabel id="valueLabel" text="1" anchorOffsetX="0" textAlign="center" letterSpacing="-7" horizontalCenter="0.5" verticalCenter="1.5" font="bjle_cm_fnt"/>
+	</e:Group>
+</e:Skin>

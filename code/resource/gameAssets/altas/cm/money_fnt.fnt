@@ -1,0 +1,13 @@
+{"file":"money_fnt.png","frames":{
+"万":{"x":0,"y":0,"w":25,"h":24,"offX":2,"offY":2,"sourceW":29,"sourceH":26},
+"0":{"x":20,"y":55,"w":18,"h":26,"offX":2,"offY":0,"sourceW":22,"sourceH":26},
+"1":{"x":48,"y":0,"w":12,"h":26,"offX":2,"offY":0,"sourceW":16,"sourceH":26},
+"2":{"x":40,"y":56,"w":18,"h":26,"offX":2,"offY":0,"sourceW":22,"sourceH":26},
+"3":{"x":0,"y":54,"w":18,"h":26,"offX":2,"offY":0,"sourceW":22,"sourceH":26},
+"4":{"x":0,"y":82,"w":18,"h":25,"offX":2,"offY":1,"sourceW":22,"sourceH":26},
+"5":{"x":21,"y":28,"w":19,"h":25,"offX":2,"offY":1,"sourceW":23,"sourceH":26},
+"6":{"x":42,"y":28,"w":18,"h":26,"offX":2,"offY":0,"sourceW":22,"sourceH":26},
+"7":{"x":20,"y":83,"w":18,"h":25,"offX":2,"offY":1,"sourceW":22,"sourceH":26},
+"8":{"x":27,"y":0,"w":19,"h":26,"offX":2,"offY":0,"sourceW":23,"sourceH":26},
+"9":{"x":0,"y":26,"w":19,"h":26,"offX":2,"offY":0,"sourceW":23,"sourceH":26},
+" ":{"x":40,"y":84,"w":5,"h":5,"offX":0,"offY":0,"sourceW":8,"sourceH":26}}}

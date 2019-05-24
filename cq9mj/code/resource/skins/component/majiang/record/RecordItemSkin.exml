@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="majiang.RecordItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ls_fgx_png" width="477" x="0" y="42" scale9Grid="1,0,5,1"/>
+	<e:Label id="typeLabel" text="Label" size="20" fontFamily="Microsoft YaHei" borderColor="0x000000" anchorOffsetX="0" verticalCenter="0" width="94.5" x="19" textColor="0xffdc51"/>
+	<e:Label id="beishuLabel" text="Label" x="203.2" size="20" fontFamily="Microsoft YaHei" textColor="0xFFDC51" borderColor="0x000000" verticalCenter="0" anchorOffsetX="0" width="94.5" textAlign="center"/>
+	<e:Label id="valueLabel" text="-1111111111.11" size="20" fontFamily="Microsoft YaHei" textColor="0xFFDC51" borderColor="0x000000" anchorOffsetX="0" width="155" textAlign="right" x="318.5" y="12"/>
+</e:Skin>

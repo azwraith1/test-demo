@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZajinhuaHelpSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1697f5fbe13"/>
+	<e:Group id="resizeGroup" width="1280" height="720" x="0" y="0">
+		<e:Rect id="rects" scaleX="1" scaleY="1" fillAlpha="0.3" left="0" right="0" top="0" bottom="0"/>
+		<e:Group scaleX="1" scaleY="1" width="1024" height="643" horizontalCenter="0" verticalCenter="0">
+		<e:Image scaleX="1" scaleY="1" width="1024" height="643" horizontalCenter="0" verticalCenter="0" source="zjh_tc_bg_png"/>
+		<e:Image scaleX="1" scaleY="1" horizontalCenter="0" top="9" source="zjh_help_title_png"/>
+			<e:Image scaleX="1" scaleY="1" source="zjh_help_left_bg_png" x="29" y="112"/>
+		<e:Scroller id="scor" width="680" height="460" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="124" verticalCenter="36.5">
+			<e:Group id="imageGroup" width="680" height="460">
+			<e:Image id="images" y="0" x="0" source="zjh_rule_png" scaleX="0.65" scaleY="0.65"/>
+			</e:Group>
+		</e:Scroller>
+		<e:Group anchorOffsetY="0" anchorOffsetX="0" x="33" y="122" height="169" width="253">
+			<e:RadioButton id="jbgzBtn" label="RadioButton" x="4.5" width="248" height="78">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width.disabled="100%" height.disabled="100%" source="rbw_help_wxz_png" source.up="zjh_help_jbgz_png" source.down="zjh_help_jbgz1_png"/>
+				<e:Image includeIn="down" x="46" source="rbw_help_pf_d_png" width="87" height="37" verticalCenter="-2.5" visible="false"/>
+				<e:Image includeIn="up" source="rbw_help_pf_png" width="63" height="30" x="34" y="20" visible="false"/>
+				</e:Skin>
+			</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="pxsmBtn" label="RadioButton" y="91" x="4.5" width="248" height="78">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width.disabled="100%" height.disabled="100%" source="rbw_help_wxz_png" source.up="zjh_help_pxsm_png" source.down="zjh_help_pxsm1_png"/>
+				<e:Image includeIn="up" source="rbw_help_pxsm_png" width="107" height="31" y="18" x="11" visible="false"/>
+				<e:Image includeIn="down" x="21" y="14" source="rbw_help_pxsm_d_png" width="133" height="39" visible="false"/>
+				</e:Skin>
+			</e:skinName>
+			</e:RadioButton>
+		</e:Group>
+		<e:Button id="closeBtn" label="Button" right="-8" top="3">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjh_close_bg_png"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		</e:Group>
+	</e:Group>
+</e:Skin>

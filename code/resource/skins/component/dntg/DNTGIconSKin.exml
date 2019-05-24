@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DNTGIconSKin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="180" height="180">
+	<e:Image id="icon" width="180" height="180" source="icon_3_json.1" anchorOffsetX="90" anchorOffsetY="90" x="90" y="90"/>
+</e:Skin>

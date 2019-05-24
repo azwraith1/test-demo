@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SDXLGameScene3Skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:sdxl="sdxl.*">
+	<e:Group id="resizeGroup" width="1280" height="720" x="0" y="0">
+		<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+		<e:Image source="sdxl_select_bg_jpg" left="0" right="0" top="0" bottom="0"/>
+		<e:Group id="freeGroup2" left="0" right="0" top="0" bottom="0">
+			<e:Group id="freeGroup3" left="0" right="0" top="720" bottom="-720" visible="false">
+				<e:Image id="freeBg2" source="sdxl_diban_png" scaleX="1" scaleY="1" height="670" width="1163" horizontalCenter="0.5" verticalCenter="0"/>
+				<sdxl:SDXLScroller id="scroller" skinName="SDXLScrollerSkin" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="-10"/>
+				<e:Group id="winGroup" width="632" height="104" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" horizontalCenter="0" bottom="0">
+					<e:Image source="sdxl_freelabel_png" x="-318" y="-8" scaleX="1" scaleY="1"/>
+					<e:BitmapLabel id="freeTimeLabel" width="106" height="31" x="182" y="40" anchorOffsetX="0" anchorOffsetY="0" letterSpacing="3" textAlign="center" text="0" font="sdxl_free_wenzi_fnt"/>
+					<e:BitmapLabel id="freeWinLabel" width="180" height="31" x="457" y="40" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" letterSpacing="3" text="0" font="sdxl_free_wenzi_fnt"/>
+				</e:Group>
+				<e:Group id="freeMulGroup" horizontalCenter="0" anchorOffsetY="0" x="28" scaleX="1" scaleY="1" top="-7">
+					<e:Image source="sdxl_freemul_di_png" horizontalCenter="0" top="0"/>
+					<e:Image id="bei_1" source="sdxl_bei_ima_png" x="446" verticalCenter="0"/>
+					<e:Image id="bei_2" source="sdxl_bei_ima_png" x="591" verticalCenter="0"/>
+					<e:Image id="bei_3" source="sdxl_bei_ima_png" x="747" verticalCenter="0"/>
+					<e:BitmapLabel id="freeMul1" width="76" height="31" x="382" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" letterSpacing="3" font="sdxl_freemul_fnt" text="2" verticalCenter="-3"/>
+					<e:BitmapLabel id="freeMul2" width="76" height="31" x="526" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="-3" textAlign="center" letterSpacing="3" text="5" font="sdxl_freemul_fnt"/>
+					<e:BitmapLabel id="freeMul3" width="76" height="31" x="675" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="-3" textAlign="center" letterSpacing="3" font="sdxl_freemul_fnt" text="10"/>
+				</e:Group>
+			</e:Group>
+			<e:Image id="ygImag" source="sdxl_select_yg_png" bottom="1" left="-628"/>
+			<e:Image id="xlnImag" source="sdxl_select_xln_png" bottom="0" right="-739"/>
+		</e:Group>
+		<e:Group id="selectGroup" height="362" horizontalCenter="0" bottom="0" visible="false">
+			<e:Group width="1280" height="362" anchorOffsetY="0" x="0" y="0">
+			<e:Image source="sdxl_selectdi_png" y="-20.78" horizontalCenter="0"/>
+				<e:Image id="selectTipsIma" source="sdxl_select_tips_png" y="5.76" scaleX="1" scaleY="1" horizontalCenter="0"/>
+			<e:Group id="freeGroup20" width="266" height="298" x="42" y="44" anchorOffsetY="0" anchorOffsetX="0">
+				<e:Image id="free20" source="sdxl_free20_png" y="105" scaleX="1" scaleY="1" horizontalCenter="0" anchorOffsetX="70" anchorOffsetY="68"/>
+				<e:Image id="free20Text" source="sdxl_free20_text_png" y="211.64" horizontalCenter="0"/>
+			</e:Group>
+			<e:Group id="freeGroup15" width="251" height="297" x="350" y="44" anchorOffsetY="0" anchorOffsetX="0">
+				<e:Image id="free15" source="sdxl_free15_png" y="105" scaleX="1" scaleY="1" horizontalCenter="0.5" anchorOffsetX="70" anchorOffsetY="68"/>
+				<e:Image id="free15Text" source="sdxl_free15_text_png" y="210" scaleX="1" scaleY="1" horizontalCenter="0.5"/>
+			</e:Group>
+			<e:Group id="freeGroup10" width="268" height="295" x="654" y="44" anchorOffsetY="0" anchorOffsetX="0">
+				<e:Image id="free10" source="sdxl_free10_png" y="105" scaleX="1" scaleY="1" horizontalCenter="0" anchorOffsetX="70" anchorOffsetY="68"/>
+				<e:Image id="free10Text" source="sdxl_free10_text_png" y="210" scaleX="1" scaleY="1" horizontalCenter="0"/>
+			</e:Group>
+			<e:Group id="freeGroup5" width="258" height="291" x="984" y="46" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Image id="free5" source="sdxl_free5_png" y="103" x="-414" scaleX="1" scaleY="1" horizontalCenter="2" anchorOffsetX="70" anchorOffsetY="68"/>
+				<e:Image id="free5Text" source="sdxl_free5_text_png" x="4" y="211"/>
+			</e:Group>
+			</e:Group>
+		</e:Group>
+		<e:Group id="winPanel" left="0" right="0" top="0" bottom="0" visible="false">
+			<e:Rect id="maskRect" fillAlpha="0.7" left="0" right="0" top="0" bottom="0"/>
+			<e:Image source="sdxl_totalwin_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:BitmapLabel id="winNum" font="sdxl_bigwin_fnt" text="0" letterSpacing="-48" anchorOffsetX="0" width="665" textAlign="center" height="150" verticalCenter="97" horizontalCenter="0.5"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

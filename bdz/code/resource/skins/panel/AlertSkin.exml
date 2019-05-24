@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AlertSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="164ea176fc4" />
+	<e:Group id="resizeGroup" width="1280" height="720">
+		<e:Rect id="maskRect" strokeAlpha="0" fillAlpha="0.4" scaleX="1" scaleY="1" top="0" bottom="0" left="0" right="0"
+		        width="1280" height="720" x="0" y="0" />
+		<e:Group width="970" height="591" horizontalCenter="0" verticalCenter="0" x="795" y="425.00000000000006" scaleX="1"
+		         scaleY="1">
+			<e:Image height="350" width="500" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0"
+			         scale9Grid="41,59,243,28" horizontalCenter="0" source="panel_bg_png" />
+			<e:Image horizontalCenter="0.5" source="panel_title_bg_png" verticalCenter="-150.5" />
+			<e:Button id="btnOk" label="确定" y="363.03" anchorOffsetY="0" skinName="CommonButtonSkin" x="309" />
+			<e:Button id="btnNo" label="取消" y="363.03" anchorOffsetY="0" skinName="CommonButtonSkin" x="497" />
+			<e:Label id="labelTxt" text="与服务器断开连接，请重新进入游戏进入游戏" anchorOffsetX="0" width="462.94" anchorOffsetY="0" height="117.51"
+			         textColor="0x944d29" size="26" fontFamily="Microsoft YaHei" textAlign="center" verticalAlign="middle"
+			         y="208.43" horizontalCenter="0.5" lineSpacing="10" />
+			<e:Image source="alert_wz_png" y="131" horizontalCenter="0.5" />
+		</e:Group>
+	</e:Group>
+</e:Skin>

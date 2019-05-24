@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NiuniuNewHeaderSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="110" width="100">
+	<w:Config id="166f676e98d"/>
+	<e:BitmapLabel id="liushuiLabel" text="+5000" letterSpacing="-1.5" textAlign="center" width="188.67" x="-45.59" anchorOffsetX="0" height="28" y="-44.81" scaleX="1" scaleY="1" font="nns_win_fnt" visible="false"/>
+	<e:Label id="nameLabel" text="名字信息" y="-13.11" size="21" anchorOffsetX="0" width="200" textAlign="center"    height="21" x="-51.59" textColor="0xffffff" scaleX="1" scaleY="1"/>
+	<e:Group x="-11.59" y="3.24" width="120" height="123" scaleX="1" scaleY="1">
+		<e:Image x="4" y="3" source="nns_header2_png" scaleX="1" scaleY="1"/>
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" y="-2" x="-1" source="nns_header3_png" scaleX="1" scaleY="1"/>
+		<e:Image id="headerImage" anchorOffsetX="0" anchorOffsetY="0" x="2" y="0.34" scaleX="1" scaleY="1" source="nns_2_6_png"/>
+		<e:Image id="headerImage_k" anchorOffsetX="0" anchorOffsetY="0" y="-2" source="nns_header1_png" x="-1" scaleX="1" scaleY="1" visible="false"/>
+	</e:Group>
+	<e:Group id="beishuGroup" y="17.04" x="91.34" width="70" height="28" scaleX="1" scaleY="1" visible="false">
+		<e:BitmapLabel id="beishuLabel" text="x80" x="0" y="0" width="70" height="28" font="nns_beishu_fnt" letterSpacing="-2" visible="false"/>
+		<e:BitmapLabel id="bqImage" text="不抢" font="nns_beishu_fnt" width="70" height="28" visible="false"/>
+	</e:Group>
+	<e:Label id="indexLabel" text="" x="51.41" y="58.25" scaleX="1" scaleY="1"/>
+	<e:Image id="zhuangImage" x="8.61" y="24.15" anchorOffsetX="18" anchorOffsetY="17.5" scaleX="1" scaleY="1" source="sg_zhuang_img_png" visible="false"/>
+	<e:Image source="nns_money_bg_png" y="119" x="-18.59" scaleX="1" scaleY="1"/>
+	<e:Label id="goldLabel" text="0" y="123" size="21" anchorOffsetX="0" textAlign="center"    textColor="0xFFFFFF" x="-13.59" width="124" height="21" scaleX="1" scaleY="1" verticalAlign="middle"/>
+	<e:Group id="winGroup" x="-30.59" y="-100.95" width="151" height="54" scaleX="1" scaleY="1" visible="false">
+		<e:Image id="w1" scaleX="1" scaleY="1" source="ni_png" visible="false"/>
+		<e:Image id="w2" x="51.6" scaleX="1" scaleY="1" source="yin_png" y="0" visible="false"/>
+		<e:Image id="w3" x="106.4" scaleX="1" scaleY="1" source="la_png" visible="false"/>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

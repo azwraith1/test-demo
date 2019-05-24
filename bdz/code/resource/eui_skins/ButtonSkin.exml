@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="skins.ButtonSkin" states="up,down,disabled" minHeight="50" minWidth="100" currentState="up" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="huifang_btn_png" width="84" height="61" x="0" y="0"/>
+</e:Skin>

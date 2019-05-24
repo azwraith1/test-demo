@@ -1,0 +1,17 @@
+{"file":"laohuji_hall.png","frames":{
+"lhjhall_add_gold":{"x":1995,"y":69,"w":39,"h":39,"offX":0,"offY":0,"sourceW":39,"sourceH":39},
+"lhjhall_full_scream":{"x":1973,"y":1,"w":51,"h":66,"offX":0,"offY":2,"sourceW":51,"sourceH":68},
+"lhjhall_gold_label":{"x":1041,"y":895,"w":196,"h":40,"offX":0,"offY":1,"sourceW":204,"sourceH":41},
+"lhjhall_head":{"x":1911,"y":110,"w":56,"h":55,"offX":0,"offY":0,"sourceW":56,"sourceH":55},
+"lhjhall_headmask":{"x":1969,"y":151,"w":52,"h":51,"offX":2,"offY":2,"sourceW":56,"sourceH":55},
+"lhjhall_kuang":{"x":1283,"y":1,"w":309,"h":483,"offX":6,"offY":1,"sourceW":315,"sourceH":484},
+"lhjhall_pmdbd":{"x":298,"y":895,"w":741,"h":30,"offX":0,"offY":0,"sourceW":741,"sourceH":30},
+"lhjhall_post_mask":{"x":1594,"y":465,"w":304,"h":462,"offX":8,"offY":15,"sourceW":315,"sourceH":484},
+"lhjhall_record":{"x":1969,"y":110,"w":75,"h":39,"offX":3,"offY":0,"sourceW":82,"sourceH":40},
+"lhjhall_setting":{"x":1911,"y":69,"w":82,"h":39,"offX":0,"offY":0,"sourceW":82,"sourceH":40},
+"lhjhall_waiting":{"x":1594,"y":1,"w":315,"h":462,"offX":0,"offY":15,"sourceW":315,"sourceH":484},
+"lhghall_top":{"x":1,"y":723,"w":1280,"h":170,"offX":0,"offY":0,"sourceW":1280,"sourceH":170},
+"lhj_hall":{"x":1911,"y":1,"w":60,"h":58,"offX":0,"offY":0,"sourceW":61,"sourceH":68},
+"lhj_hallbg":{"x":1,"y":1,"w":1280,"h":720,"offX":0,"offY":0,"sourceW":1280,"sourceH":720},
+"lhjhall_dntg_1":{"x":1283,"y":486,"w":295,"h":453,"offX":0,"offY":0,"sourceW":295,"sourceH":453},
+"lhjhall_dntg_2":{"x":1,"y":895,"w":295,"h":453,"offX":0,"offY":0,"sourceW":295,"sourceH":453}}}

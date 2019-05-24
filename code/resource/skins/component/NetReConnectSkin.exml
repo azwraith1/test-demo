@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NetReConnectSkin" width="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="720">
+	<e:Group id="resizeGroup" width="1280" height="720" x="0" y="0">
+		<e:Rect left="0" top="0" right="0" bottom="0" fillAlpha="0.1" fillColor="0x000000" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image id="tipImage22" horizontalCenter="0" verticalCenter="-31" source="mj_w_juhua_db_png" anchorOffsetX="80" anchorOffsetY="80" width="160" height="160" rotation="0"/>
+		<e:Image id="tipImage" source="mj_w_juhua_png" horizontalCenter="0" verticalCenter="-31" anchorOffsetX="80" anchorOffsetY="80" rotation="0" width="160" height="160"/>
+	</e:Group>
+</e:Skin>

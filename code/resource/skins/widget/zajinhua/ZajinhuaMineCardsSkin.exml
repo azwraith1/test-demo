@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZajinhuaMineCardsSkin" xmlns:e="http://ns.egret.com/eui" xmlns:zajinhua="zajinhua.*" xmlns:w="http://ns.egret.com/wing">
+	<zajinhua:ZajinhuaCard id="card0" skinName="ZajinhuaCardSkin" anchorOffsetX="65" anchorOffsetY="92.5" x="65" y="92.5" visible="false"/>
+	<zajinhua:ZajinhuaCard id="card1" skinName="ZajinhuaCardSkin" anchorOffsetX="65" anchorOffsetY="92.5" x="198.5" y="92.5" visible="false"/>
+	<zajinhua:ZajinhuaCard id="card2" skinName="ZajinhuaCardSkin" anchorOffsetX="65" anchorOffsetY="92.5" x="332" y="92.5" visible="false"/>
+	<e:Group id="fenGroup" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" width="204" height="71" bottom="0" horizontalCenter="0">
+		<e:Image id="fenImage" bottom="0" horizontalCenter="0" scaleX="1.2" scaleY="1.2" source=""/>
+	</e:Group>
+	<e:Image id="bpw2l" source="zjh_bp_shu_png" anchorOffsetX="77.5" anchorOffsetY="47.5" horizontalCenter="0" verticalCenter="0" visible="false"/>
+</e:Skin>

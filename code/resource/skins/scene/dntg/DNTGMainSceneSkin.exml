@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DNTGMainSceneSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:dntg="dntg.*">
+	<e:Group id="resizeGroup" width="1280" height="720">
+		<dntg:DNTGScene1 id="scene1" skinName="DNTGGameScene1Skin" left="0" right="0" top="0" bottom="0"/>
+		<dntg:DNTGScene2 id="scene2" left="0" right="0" top="-720" bottom="720"/>
+		<dntg:DNTGScens3 id="scene3" skinName="DNTGGameScene3Skin" left="0" right="0" top="-1440" bottom="1440"/>
+	</e:Group>
+
+
+</e:Skin>

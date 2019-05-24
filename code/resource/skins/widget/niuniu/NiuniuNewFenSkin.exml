@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NiuniuNewFenSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group>
+		<e:Image scaleX="1" scaleY="1" source="nns_public_bg_png"/>
+		<e:BitmapLabel id="beishu" x="136" y="10" text="(5倍)" letterSpacing="-2" font="nns_zdbei_fnt"/>
+		<e:Image id="niuFen" scaleX="1" scaleY="1" y="3" x="70" height="40" source="" name="niufen"/>
+		<e:BitmapLabel id="niuFen_text" x="35" y="3" text="" anchorOffsetX="0" letterSpacing="-9" font="nns_nn45h_fnt" height="41" name="niufen"/>
+
+	</e:Group>
+</e:Skin>

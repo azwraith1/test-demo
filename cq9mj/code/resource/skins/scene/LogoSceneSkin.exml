@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LogoSceneSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:game="game.*">
+	<e:Group id="resizeGroup" height="720" width="1280" y="0" x="0">
+		<e:Image id="loadingbg" left="0" top="0" right="0" bottom="0" alpha="1" x="0" y="0" scaleX="1" scaleY="1" source="loading_img1_jpg"/>
+		<e:Group id="progressGroup" width="750" height="38" bottom="61" y="664" scaleX="1" scaleY="1" horizontalCenter="0">
+			<e:Image id="tipLabel" source="loadingtext_png" fillMode="clip" bottom="-39" horizontalCenter="21"/>
+			<e:Image source="loadingbar_1_png" y="0" scaleX="1" scaleY="1" scale9Grid="1,9,11,17" width="750" right="-21"/>
+			<e:Image id="progressBar" source="loadingbar_2_png" fillMode="clip" x="15" y="7" scaleY="1" width="0"/>
+			<e:Image source="loadingbar_3_png" scaleX="-1" y="-4" scaleY="1" right="-42"/>
+			<e:Image source="loadingbar_3_png" x="0" y="-4" scaleX="1" scaleY="1" locked="true"/>
+		</e:Group>
+		<e:Image source="loading_img_png" bottom="63" horizontalCenter="24"/>
+		<e:Label id="resVersion" text="资源版本:1.0.0" size="20" left="0" bottom="22" textColor="0xffffff"/>
+		<e:Label id="clientVersion" text="客户端版本:1.0.0" size="20" left="0" bottom="0" textColor="0xffffff"/>
+		<e:Image source="loading_img2_png" left="64" top="39"/>
+	</e:Group>nchorOffsetY="0" height="103"/>
+</e:Skin>

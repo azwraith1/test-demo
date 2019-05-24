@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SangongFenSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="sg_bg" scaleX="1" scaleY="1" x="0" y="0" source="sg_06_bg_png" width="248" height="65"/>
+	<e:BitmapLabel id="beishu" x="147" text="" y="23" skewY="-3" font="sg_06bei_fnt"/>
+	<e:Image id="niuFen" scaleX="1" scaleY="1" name="niufen" x="50" y="15" skewY="-2" source=""/>
+
+	<e:BitmapLabel id="niuFen_text" text="" letterSpacing="-5" name="niufen" x="50" y="15" skewY="-2" font="sg_06_fnt"/>
+</e:Skin>

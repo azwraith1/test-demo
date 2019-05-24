@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DNTGGameScene1Skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:dntg="dntg.*">
+	<e:Group id="resizeGroup" width="1280" height="720">
+		<e:Image anchorOffsetX="0" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" source="dntg_scene1_bg2_jpg" x="0" y="0"/>
+		<e:Image anchorOffsetX="0" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" source="dntg_scene1_bg_png" x="0" y="0"/>
+		<dntg:DNTGScroller id="scroller" skinName="DNTGScollerSkin" scaleX="1" scaleY="1" width="898" height="510" horizontalCenter="0" verticalCenter="-12"/>
+		<e:Image id="cloudImage" anchorOffsetY="0" anchorOffsetX="0" width="1279.67" scaleX="1" scaleY="1" horizontalCenter="0" height="187" top="-61" source="dntg_cloud_1_png" x="0" y="-61"/>
+		<e:Button id="back2HallBtn" label="" top="0" y="0" scaleX="1" scaleY="1" left="-2">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="dntg_scene1_back2_png" source.down="dntg_scene1_back1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="bottomGroup" anchorOffsetY="0" height="139.06" scaleX="1" scaleY="1" bottom="-5" right="0" left="0" x="0" y="585.94">
+			<e:Image y="20" anchorOffsetY="0" height="120" right="0" left="0" source="dntg_scene1_image1_png"/>
+			<e:Group width="248.48" height="89.39" y="39" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="305">
+			<e:Label id="totalBetLabel" text="0" x="20.000000000000114" y="15.330000000000041" anchorOffsetX="0" width="204.67" anchorOffsetY="0" textAlign="center" verticalAlign="middle" size="24"    stroke="1" scaleX="1" scaleY="1"/>
+			<e:Button id="betAddBtn" label="" x="199.0000000000001" y="3.159999999999968" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="dntg_scene1_add1_png" source.down="dntg_scene1_add2_png" source.disabled="dntg_scene1_add3_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="betSubBtn" label="" x="-3.2199999999999136" y="3.080000000000041" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="dntg_scene1_sub1_png" source.down="dntg_scene1_sub2_png" source.disabled="dntg_scene1_sub3_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Label text="总下注" x="92.38999999999999" y="62.5" textAlign="center" size="20"    scaleX="1" scaleY="1" textColor="0xb5afaf"/>
+			</e:Group>
+			<e:Group width="199" height="89.39" y="41" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0.5">
+			<e:Image y="2.990000000000009" x="0" scaleX="1" scaleY="1" source="dntg_scene1_score_db_png"/>
+			<e:Label id="winnum" text="0" y="13.330000000000041" anchorOffsetX="0" width="208.67" anchorOffsetY="0" textAlign="center" verticalAlign="middle" size="24"    stroke="1" x="-5" scaleX="1" scaleY="1" textColor="0xe6aa4a"/>
+			<e:Label text="赢得分数" y="60.5" anchorOffsetX="0" width="110" textAlign="center" size="20"    x="44" scaleX="1" scaleY="1" textColor="0xb5afaf"/>
+			</e:Group>
+			<e:Group width="162.12" height="96.97" y="36.91" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-223">
+			<e:Label id="numAccisiable" text="0" x="-19.74000000000001" y="17.420000000000073" textAlign="center" anchorOffsetX="0" width="204" anchorOffsetY="0" size="24" verticalAlign="middle"    textColor="0xffffff" stroke="1" scaleX="1" scaleY="1"/>
+			<e:Label text="可用分数" x="16.75999999999999" y="64.59000000000003" anchorOffsetX="0" width="138" textAlign="center" size="20"    scaleX="1" scaleY="1" textColor="0xb5afaf"/>
+			</e:Group>
+			<e:Group width="110.61" height="93.94" y="35.06" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-417.5">
+			<e:Label id="beishu" text="1" x="73.03" y="19.37000000000012" size="24" verticalAlign="middle" textColor="0x2aad8d"    scaleX="1" scaleY="1"/>
+			<e:Image id="yazhu_ima" x="3.030000000000001" y="6.260000000000105" scaleX="1" scaleY="1" source="dntg_scene1_bet1_png"/>
+			<e:Label text="押注乘数" x="2.219999999999999" y="66.44000000000005" size="20"    textColor="0xb5afaf" strokeColor="0x000000" borderColor="0xd81111" backgroundColor="0x000000" stroke="0" scaleX="1" scaleY="1"/>
+			<e:Label text="X" x="57.02000000000001" y="19.930000000000064" textColor="0x2aad8d" size="24"    stroke="1" strokeColor="0x000000" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Button id="tipsBtn" label="" anchorOffsetY="0" anchorOffsetX="0" left="17" y="-43">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="dntg_scene1_rule1_png" source.down="dntg_scene1_rule2_png" source.disabled="dntg_scene1_rule3_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="menuBtn" label="" y="41.17" scaleX="1" scaleY="1" left="24">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="dntg_scene1_menu1_png" source.down="dntg_scene1_menu2_png" source.disabled="dntg_scene1_menu3_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Group id="menuGroup" anchorOffsetX="0" anchorOffsetY="0" height="196.3" width="82" y="-171" left="12" visible="false">
+			<e:Image anchorOffsetY="0" x="-1.82" y="-0.64" height="196.3" source="dntg_scene1_image2_png"/>
+			<e:Button id="settingBtn" label="" x="22" anchorOffsetY="0" anchorOffsetX="0" verticalCenter="-41.150000000000006">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="dntg_scene1_set1_png" source.down="dntg_scene1_set2_png" source.disabled="dntg_scene1_set3_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="gameRecord" label="" x="21" verticalCenter="34.849999999999994">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="dntg_scene1_cup1_png" source.down="dntg_scene1_cup2_png" source.disabled="dntg_scene1_cup3_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			</e:Group>
+			<e:Group id="runGroup" width="153" height="146" y="-61" right="13">
+			<e:Button id="startBtn" label="" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="dntg_scene1_btn_start_png" source.down="dntg_scene1_btn_stop_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Rect id="bonusRect" width="153" height="146" x="0" y="0" fillAlpha="0" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xad6464" scaleX="1" scaleY="1" touchEnabled="false" visible="false"/>
+			<e:BitmapLabel id="timesLabel" width="154.04" height="35.15" x="2.4" y="25.07" anchorOffsetX="0" anchorOffsetY="0" text="" textAlign="center" letterSpacing="-4" touchEnabled="false" font="auto_num_fnt"/>
+			</e:Group>
+			<e:Button id="autoRunBtn" label="" y="91.01" right="15">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="dntg_scene1_auto_1_png" source.down="dntg_scene1_auto_2_png" source.disabled="dntg_scene1_auto_3_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Group id="betTtipsGroup" horizontalCenter="301.5" visible="false">
+			<e:Image scaleX="1" scaleY="1" source="dntg_bet_max_tip_png"/>
+			<e:Label id="maxWinLabel" text="" anchorOffsetX="0" left="0" width="235" anchorOffsetY="0" height="30" textAlign="center" verticalAlign="middle" size="20" textColor="0x000000"    verticalCenter="-6.5"/>
+			</e:Group>
+		</e:Group>
+
+		<e:Group width="898" height="510" x="191" y="93"/>
+		<e:Group id="ycGroup" anchorOffsetX="0" anchorOffsetY="0" right="120" top="10"/>
+		<e:Rect id="maskRect" width="898" height="510" fillAlpha="0" alpha="0.5" fillColor="0x000000" horizontalCenter="0" verticalCenter="-12" x="196" y="83" scaleX="1" scaleY="1"/>
+
+
+		<e:Group id="testGroup" width="990.42" height="156.06" x="157.58" anchorOffsetX="0" y="0" anchorOffsetY="0" visible="false">
+			<e:EditableText id="pscen1" width="155" height="37" text="0" x="973.39" y="8.5" anchorOffsetY="0" anchorOffsetX="0" textColor="0x000000" backgroundColor="0xffffff" textAlign="center" verticalAlign="middle" scaleX="1" scaleY="1"/>
+			<e:Button id="startBtn0" label="" anchorOffsetY="0" horizontalCenter="552.5" verticalCenter="92" x="1016" y="360" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="dntg_scene1_btn_start_png" source.down="dntg_scene1_btn_stop_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:EditableText id="spinresult" width="577" height="42" text="10,2,5:7,8,9:10,2,11:4,5,7:10,2,8" x="336" y="11.5" anchorOffsetY="0" anchorOffsetX="0" textColor="0x020202" scaleX="1" scaleY="1"/>
+			<e:Label id="lable2" text="spinResult" x="164.5" y="14.5" scaleX="1" scaleY="1"/>
+			<e:Label id="lable1" text="spintype" x="842.28" y="8.5" scaleX="1" scaleY="1"/>
+		</e:Group>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PublicNoticeComponentSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="48">
+	<e:Image id="publicNoticeBg" width="720" source="hall_openbg_png" scale9Grid="52,19,14,11" height="48" y="0"/>
+	<e:Image id="publicNoticeBgLaBa" source="laba_png" y="10" x="13"/>
+	<e:Rect id="rects" width="580" height="48" fillAlpha="1" strokeAlpha="1" y="0" x="70"/>
+	<e:Label id="publicNoticeLable" text="跑马灯shy" size="24" textColor="0xfedd00"    anchorOffsetX="0" anchorOffsetY="0" x="650" height="33" textAlign="left" verticalAlign="middle" y="8"/>
+</e:Skin>

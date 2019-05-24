@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NiuniuRecordSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1671b9ae095"/>
+	<e:Group id="resizeGroup" width="720" height="1280">
+		<e:Rect id="rects" fillColor="0x000000" fillAlpha="0" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"/>
+		<e:Group width="639" height="536" horizontalCenter="3.5" verticalCenter="-31">
+			<e:Image source="nns_r_bg_png" scale9Grid="79,89,474,9" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"/>
+			<e:Label id="tishiyu" text="当前没有游戏记录" horizontalCenter="0" verticalCenter="40"    size="40" visible="false"/>
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" source="_nns_r_yxjl_png" scaleX="1" scaleY="1" top="19" horizontalCenter="3.5"/>
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" source="nns_r_pjbh_png" scaleX="1" scaleY="1" x="21" y="81"/>
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" source="nns_r_fj_png" scaleX="1" scaleY="1" x="171" y="88"/>
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" source="nns_r_yk_png" scaleX="1" scaleY="1" x="286" y="84"/>
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" source="nns_r_sj_png" scaleX="1" scaleY="1" x="460" y="87"/>
+			<e:Scroller width="593" height="345" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="4" bottom="45">
+				<e:Group id="LiuShuiGroup" anchorOffsetX="0" width="593" anchorOffsetY="0" height="345" x="0" y="13">
+					<e:layout>
+						<e:VerticalLayout gap="24" paddingTop="10"/>
+					</e:layout>
+				</e:Group>
+			</e:Scroller>
+			<e:Button id="closeBtn" label="Button" right="14" top="10">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image source="nns_r_btn_png"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Label text="最多显示20条记录" scaleX="1" scaleY="1" bottom="18" size="20"    horizontalCenter="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

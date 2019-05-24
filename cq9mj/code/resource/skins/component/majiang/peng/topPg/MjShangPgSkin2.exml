@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MjShangPgSkin2" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="pg_shang_one" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0">
+		<w:Config xmlns:w="http://ns.egret.com/wing" id="164884395a0"/>
+		<e:Image id="p_3" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" y="20.62" source="top_peng_6_png"/>
+		<e:Image id="p_2" x="35.77" scaleX="1" scaleY="1" y="20.62" source="top_peng_5_png"/>
+		<e:Image id="p_1" x="71.96" scaleX="1" scaleY="1" y="20.62" source="top_peng_4_png"/>
+		<e:Image id="p_1_img" width="31.79" height="29.6" x="110.46" y="54.62" anchorOffsetX="0" anchorOffsetY="0" scaleY="-1" scaleX="-1" skewX="3" source=""/>
+		<e:Image id="p_2_img" width="31.79" height="29.99" x="74" y="55.01" anchorOffsetX="0" anchorOffsetY="0" scaleY="-1" scaleX="-1" skewX="3" source=""/>
+		<e:Image id="p_3_img" width="30.99" height="30.01" x="38.1" y="55.03" anchorOffsetX="0" anchorOffsetY="0" scaleY="-1" scaleX="-1" skewX="3" source=""/>
+		<e:Image id="p_4" x="34.19" scaleX="1" scaleY="1" width="51" height="59" source="top_gang_2_png"/>
+		<e:Image id="p_4_img" width="31.79" height="30.21" x="73.8" y="35.42" anchorOffsetX="0" anchorOffsetY="0" scaleY="-1" scaleX="-1" skewX="3" source=""/>
+		<e:Group id="topRectGroup" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+		<e:Rect id="topRect2" width="106.22" height="46.22" fillColor="0xDD650B" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0.3" x="6.09" y="24.77" scaleX="1" scaleY="1" skewX="1" ellipseWidth="6" ellipseHeight="6"/>
+		<e:Rect id="topRect3" width="109.37" height="18.05" fillColor="0xDD650B" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0.3" x="4.06" y="53.379999999999995" scaleX="1" scaleY="1" visible="false"/>
+		<e:Rect id="topRect0" width="17.96" height="32.32" fillColor="0xDD650B" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0.3" x="119.45999999999998" y="20.8" skewX="11" skewY="80" scaleX="1" scaleY="1" visible="false"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

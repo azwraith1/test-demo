@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NiuniuHallSceneShuSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:niuniu="niuniu.*">
+	<w:Config id="1671674e644"/>
+    <e:Group id="resizeGroup" width="720" height="1280" x="0" y="0">
+		<e:Image source="nns_hall_bg_jpg" left="0" right="0" top="0" bottom="0"/>
+
+		<e:Group id="headerGroup" anchorOffsetX="0" left="0" top="0" right="0" bottom="1164">
+			<e:Image source="nns_hall_headerbg_png"/>
+			<e:Image x="95.73" y="9.9" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.95" scaleY="0.95" source="nns_header_bk_png"/>
+			<e:Image id="headerImage" x="82.05" y="-2.62" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.95" scaleY="0.95" source="nns_2_6_png"/>
+			<e:Label id="nameLabel" text="你的名字是什么" x="187" y="29" size="24"    width="179.5" textAlign="left" anchorOffsetX="0" height="24"/>
+			<e:Label id="goldLabel" text="9999.99万" x="220" y="61" size="24"    width="148.5" textAlign="left" height="24" anchorOffsetX="0"/>
+			<e:Image x="187" y="60" source="nns_hall_gold_png"/>
+			<e:Button id="backBtn" label="" left="8" top="20" x="11" y="15" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="nns_hall_back_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Button id="helpBtn" label="" top="16" y="0" scaleX="1" scaleY="1" right="8">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="nns_helpbtn_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="recordBtn" label="Button" anchorOffsetY="0" anchorOffsetX="0" height="76" scaleX="1" scaleY="1" top="16" y="16" width="75" right="86">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="nns_jlbtn_png"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+			<e:Group id="centerGroup" height="835.94" anchorOffsetX="0" anchorOffsetY="0" width="606" horizontalCenter="0" verticalCenter="0">
+				<e:Image id="yy6" source="nns_hall_img1_png" x="255" y="588.94" visible="false"/>
+				<e:Image id="yy5" source="nns_hall_img1_png" x="-79" y="588.94" visible="false"/>
+				<e:Image id="yy4" source="nns_hall_img1_png" x="255" y="293.94" visible="false"/>
+				<e:Image id="yy3" source="nns_hall_img1_png" x="-79" y="293.94" visible="false"/>
+				<e:Image id="yy2" source="nns_hall_img1_png" x="255" y="5.94" visible="false"/>
+				<e:Image id="yy1" source="nns_hall_img1_png" x="-79" y="8.97" visible="false"/>
+				<niuniu:NiuNiuHallSceneBar id="bar1" x="-47" y="-28" skinName="NiuniuHallBarSkin" visible="false"/>
+				<niuniu:NiuNiuHallSceneBar id="bar2" x="292" y="-28" skinName="NiuniuHallBarSkin" locked="true" visible="false"/>
+				<niuniu:NiuNiuHallSceneBar id="bar3" x="-48.52" y="263" skinName="NiuniuHallBarSkin" visible="false"/>
+				<niuniu:NiuNiuHallSceneBar id="bar4" x="292" y="263" skinName="NiuniuHallBarSkin" locked="true" visible="false"/>
+				<niuniu:NiuNiuHallSceneBar id="bar5" x="-47" y="566" skinName="NiuniuHallBarSkin" visible="false"/>
+				<niuniu:NiuNiuHallSceneBar id="bar6" x="292" y="566" skinName="NiuniuHallBarSkin" visible="false"/>
+			</e:Group>
+			<e:Button id="fullScreenBtn" label="" right="54" bottom="67">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="nns_hall_qp_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Group id="ycGroup" anchorOffsetX="0" anchorOffsetY="0" right="168" top="33"/>
+
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RBWarZSItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="47" height="290">
+	<e:Image id="typeImage" y="-36" x="8" width="33" height="34" source=""/>
+</e:Skin>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NetStatusSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="60" height="36">
+	<e:Group id="ycGroup1" width="60" height="36" x="0" y="0">
+		<e:Image source="main_yc_db_png" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image id="ycImage" source="main_yc1_png" x="15.200000000000001" y="6" scaleX="1" scaleY="1"/>
+	</e:Group>
+
+
+	<e:Group id="ycGroup2" width="140" height="47" x="-38" y="38" visible="false">
+		<e:Image x="0" y="0" source="main_yc_db2_png" scaleX="1" scaleY="1"/>
+		<e:Label id="countLabel" text="延迟 100ms" x="21" size="18" bold="true" textColor="0x00cc00" y="21.900000000000006" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

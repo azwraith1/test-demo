@@ -1,0 +1,12 @@
+{"file":"sdxl_bigwin_font.png","frames":{
+"0":{"x":123,"y":1,"w":120,"h":150,"offX":0,"offY":0,"sourceW":120,"sourceH":150},
+"1":{"x":1,"y":153,"w":120,"h":150,"offX":0,"offY":0,"sourceW":120,"sourceH":150},
+"2":{"x":123,"y":305,"w":120,"h":150,"offX":0,"offY":0,"sourceW":120,"sourceH":150},
+"3":{"x":245,"y":153,"w":120,"h":150,"offX":0,"offY":0,"sourceW":120,"sourceH":150},
+"4":{"x":367,"y":1,"w":120,"h":150,"offX":0,"offY":0,"sourceW":120,"sourceH":150},
+"5":{"x":1,"y":305,"w":120,"h":150,"offX":0,"offY":0,"sourceW":120,"sourceH":150},
+"6":{"x":123,"y":153,"w":120,"h":150,"offX":0,"offY":0,"sourceW":120,"sourceH":150},
+"7":{"x":245,"y":305,"w":120,"h":150,"offX":0,"offY":0,"sourceW":120,"sourceH":150},
+"8":{"x":367,"y":153,"w":120,"h":150,"offX":0,"offY":0,"sourceW":120,"sourceH":150},
+"9":{"x":245,"y":1,"w":120,"h":150,"offX":0,"offY":0,"sourceW":120,"sourceH":150},
+".":{"x":1,"y":1,"w":120,"h":150,"offX":0,"offY":0,"sourceW":120,"sourceH":150}}}

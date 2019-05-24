@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NiuniuWXNSkin" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="nns_wxn_png"/>
+</e:Skin>

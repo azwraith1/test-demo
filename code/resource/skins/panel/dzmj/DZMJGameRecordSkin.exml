@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DZMJGameRecordSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:majiang="majiang.*">
+	<w:Config id="16564a5e6ce"/>
+  <e:Group id="resizeGroup" width="1280" height="720">
+    <e:Rect id="rect" fillAlpha="0.4" scaleX="1" scaleY="1" left="0" top="0" bottom="0" right="0"/>
+		<e:Group horizontalCenter="0" verticalCenter="0">
+			<e:Image id="rect_bg" scale9Grid="315,60,36,34" scaleX="1" scaleY="1" source="dzmj_alert_db_1_png"/>
+			<e:Image scaleX="1" scaleY="1" source="dzmj_rule_title_png" y="15" x="385"/>
+			<e:Image source="dzmj_alert_db_2_png" x="19" y="137" anchorOffsetX="0" width="846" scale9Grid="33,53,39,320" locked="true"/>
+			<e:Label text="系统最多保存30天内的记录" anchorOffsetX="0" textColor="0x855b2d" size="17" anchorOffsetY="0" height="22.86" scaleX="1" scaleY="1" x="337" y="535.14"/>
+			<e:Scroller id="sc_scroller" width="820" height="380" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="3.5" verticalCenter="55.5">
+				<e:Group id="recordGroup" anchorOffsetX="0" height="240" anchorOffsetY="0" x="-1.33" y="-10.71">
+				<e:layout>
+					<e:VerticalLayout gap="0"/>
+				</e:layout>
+
+
+				</e:Group>
+			</e:Scroller>
+			<e:Button id="closeBtn" label="" scaleX="1" scaleY="1" x="814" y="23">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="dzmj_alert_close_png" source.down="dzmj_alert_close_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Label id="tishiyu" text="暂无对局记录" anchorOffsetX="0" width="407.76" anchorOffsetY="0" height="33.94"    size="30" textAlign="center" verticalAlign="middle" textColor="0xb16615" scaleX="1" scaleY="1" y="334" x="236" visible="false"/>
+			<e:Image source="dzmj_rule_roomid_png" x="120" y="104"/>
+			<e:Image source="dzmj_rule_fj_png" x="329" y="104"/>
+			<e:Image source="dzmj_rule_gold_png" x="494" y="104"/>
+			<e:Image source="dzmj_rule_time_png" x="699" y="104"/>
+
+
+		</e:Group>
+  </e:Group>
+</e:Skin>

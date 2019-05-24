@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SDXLIconSkin" width="186" height="176" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="icon" width="200" height="194" anchorOffsetX="100" anchorOffsetY="97" source="sdxl_icon_8_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Rect id="rect" width="210" height="176" x="-10" fillAlpha="0.3" verticalCenter="0" visible="false"/>
+</e:Skin>

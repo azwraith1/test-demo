@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RBWarPNumBtnSkin" xmlns:e="http://ns.egret.com/eui">
+     <e:Image x="0" touchEnabled="false" source="rb_list_btn_png"/>
+    <e:Label id="labelDisplay"
+             size="20"
+             verticalAlign="middle"    text="152" textColor="0xffffff" bold="false" borderColor="0x000000" strokeColor="0x983f20" width="100" textAlign="center" anchorOffsetX="0" anchorOffsetY="0" y="42" touchEnabled="false" x="6"/>
+</e:Skin>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TipsPanelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="1280">
+	<w:Config id="16710e46f36" ></w:Config>
+
+	<e:Group id="resizeGroup" anchorOffsetX="0" height="720" x="0" y="0">
+		<e:Rect fillAlpha="0.5" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"/>
+		<e:Image source="dntg_tip_bg_jpg" left="0" right="0" top="0" bottom="0"/>
+		<e:Group id="tip_group_1" scaleX="1" scaleY="1" anchorOffsetX="0" left="0" right="0" top="0" bottom="0">
+
+			<e:Image source="pay_tips_json.pay_wenzi" y="0" horizontalCenter="-5"/>
+			<e:Image source="pay_tips_json.tips" horizontalCenter="0.5" bottom="44"/>
+			<e:Image id="tip_1" scaleX="1" scaleY="1" top="97" bottom="97" left="51" right="48" source="dntg_paylist1_png"/>
+			<e:Button id="right_1" label="" verticalCenter="0.5" right="25" x="1250" y="335" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="pay_tips_json.pay_right" source.down="tg_pay_list_json.tg_fanye_1"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="close_btn_1" label="" scaleX="1" scaleY="1" top="3" y="5" right="60">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="dntg_pay_close_png" source.down="dntg_pay_close_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+
+		</e:Group>
+		<e:Group id="tip_group_2" left="0" right="0" top="0" bottom="0" visible="false">
+			<e:Image scaleX="1" scaleY="1" source="dntg_tip_bg_jpg" top="0" bottom="0" left="0" right="0" visible="false"/>
+			<e:Image source="pay_tips_json.pay_wenzi" scaleX="1" scaleY="1" horizontalCenter="-5"/>
+			<e:Image source="pay_tips_json.tips" scaleX="1" scaleY="1" horizontalCenter="0.5" bottom="49"/>
+			<e:Image id="tip_2" scaleX="1" scaleY="1" top="93" bottom="92" left="50" right="50" source="dntg_paylist2_png"/>
+			<e:Button id="close_btn_2" label="" scaleX="1" scaleY="1" top="5" y="13" right="60">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="dntg_pay_close_png" source.down="dntg_pay_close_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Button id="left_1" label="" scaleX="1" scaleY="1" left="5" verticalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="tg_pay_list_json.tg_fanye_2_1" source.down="tg_pay_list_json.tg_fanye_2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="right_2" label="" scaleX="1" scaleY="1" verticalCenter="0.5" right="25">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="pay_tips_json.pay_right" source.down="tg_pay_list_json.tg_fanye_1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Group id="tip_group_3" left="0" right="0" top="0" bottom="0" visible="false">
+			<e:Image scaleX="1" scaleY="1" source="dntg_tip_bg_jpg" top="0" bottom="0" left="0" right="0" visible="false"/>
+			<e:Image source="pay_tips_json.pay_wenzi" y="0" scaleX="1" scaleY="1" horizontalCenter="-5"/>
+			<e:Image source="pay_tips_json.tips" bottom="44" y="714" scaleX="1" scaleY="1" horizontalCenter="28.5"/>
+			<e:Image id="tip_3" scaleX="1" scaleY="1" source="dntg_paylist3_png" top="0" bottom="0" left="-2" right="2"/>
+			<e:Button id="close_btn_3" label="" scaleX="1" scaleY="1" right="60" top="5" x="-1312" y="72">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="dntg_pay_close_png" source.down="dntg_pay_close_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+
+			<e:Group id="payList_group" height="274.66" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" verticalCenter="88.5" width="1280" horizontalCenter="0">
+			<e:BitmapLabel id="icon_3X5" x="206.07" y="9.12" font="paylist_fnt" text="11111" anchorOffsetX="0" width="81" anchorOffsetY="0" height="24" letterSpacing="-10"/>
+			<e:BitmapLabel id="icon_3X4" x="206.07" y="43.37" font="paylist_fnt" text="1111" anchorOffsetX="0" width="81" anchorOffsetY="0" height="24" letterSpacing="-10"/>
+			<e:BitmapLabel id="icon_3X3" x="206.31" y="79.12" font="paylist_fnt" text="11111" anchorOffsetX="0" width="79" anchorOffsetY="0" height="24" letterSpacing="-10"/>
+			<e:BitmapLabel id="icon_8X3" x="205.7" y="245" font="paylist_fnt" text="11111" anchorOffsetX="0" width="70" anchorOffsetY="0" height="24" letterSpacing="-10"/>
+			<e:BitmapLabel id="icon_8X4" x="206.61" y="209" font="paylist_fnt" text="11111" anchorOffsetX="0" width="70" anchorOffsetY="0" height="24" letterSpacing="-10"/>
+			<e:BitmapLabel id="icon_8X5" x="207.52" y="175" font="paylist_fnt" text="11111" anchorOffsetX="0" width="70" anchorOffsetY="0" height="24" letterSpacing="-10"/>
+			<e:BitmapLabel id="icon_4X5" x="460.34" y="8.81" font="paylist_fnt" text="11111" anchorOffsetX="0" width="86" anchorOffsetY="0" height="24" letterSpacing="-10"/>
+			<e:BitmapLabel id="icon_6X4" x="934.55" y="45.2" font="paylist_fnt" text="11111" anchorOffsetX="0" width="70" anchorOffsetY="0" height="24" letterSpacing="-10"/>
+			<e:BitmapLabel id="icon_6X5" x="935.43" y="9.75" font="paylist_fnt" text="11111" anchorOffsetX="0" width="70" anchorOffsetY="0" height="24" letterSpacing="-10"/>
+			<e:BitmapLabel id="icon_6X3" x="936.36" y="80.4" font="paylist_fnt" text="11111" anchorOffsetX="0" width="70" anchorOffsetY="0" height="24" letterSpacing="-10"/>
+			<e:BitmapLabel id="icon_12X3" x="1163.05" y="245" font="paylist_fnt" text="11111" anchorOffsetX="0" width="70" anchorOffsetY="0" height="24" letterSpacing="-10"/>
+			<e:BitmapLabel id="icon_12X4" x="1162.44" y="209" font="paylist_fnt" text="11111" anchorOffsetX="0" width="70" anchorOffsetY="0" height="24" letterSpacing="-10"/>
+			<e:BitmapLabel id="icon_12X5" x="1163.37" y="175" font="paylist_fnt" text="11111" anchorOffsetX="0" width="70" anchorOffsetY="0" height="24" letterSpacing="-10"/>
+			<e:BitmapLabel id="icon_11X3" x="935.72" y="245" font="paylist_fnt" text="11111" anchorOffsetX="0" width="70" anchorOffsetY="0" height="24" letterSpacing="-10"/>
+			<e:BitmapLabel id="icon_11X4" x="936.66" y="209" font="paylist_fnt" text="11111" anchorOffsetX="0" width="70" anchorOffsetY="0" height="24" letterSpacing="-10"/>
+			<e:BitmapLabel id="icon_11X5" x="936.02" y="175" font="paylist_fnt" text="11111" anchorOffsetX="0" width="70" anchorOffsetY="0" height="24" letterSpacing="-10"/>
+			<e:BitmapLabel id="icon_7X5" x="1163.04" y="9.75" font="paylist_fnt" text="11111" anchorOffsetX="0" width="70" anchorOffsetY="0" height="24" letterSpacing="-10"/>
+			<e:BitmapLabel id="icon_7X4" x="1162.43" y="45.2" font="paylist_fnt" text="11111" anchorOffsetX="0" width="70" anchorOffsetY="0" height="24" letterSpacing="-10"/>
+			<e:BitmapLabel id="icon_7X3" x="1163.34" y="80.4" font="paylist_fnt" text="11111" anchorOffsetX="0" width="70" anchorOffsetY="0" height="24" letterSpacing="-10"/>
+			<e:BitmapLabel id="icon_5X5" x="717.36" y="9.69" font="paylist_fnt" text="11111" anchorOffsetX="0" width="79" anchorOffsetY="0" height="24" letterSpacing="-10"/>
+			<e:BitmapLabel id="icon_5X4" x="718.18" y="43.96" font="paylist_fnt" text="11111" anchorOffsetX="0" width="81" anchorOffsetY="0" height="24" letterSpacing="-10"/>
+			<e:BitmapLabel id="icon_5X3" x="717.56" y="79.76" font="paylist_fnt" text="11111" anchorOffsetX="0" width="70" anchorOffsetY="0" height="24" letterSpacing="-10"/>
+			<e:BitmapLabel id="icon_10X3" x="716.92" y="245" font="paylist_fnt" text="11111" anchorOffsetX="0" width="70" anchorOffsetY="0" height="24" letterSpacing="-10"/>
+			<e:BitmapLabel id="icon_10X4" x="717.86" y="209" font="paylist_fnt" text="11111" anchorOffsetX="0" width="70" anchorOffsetY="0" height="24" letterSpacing="-10"/>
+			<e:BitmapLabel id="icon_10X5" x="717.24" y="175" font="paylist_fnt" text="11111" anchorOffsetX="0" width="70" anchorOffsetY="0" height="24" letterSpacing="-10"/>
+			<e:BitmapLabel id="icon_4X3" x="460.93" y="79.11" font="paylist_fnt" text="11111" anchorOffsetX="0" width="84" anchorOffsetY="0" height="24" letterSpacing="-10"/>
+			<e:BitmapLabel id="icon_9X5" x="460.29" y="175" font="paylist_fnt" text="11111" anchorOffsetX="0" width="70" anchorOffsetY="0" height="24" letterSpacing="-10"/>
+			<e:BitmapLabel id="icon_9X4" x="461.25" y="209" font="paylist_fnt" text="11111" anchorOffsetX="0" width="70" anchorOffsetY="0" height="24" letterSpacing="-10"/>
+			<e:BitmapLabel id="icon_9X3" x="460.13" y="245" font="paylist_fnt" text="11111" anchorOffsetX="0" width="70" anchorOffsetY="0" height="24" letterSpacing="-10"/>
+			<e:BitmapLabel id="icon_4X4" x="461.8" y="45.16" font="paylist_fnt" text="11111" anchorOffsetX="0" width="85" anchorOffsetY="0" height="24" letterSpacing="-10"/>
+				<e:Image source="dntg_paylist_beishu_png" x="167.7" y="10"/>
+				<e:Image source="dntg_paylist_beishu_png" x="166" y="175"/>
+				<e:Image source="dntg_icon_3_png" x="45" y="-12" width="140" height="140"/>
+				<e:Image source="dntg_icon_4_png" x="303.07" y="-12" scaleX="1" scaleY="1" width="140" height="140"/>
+				<e:Image source="dntg_paylist_beishu_png" x="424.07" y="10" scaleX="1" scaleY="1"/>
+				<e:Image source="dntg_icon_5_png" x="555" y="-12" width="140" height="140"/>
+				<e:Image source="dntg_paylist_beishu_png" x="678.92" y="10" scaleX="1" scaleY="1"/>
+				<e:Image source="dntg_paylist_beishu_png" x="898.66" y="10" scaleX="1" scaleY="1"/>
+				<e:Image source="dntg_icon_6_png" x="787" y="-12" width="140" height="140"/>
+				<e:Image source="dntg_icon_7_png" x="1012" y="-12" width="140" height="140"/>
+				<e:Image source="dntg_paylist_beishu_png" x="417" y="175"/>
+				<e:Image source="dntg_paylist_beishu_png" x="677" y="175"/>
+				<e:Image source="dntg_paylist_beishu_png" x="895" y="175"/>
+				<e:Image source="dntg_paylist_beishu_png" x="1118" y="175"/>
+				<e:Image source="dntg_icon_8_png" x="51" y="140" width="140" height="140"/>
+				<e:Image source="dntg_icon_9_png" x="296" y="140" width="140" height="140"/>
+				<e:Image source="dntg_icon_10_png" x="551" y="140" width="140" height="140"/>
+				<e:Image source="dntg_icon_11_png" x="785.92" y="140" width="140" height="140"/>
+				<e:Image source="dntg_icon_12_png" x="1005" y="140" width="140" height="140"/>
+				<e:Image source="dntg_paylist_beishu_png" x="1125.37" y="10" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Button id="left_2" label="" scaleX="1" scaleY="1" verticalCenter="0" left="5">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="tg_pay_list_json.tg_fanye_2_1" source.down="tg_pay_list_json.tg_fanye_2"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+	</e:Group>
+</e:Skin>

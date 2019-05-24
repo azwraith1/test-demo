@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MajiangXcBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down"  width="236" height="376">
+	<e:Group id="bar" scaleX.down="0.9" scaleY.down="0.9" x="0" width="237" height="376">
+	</e:Group>
+	<e:Label id="zhunru" text="准入：50" anchorOffsetX="0" width="211" anchorOffsetY="0" height="32" fontFamily="Microsoft YaHei" size="18" textColor="0xFFFFFF" verticalAlign="middle" textAlign="center" scaleX="1" scaleY="1" horizontalCenter="0.5" bottom="18"/>
+	<e:Group id="dzGroup" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" bottom="66" height="36">
+		<e:Image id="bar_dz" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" width="66" height="34" source="mj_xcdz_3_png"/>
+		<e:Label id="dizhu" text="100" anchorOffsetX="0" anchorOffsetY="0" fontFamily="Microsoft YaHei" size="34" textAlign="left" scaleX="1" scaleY="1" x="73" stroke="2" strokeColor="0xa74b07" textColor="0xfdf5d5" height="36" y="1"/>
+	</e:Group>
+</e:Skin>

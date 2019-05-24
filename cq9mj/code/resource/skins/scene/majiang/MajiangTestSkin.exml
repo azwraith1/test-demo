@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MajiangTestSkin" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="1280">
+	<e:Rect left="0" top="0" right="0" bottom="0" locked="true"/>
+	<e:Group id="mainGroup" width="1280" height="720" anchorOffsetY="0">
+		<e:layout>
+			<e:TileLayout horizontalGap="10"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="enterBtn" label="确定" scaleX="2" scaleY="2" horizontalCenter="-281" bottom="9"/>
+	<e:Button id="cacelBtn" label="取消" scaleX="2" scaleY="2" horizontalCenter="256" bottom="9"/>
+</e:Skin>

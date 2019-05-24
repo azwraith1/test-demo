@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NiunisRecordRendererSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="32">
+	<e:Label id="roomId" text="-22333" anchorOffsetX="0" width="118" anchorOffsetY="0" height="23" size="23"    verticalAlign="middle" textAlign="center" verticalCenter="0.5" x="-2.01"/>
+	<e:Label id="roomType" text="王者房" x="145.33" anchorOffsetX="0" width="89" anchorOffsetY="0" height="23" size="23"    textAlign="center" verticalAlign="middle" verticalCenter="0.5"/>
+	<e:Label id="roomMoney" text="-22333" x="254.04" anchorOffsetX="0" width="108" anchorOffsetY="0" height="23" size="23"    verticalAlign="middle" textAlign="center" verticalCenter="0.5"/>
+	<e:Label id="roomTime" text="2018-10-10 23:00" x="366" anchorOffsetX="0" width="211" anchorOffsetY="0" size="23"    verticalAlign="middle" textAlign="center" height="23" verticalCenter="0"/>
+</e:Skin>

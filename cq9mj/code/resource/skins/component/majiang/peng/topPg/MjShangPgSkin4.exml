@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MjShangPgSkin4" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="pg_shang_one" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0">
+		<w:Config xmlns:w="http://ns.egret.com/wing" id="164884395a0"/>
+		<e:Image id="p_3" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" y="20.62" source="top_peng_12_png"/>
+		<e:Image id="p_2" x="36.57" scaleX="1" scaleY="1" y="20.62" source="top_peng_11_png"/>
+		<e:Image id="p_1" x="72.71" scaleX="1" scaleY="1" y="20.62" source="top_peng_10_png"/>
+		<e:Image id="p_1_img" width="31.79" height="29.6" x="110.51" y="54.62" anchorOffsetX="0" anchorOffsetY="0" scaleY="-1" scaleX="-1" skewX="8" source=""/>
+		<e:Image id="p_2_img" width="32.29" height="29.6" x="75.2" y="54.62" anchorOffsetX="0" anchorOffsetY="0" scaleY="-1" scaleX="-1" skewX="8" source=""/>
+		<e:Image id="p_3_img" width="32.04" height="29.6" x="38.79" y="54.62" anchorOffsetX="0" anchorOffsetY="0" scaleY="-1" scaleX="-1" skewX="8" source=""/>
+		<e:Image id="p_4" x="33.44" scaleX="1" scaleY="1" width="51" height="59" source="top_gang_4_png" y="1.4"/>
+		<e:Image id="p_4_img" width="32.79" height="30.95" x="72.33" y="35.91" anchorOffsetX="0" anchorOffsetY="0" scaleY="-1" scaleX="-1" skewX="8" source=""/>
+		<e:Group id="topRectGroup" anchorOffsetX="0" anchorOffsetY="0" x="0.04" visible="false">
+		<e:Rect id="topRect0" width="106.02" height="29.01" fillColor="0xDD650B" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0.3" x="10.01" y="24.97" scaleX="1" scaleY="1" skewX="10"/>
+		<e:Rect id="topRect1" width="106.04" height="18.05" fillColor="0xDD650B" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0.3" x="4.66" y="53.38" scaleX="1" scaleY="1" skewX="-9.7"/>
+		<e:Rect id="topRect2" width="17.15" height="30.25" fillColor="0xDD650B" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0.3" x="116.23" y="24.5" skewY="83" scaleX="1" scaleY="1" skewX="10"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

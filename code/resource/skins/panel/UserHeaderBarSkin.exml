@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UserHeaderBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="115" height="118" anchorOffsetX="0" anchorOffsetY="0">
+
+		<e:Image id="playerImage" x="4.75" y="6.5" width="104" height="106" source="hall_header_1_8_png"/>
+		<e:Image source="header_select_kuang_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="select_kuang" source="header_selected_kuang_png" x="-4" y="-2" width="123" height="123" visible="false"/>
+		<e:Image id="chose" source="header_xuanzhong_png" right="-15" bottom="-10" width="50" height="47" visible="false"/>
+	</e:Group>
+	<w:Config id="167bf4cc560"/>
+</e:Skin>

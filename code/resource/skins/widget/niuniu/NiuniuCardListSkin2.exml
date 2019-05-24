@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NiuniuCardListSkin2" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:niuniu="niuniu.*" width="634" height="185">
+	<niuniu:NiuniuCard id="card0" skinName="NiuniuCardSkin1"/>
+	<niuniu:NiuniuCard id="card1" skinName="NiuniuCardSkin1" x="126"/>
+	<niuniu:NiuniuCard id="card2" skinName="NiuniuCardSkin1" x="252"/>
+	<niuniu:NiuniuCard id="card3" skinName="NiuniuCardSkin1" x="378"/>
+	<niuniu:NiuniuCard id="card4" skinName="NiuniuCardSkin1" x="504"/>
+</e:Skin>

@@ -1,0 +1,40 @@
+{"mc":{
+	"nns_wz":{
+		"frameRate":4,
+		"labels":[
+			{"name":"nns_wz","frame":1,"end":4}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"qpxg01_png",
+			"x":0,
+			"y":26
+			},
+			{
+			"res":"qpxg02_png",
+			"x":0,
+			"y":26
+			},
+			{
+			"res":"qpxg03_png",
+			"x":64,
+			"y":0
+			},
+			{
+			"res":"qpxg04_png",
+			"x":64,
+			"y":0
+			}
+			]
+}},
+	"res":{
+		"qpxg04_png":{"x":0,"y":0,"w":284,"h":103},
+		"qpxg02_png":{"x":0,"y":105,"w":284,"h":100},
+		"qpxg03_png":{"x":0,"y":0,"w":284,"h":103},
+		"qpxg01_png":{"x":0,"y":105,"w":284,"h":100}
+	}}

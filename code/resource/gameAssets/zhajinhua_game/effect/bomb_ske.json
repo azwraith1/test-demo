@@ -1,0 +1,3957 @@
+{
+    "frameRate": 24,
+    "isGlobal": 0,
+    "name": "bomb",
+    "version": "5.5",
+    "armature": [
+        {
+            "skin": [
+                {
+                    "name": "",
+                    "slot": [
+                        {
+                            "display": [
+                                {
+                                    "path": "yell_01",
+                                    "type": "image",
+                                    "name": "wargolem_burst_flash_a_sheet_yellow_01",
+                                    "transform": {}
+                                },
+                                {
+                                    "path": "yell_02",
+                                    "type": "image",
+                                    "name": "wargolem_burst_flash_a_sheet_yellow_02",
+                                    "transform": {}
+                                },
+                                {
+                                    "path": "yell_03",
+                                    "type": "image",
+                                    "name": "wargolem_burst_flash_a_sheet_yellow_03",
+                                    "transform": {}
+                                },
+                                {
+                                    "path": "yell_04",
+                                    "type": "image",
+                                    "name": "wargolem_burst_flash_a_sheet_yellow_04",
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "wargolem_burst_flash_a_sheet_yellow_01"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "炸弹",
+                                    "type": "image",
+                                    "name": "炸弹",
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "炸弹"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "back 8_00",
+                                    "type": "image",
+                                    "name": "back 8_00",
+                                    "transform": {}
+                                },
+                                {
+                                    "path": "back 8_01",
+                                    "type": "image",
+                                    "name": "back 8_01",
+                                    "transform": {}
+                                },
+                                {
+                                    "path": "back 8_02",
+                                    "type": "image",
+                                    "name": "back 8_02",
+                                    "transform": {}
+                                },
+                                {
+                                    "path": "back 8_03",
+                                    "type": "image",
+                                    "name": "back 8_03",
+                                    "transform": {}
+                                },
+                                {
+                                    "path": "back 8_04",
+                                    "type": "image",
+                                    "name": "back 8_04",
+                                    "transform": {}
+                                },
+                                {
+                                    "path": "back 8_05",
+                                    "type": "image",
+                                    "name": "back 8_05",
+                                    "transform": {}
+                                },
+                                {
+                                    "path": "back 8_06",
+                                    "type": "image",
+                                    "name": "back 8_06",
+                                    "transform": {}
+                                },
+                                {
+                                    "path": "back 8_07",
+                                    "type": "image",
+                                    "name": "back 8_07",
+                                    "transform": {}
+                                },
+                                {
+                                    "path": "back 8_08",
+                                    "type": "image",
+                                    "name": "back 8_08",
+                                    "transform": {}
+                                },
+                                {
+                                    "path": "back 8_09",
+                                    "type": "image",
+                                    "name": "back 8_09",
+                                    "transform": {}
+                                },
+                                {
+                                    "path": "back 8_10",
+                                    "type": "image",
+                                    "name": "back 8_10",
+                                    "transform": {}
+                                },
+                                {
+                                    "path": "back 8_11",
+                                    "type": "image",
+                                    "name": "back 8_11",
+                                    "transform": {}
+                                },
+                                {
+                                    "path": "back 8_12",
+                                    "type": "image",
+                                    "name": "back 8_12",
+                                    "transform": {}
+                                },
+                                {
+                                    "path": "back 8_13",
+                                    "type": "image",
+                                    "name": "back 8_13",
+                                    "transform": {}
+                                },
+                                {
+                                    "path": "back 8_14",
+                                    "type": "image",
+                                    "name": "back 8_14",
+                                    "transform": {}
+                                },
+                                {
+                                    "path": "back 8_15",
+                                    "type": "image",
+                                    "name": "back 8_15",
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "back 8_00"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "fff418",
+                                    "type": "image",
+                                    "name": "fff418",
+                                    "transform": {}
+                                }
+                            ],
+                            "blendMode": "add",
+                            "name": "fff418"
+                        }
+                    ]
+                }
+            ],
+            "animation": [
+                {
+                    "frame": [],
+                    "duration": 4,
+                    "bone": [
+                        {
+                            "translateFrame": [],
+                            "scaleFrame": [],
+                            "name": "root",
+                            "rotateFrame": []
+                        },
+                        {
+                            "translateFrame": [
+                                {
+                                    "duration": 4
+                                }
+                            ],
+                            "scaleFrame": [
+                                {
+                                    "duration": 4
+                                }
+                            ],
+                            "name": "炸弹",
+                            "rotateFrame": [
+                                {
+                                    "duration": 4
+                                }
+                            ]
+                        },
+                        {
+                            "translateFrame": [
+                                {
+                                    "y": -54,
+                                    "duration": 1,
+                                    "x": -64
+                                },
+                                {
+                                    "y": -54,
+                                    "duration": 1,
+                                    "x": -64
+                                },
+                                {
+                                    "y": -54,
+                                    "duration": 1,
+                                    "x": -64
+                                },
+                                {
+                                    "y": -54,
+                                    "duration": 1,
+                                    "x": -64
+                                },
+                                {
+                                    "y": -54,
+                                    "duration": 0,
+                                    "x": -64
+                                }
+                            ],
+                            "scaleFrame": [
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "wargolem_burst_flash_a_sheet_yellow_01",
+                            "rotateFrame": [
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1,
+                                    "rotate": 110
+                                },
+                                {
+                                    "duration": 0,
+                                    "rotate": 110
+                                }
+                            ]
+                        },
+                        {
+                            "translateFrame": [],
+                            "scaleFrame": [],
+                            "name": "back 8_00",
+                            "rotateFrame": []
+                        },
+                        {
+                            "translateFrame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -54,
+                                    "duration": 1,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -54,
+                                    "duration": 1,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -54,
+                                    "duration": 1,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -54,
+                                    "duration": 1,
+                                    "x": -64
+                                },
+                                {
+                                    "y": -54,
+                                    "duration": 0,
+                                    "x": -64
+                                }
+                            ],
+                            "scaleFrame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.25,
+                                    "duration": 1,
+                                    "x": 1.25
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.5,
+                                    "duration": 1,
+                                    "x": 1.5
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.25,
+                                    "duration": 1,
+                                    "x": 1.25
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "fff418",
+                            "rotateFrame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 76
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 152
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 76
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ]
+                        }
+                    ],
+                    "ik": [],
+                    "slot": [
+                        {
+                            "colorFrame": [
+                                {
+                                    "duration": 4
+                                }
+                            ],
+                            "displayFrame": [
+                                {
+                                    "duration": 4
+                                }
+                            ],
+                            "name": "炸弹"
+                        },
+                        {
+                            "colorFrame": [
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "displayFrame": [
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 1,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 2,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 3,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 3,
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "wargolem_burst_flash_a_sheet_yellow_01"
+                        },
+                        {
+                            "colorFrame": [],
+                            "displayFrame": [],
+                            "name": "back 8_00"
+                        },
+                        {
+                            "colorFrame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "displayFrame": [
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "fff418"
+                        }
+                    ],
+                    "ffd": [],
+                    "name": "fire",
+                    "playTimes": 0
+                },
+                {
+                    "frame": [],
+                    "duration": 16,
+                    "bone": [
+                        {
+                            "translateFrame": [],
+                            "scaleFrame": [],
+                            "name": "root",
+                            "rotateFrame": []
+                        },
+                        {
+                            "translateFrame": [],
+                            "scaleFrame": [],
+                            "name": "炸弹",
+                            "rotateFrame": []
+                        },
+                        {
+                            "translateFrame": [],
+                            "scaleFrame": [],
+                            "name": "wargolem_burst_flash_a_sheet_yellow_01",
+                            "rotateFrame": []
+                        },
+                        {
+                            "translateFrame": [
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "scaleFrame": [
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "back 8_00",
+                            "rotateFrame": [
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ]
+                        },
+                        {
+                            "translateFrame": [],
+                            "scaleFrame": [],
+                            "name": "fff418",
+                            "rotateFrame": []
+                        }
+                    ],
+                    "ik": [],
+                    "slot": [
+                        {
+                            "colorFrame": [],
+                            "displayFrame": [],
+                            "name": "炸弹"
+                        },
+                        {
+                            "colorFrame": [],
+                            "displayFrame": [],
+                            "name": "wargolem_burst_flash_a_sheet_yellow_01"
+                        },
+                        {
+                            "colorFrame": [
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "displayFrame": [
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 1,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 2,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 3,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 4,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 5,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 6,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 7,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 8,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 9,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 10,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 11,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 12,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 13,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 14,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 15,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": -1,
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "back 8_00"
+                        },
+                        {
+                            "colorFrame": [],
+                            "displayFrame": [],
+                            "name": "fff418"
+                        }
+                    ],
+                    "ffd": [],
+                    "name": "boom",
+                    "playTimes": 0
+                },
+                {
+                    "frame": [],
+                    "duration": 35,
+                    "bone": [
+                        {
+                            "translateFrame": [],
+                            "scaleFrame": [],
+                            "name": "root",
+                            "rotateFrame": []
+                        },
+                        {
+                            "translateFrame": [
+                                {
+                                    "curve": [
+                                        0.5,
+                                        -0.12295081967213116,
+                                        1,
+                                        1
+                                    ],
+                                    "y": -200,
+                                    "duration": 6
+                                },
+                                {
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.5,
+                                        1.1844262295081966
+                                    ],
+                                    "duration": 3
+                                },
+                                {
+                                    "curve": [
+                                        0.5,
+                                        -0.17213114754098363,
+                                        1,
+                                        1
+                                    ],
+                                    "y": -35,
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 24
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "scaleFrame": [
+                                {
+                                    "curve": [
+                                        0.5,
+                                        -0.12295081967213116,
+                                        1,
+                                        1
+                                    ],
+                                    "duration": 6
+                                },
+                                {
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.5,
+                                        1.1844262295081966
+                                    ],
+                                    "duration": 3
+                                },
+                                {
+                                    "curve": [
+                                        0.5,
+                                        -0.17213114754098363,
+                                        1,
+                                        1
+                                    ],
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 24
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "炸弹",
+                            "rotateFrame": [
+                                {
+                                    "duration": 6,
+                                    "curve": [
+                                        0.5,
+                                        -0.12295081967213116,
+                                        1,
+                                        1
+                                    ]
+                                },
+                                {
+                                    "duration": 3,
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.5,
+                                        1.1844262295081966
+                                    ]
+                                },
+                                {
+                                    "duration": 2,
+                                    "curve": [
+                                        0.5,
+                                        -0.17213114754098363,
+                                        1,
+                                        1
+                                    ]
+                                },
+                                {
+                                    "duration": 24
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ]
+                        },
+                        {
+                            "translateFrame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -254,
+                                    "duration": 2,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -247,
+                                    "duration": 1,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -205,
+                                    "duration": 2,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -116.132,
+                                    "duration": 1,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -53,
+                                    "duration": 2,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -88.0806,
+                                    "duration": 1,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -87,
+                                    "duration": 1,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -80,
+                                    "duration": 1,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -54,
+                                    "duration": 2,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -54,
+                                    "duration": 2,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -54,
+                                    "duration": 1,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -54,
+                                    "duration": 2,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -54,
+                                    "duration": 1,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -54,
+                                    "duration": 2,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -54,
+                                    "duration": 1,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -54,
+                                    "duration": 2,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -54,
+                                    "duration": 1,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -54,
+                                    "duration": 2,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -54,
+                                    "duration": 2,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -54,
+                                    "duration": 1,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -54,
+                                    "duration": 2,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -54,
+                                    "duration": 1,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -54,
+                                    "duration": 2,
+                                    "x": -64
+                                },
+                                {
+                                    "y": -54,
+                                    "duration": 0,
+                                    "x": -64
+                                }
+                            ],
+                            "scaleFrame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "wargolem_burst_flash_a_sheet_yellow_01",
+                            "rotateFrame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 110
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 110
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2,
+                                    "rotate": 110
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2,
+                                    "rotate": 110
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 110
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 0,
+                                    "rotate": 110
+                                }
+                            ]
+                        },
+                        {
+                            "translateFrame": [],
+                            "scaleFrame": [],
+                            "name": "back 8_00",
+                            "rotateFrame": []
+                        },
+                        {
+                            "translateFrame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -254,
+                                    "duration": 2,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -247,
+                                    "duration": 1,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -205,
+                                    "duration": 2,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -116.132,
+                                    "duration": 1,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -53,
+                                    "duration": 2,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -86.0605,
+                                    "duration": 1,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -87,
+                                    "duration": 1,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -80,
+                                    "duration": 1,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -54,
+                                    "duration": 2,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -54,
+                                    "duration": 2,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -54,
+                                    "duration": 1,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -54,
+                                    "duration": 2,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -54,
+                                    "duration": 1,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -54,
+                                    "duration": 2,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -54,
+                                    "duration": 1,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -54,
+                                    "duration": 2,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -54,
+                                    "duration": 1,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -54,
+                                    "duration": 2,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -54,
+                                    "duration": 2,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -54,
+                                    "duration": 1,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -54,
+                                    "duration": 2,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -54,
+                                    "duration": 1,
+                                    "x": -64
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -54,
+                                    "duration": 2,
+                                    "x": -64
+                                },
+                                {
+                                    "y": -54,
+                                    "duration": 0,
+                                    "x": -64
+                                }
+                            ],
+                            "scaleFrame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.25,
+                                    "duration": 1,
+                                    "x": 1.25
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.5,
+                                    "duration": 2,
+                                    "x": 1.5
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.25,
+                                    "duration": 1,
+                                    "x": 1.25
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.25,
+                                    "duration": 1,
+                                    "x": 1.25
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.5,
+                                    "duration": 1,
+                                    "x": 1.5
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.25,
+                                    "duration": 1,
+                                    "x": 1.25
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.25,
+                                    "duration": 2,
+                                    "x": 1.25
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.5,
+                                    "duration": 1,
+                                    "x": 1.5
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.25,
+                                    "duration": 2,
+                                    "x": 1.25
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.25,
+                                    "duration": 2,
+                                    "x": 1.25
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.5,
+                                    "duration": 1,
+                                    "x": 1.5
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.25,
+                                    "duration": 2,
+                                    "x": 1.25
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.25,
+                                    "duration": 2,
+                                    "x": 1.25
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.5,
+                                    "duration": 2,
+                                    "x": 1.5
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.25,
+                                    "duration": 1,
+                                    "x": 1.25
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.25,
+                                    "duration": 1,
+                                    "x": 1.25
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.5,
+                                    "duration": 2,
+                                    "x": 1.5
+                                },
+                                {
+                                    "y": 1.25,
+                                    "duration": 0,
+                                    "x": 1.25
+                                }
+                            ],
+                            "name": "fff418",
+                            "rotateFrame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 76
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2,
+                                    "rotate": 152
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 76
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 76
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 152
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 76
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2,
+                                    "rotate": 76
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 152
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2,
+                                    "rotate": 76
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2,
+                                    "rotate": 76
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 152
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2,
+                                    "rotate": 76
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2,
+                                    "rotate": 76
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2,
+                                    "rotate": 152
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 76
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 76
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2,
+                                    "rotate": 152
+                                },
+                                {
+                                    "duration": 0,
+                                    "rotate": 76
+                                }
+                            ]
+                        }
+                    ],
+                    "ik": [],
+                    "slot": [
+                        {
+                            "colorFrame": [
+                                {
+                                    "duration": 6,
+                                    "color": {
+                                        "aM": 30
+                                    },
+                                    "curve": [
+                                        0.5,
+                                        -0.12295081967213116,
+                                        1,
+                                        1
+                                    ]
+                                },
+                                {
+                                    "duration": 3,
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.5,
+                                        1.1844262295081966
+                                    ]
+                                },
+                                {
+                                    "duration": 2,
+                                    "curve": [
+                                        0.5,
+                                        -0.17213114754098363,
+                                        1,
+                                        1
+                                    ]
+                                },
+                                {
+                                    "duration": 24
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "displayFrame": [
+                                {
+                                    "duration": 6
+                                },
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 24
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "炸弹"
+                        },
+                        {
+                            "colorFrame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2,
+                                    "color": {
+                                        "aM": 30
+                                    }
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "color": {
+                                        "aM": 50
+                                    }
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2,
+                                    "color": {
+                                        "aM": 70
+                                    }
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "color": {
+                                        "aM": 85
+                                    }
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "displayFrame": [
+                                {
+                                    "duration": 2
+                                },
+                                {
+                                    "value": 1,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 2,
+                                    "duration": 2
+                                },
+                                {
+                                    "value": 3,
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 2
+                                },
+                                {
+                                    "value": 1,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 2,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 3,
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 2
+                                },
+                                {
+                                    "value": 1,
+                                    "duration": 2
+                                },
+                                {
+                                    "value": 2,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 3,
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 1,
+                                    "duration": 2
+                                },
+                                {
+                                    "value": 2,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 3,
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 1,
+                                    "duration": 2
+                                },
+                                {
+                                    "value": 2,
+                                    "duration": 2
+                                },
+                                {
+                                    "value": 3,
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 2
+                                },
+                                {
+                                    "value": 1,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 2,
+                                    "duration": 2
+                                },
+                                {
+                                    "value": 3,
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "wargolem_burst_flash_a_sheet_yellow_01"
+                        },
+                        {
+                            "colorFrame": [],
+                            "displayFrame": [],
+                            "name": "back 8_00"
+                        },
+                        {
+                            "colorFrame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2,
+                                    "color": {
+                                        "aM": 30
+                                    }
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "color": {
+                                        "aM": 50
+                                    }
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2,
+                                    "color": {
+                                        "aM": 70
+                                    }
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "displayFrame": [
+                                {
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "fff418"
+                        }
+                    ],
+                    "ffd": [],
+                    "name": "fire_drop",
+                    "playTimes": 0
+                },
+                {
+                    "frame": [],
+                    "duration": 35,
+                    "bone": [
+                        {
+                            "translateFrame": [],
+                            "scaleFrame": [],
+                            "name": "root",
+                            "rotateFrame": []
+                        },
+                        {
+                            "translateFrame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 17
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 18
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "scaleFrame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 17
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 18
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "炸弹",
+                            "rotateFrame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 17,
+                                    "rotate": 10
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 18,
+                                    "rotate": 180
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ]
+                        },
+                        {
+                            "translateFrame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -61.7734,
+                                    "duration": 1,
+                                    "x": -49.32
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -68.6259,
+                                    "duration": 1,
+                                    "x": -40.1653
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -75.8575,
+                                    "duration": 1,
+                                    "x": -26.0269
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -79.1077,
+                                    "duration": 1,
+                                    "x": -13.0262
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -83.4413,
+                                    "duration": 1,
+                                    "x": 2.5477
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -80.1911,
+                                    "duration": 1,
+                                    "x": 15.9005
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -74.7741,
+                                    "duration": 1,
+                                    "x": 29.7138
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -68.8155,
+                                    "duration": 1,
+                                    "x": 41.1708
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -62.8568,
+                                    "duration": 1,
+                                    "x": 52.7631
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -51.4811,
+                                    "duration": 1,
+                                    "x": 61.8095
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -40.6471,
+                                    "duration": 1,
+                                    "x": 69.7995
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -26.0213,
+                                    "duration": 1,
+                                    "x": 75.7582
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -14.6456,
+                                    "duration": 1,
+                                    "x": 79.4959
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.4428,
+                                    "duration": 1,
+                                    "x": 82.069
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 16.9896,
+                                    "duration": 1,
+                                    "x": 79.2792
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 31.3175,
+                                    "duration": 1,
+                                    "x": 74.106
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 43.7766,
+                                    "duration": 1,
+                                    "x": 67.6056
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 55.5585,
+                                    "duration": 1,
+                                    "x": 61.5115
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 64.6861,
+                                    "duration": 1,
+                                    "x": 52.2214
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 70.8886,
+                                    "duration": 1,
+                                    "x": 38.9227
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 77.2535,
+                                    "duration": 1,
+                                    "x": 27.4116
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 79.3933,
+                                    "duration": 1,
+                                    "x": 12.1899
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 82.183,
+                                    "duration": 1,
+                                    "x": -1.1088
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 78.9599,
+                                    "duration": 1,
+                                    "x": -15.2742
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 73.7054,
+                                    "duration": 1,
+                                    "x": -28.3021
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 70.3198,
+                                    "duration": 1,
+                                    "x": -39.1631
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 61.1651,
+                                    "duration": 1,
+                                    "x": -50.4034
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 50.1144,
+                                    "duration": 1,
+                                    "x": -61.5082
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 38.3325,
+                                    "duration": 1,
+                                    "x": -68.8211
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 28.4736,
+                                    "duration": 1,
+                                    "x": -74.6444
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 13.8207,
+                                    "duration": 1,
+                                    "x": -78.03
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -1.1031,
+                                    "duration": 1,
+                                    "x": -79.1134
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -14.1039,
+                                    "duration": 1,
+                                    "x": -76.9466
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -27.6464,
+                                    "duration": 1,
+                                    "x": -72.613
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -40.2138,
+                                    "duration": 1,
+                                    "x": -65.7064
+                                },
+                                {
+                                    "y": -54,
+                                    "duration": 0,
+                                    "x": -64
+                                }
+                            ],
+                            "scaleFrame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "wargolem_burst_flash_a_sheet_yellow_01",
+                            "rotateFrame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 110
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 110
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 110
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 110
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 110
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 110
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 110
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 110
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": -26
+                                },
+                                {
+                                    "duration": 0,
+                                    "rotate": 110
+                                }
+                            ]
+                        },
+                        {
+                            "translateFrame": [],
+                            "scaleFrame": [],
+                            "name": "back 8_00",
+                            "rotateFrame": []
+                        },
+                        {
+                            "translateFrame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -61.2317,
+                                    "duration": 1,
+                                    "x": -50.4034
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -69.3572,
+                                    "duration": 1,
+                                    "x": -40.1111
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -75.3158,
+                                    "duration": 1,
+                                    "x": -26.0269
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -79.6494,
+                                    "duration": 1,
+                                    "x": -14.1096
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -82.3579,
+                                    "duration": 1,
+                                    "x": 1.0309
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -78.0243,
+                                    "duration": 1,
+                                    "x": 15.2776
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -74.097,
+                                    "duration": 1,
+                                    "x": 30.4993
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -68.2738,
+                                    "duration": 1,
+                                    "x": 40.8999
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -59.6066,
+                                    "duration": 1,
+                                    "x": 52.9527
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -51.4811,
+                                    "duration": 1,
+                                    "x": 60.8073
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -39.5637,
+                                    "duration": 1,
+                                    "x": 69.7183
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -26.0213,
+                                    "duration": 1,
+                                    "x": 75.2978
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -13.0205,
+                                    "duration": 1,
+                                    "x": 79.0897
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.9033,
+                                    "duration": 1,
+                                    "x": 80.1189
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 15.3374,
+                                    "duration": 1,
+                                    "x": 78.575
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 30.1529,
+                                    "duration": 1,
+                                    "x": 75.1082
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 43.4245,
+                                    "duration": 1,
+                                    "x": 67.2535
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 53.8793,
+                                    "duration": 1,
+                                    "x": 59.8323
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 62.7902,
+                                    "duration": 1,
+                                    "x": 50.8672
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 69.8052,
+                                    "duration": 1,
+                                    "x": 37.8393
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 76.0889,
+                                    "duration": 1,
+                                    "x": 25.1636
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 79.6641,
+                                    "duration": 1,
+                                    "x": 11.4044
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 79.8808,
+                                    "duration": 1,
+                                    "x": -3.3027
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 78.9328,
+                                    "duration": 1,
+                                    "x": -15.6805
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 74.0575,
+                                    "duration": 1,
+                                    "x": -29.3584
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 67.205,
+                                    "duration": 1,
+                                    "x": -40.6528
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 58.3754,
+                                    "duration": 1,
+                                    "x": -52.0285
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 49.8978,
+                                    "duration": 1,
+                                    "x": -61.779
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 38.8742,
+                                    "duration": 1,
+                                    "x": -69.9316
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 26.5235,
+                                    "duration": 1,
+                                    "x": -75.3215
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 11.9789,
+                                    "duration": 1,
+                                    "x": -78.1925
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -1.6448,
+                                    "duration": 1,
+                                    "x": -79.1134
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -14.131,
+                                    "duration": 1,
+                                    "x": -78.0842
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -29.136,
+                                    "duration": 1,
+                                    "x": -72.6672
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": -40.6471,
+                                    "duration": 1,
+                                    "x": -66.1126
+                                },
+                                {
+                                    "y": -54,
+                                    "duration": 0,
+                                    "x": -64
+                                }
+                            ],
+                            "scaleFrame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.25,
+                                    "duration": 1,
+                                    "x": 1.25
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.5,
+                                    "duration": 1,
+                                    "x": 1.5
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.25,
+                                    "duration": 1,
+                                    "x": 1.25
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.25,
+                                    "duration": 1,
+                                    "x": 1.25
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.5,
+                                    "duration": 1,
+                                    "x": 1.5
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.25,
+                                    "duration": 1,
+                                    "x": 1.25
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.25,
+                                    "duration": 1,
+                                    "x": 1.25
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.5,
+                                    "duration": 1,
+                                    "x": 1.5
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.25,
+                                    "duration": 1,
+                                    "x": 1.25
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.25,
+                                    "duration": 1,
+                                    "x": 1.25
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.5,
+                                    "duration": 1,
+                                    "x": 1.5
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.25,
+                                    "duration": 1,
+                                    "x": 1.25
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.25,
+                                    "duration": 1,
+                                    "x": 1.25
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.5,
+                                    "duration": 1,
+                                    "x": 1.5
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.25,
+                                    "duration": 1,
+                                    "x": 1.25
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.25,
+                                    "duration": 1,
+                                    "x": 1.25
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.5,
+                                    "duration": 1,
+                                    "x": 1.5
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.25,
+                                    "duration": 1,
+                                    "x": 1.25
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.25,
+                                    "duration": 1,
+                                    "x": 1.25
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.5,
+                                    "duration": 1,
+                                    "x": 1.5
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.25,
+                                    "duration": 1,
+                                    "x": 1.25
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.25,
+                                    "duration": 1,
+                                    "x": 1.25
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.5,
+                                    "duration": 1,
+                                    "x": 1.5
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.25,
+                                    "duration": 1,
+                                    "x": 1.25
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.25,
+                                    "duration": 1,
+                                    "x": 1.25
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.5,
+                                    "duration": 1,
+                                    "x": 1.5
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "y": 1.25,
+                                    "duration": 1,
+                                    "x": 1.25
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "fff418",
+                            "rotateFrame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 76
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 152
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 76
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 76
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 152
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 76
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 76
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 152
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 76
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 76
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 152
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 76
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 76
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 152
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 76
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 76
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 152
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 76
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 76
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 152
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 76
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 76
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 152
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 76
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 76
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 152
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1,
+                                    "rotate": 76
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ]
+                        }
+                    ],
+                    "ik": [],
+                    "slot": [
+                        {
+                            "colorFrame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 17
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 18
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "displayFrame": [
+                                {
+                                    "duration": 17
+                                },
+                                {
+                                    "duration": 18
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "炸弹"
+                        },
+                        {
+                            "colorFrame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "displayFrame": [
+                                {
+                                    "value": 1,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 2,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 3,
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 1,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 2,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 3,
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 1,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 2,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 3,
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 1,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 2,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 3,
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 1,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 2,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 3,
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 1,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 2,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 3,
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 1,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 2,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 3,
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 1,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 2,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 3,
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 1,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 2,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 3,
+                                    "duration": 1
+                                },
+                                {
+                                    "value": 3,
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "wargolem_burst_flash_a_sheet_yellow_01"
+                        },
+                        {
+                            "colorFrame": [],
+                            "displayFrame": [],
+                            "name": "back 8_00"
+                        },
+                        {
+                            "colorFrame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "displayFrame": [
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 1
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "fff418"
+                        }
+                    ],
+                    "ffd": [],
+                    "name": "rotation",
+                    "playTimes": 0
+                }
+            ],
+            "type": "MovieClip",
+            "frameRate": 24,
+            "bone": [
+                {
+                    "name": "root",
+                    "transform": {}
+                },
+                {
+                    "transform": {},
+                    "name": "炸弹",
+                    "parent": "root"
+                },
+                {
+                    "transform": {},
+                    "name": "wargolem_burst_flash_a_sheet_yellow_01",
+                    "parent": "root"
+                },
+                {
+                    "transform": {},
+                    "name": "back 8_00",
+                    "parent": "root"
+                },
+                {
+                    "transform": {},
+                    "name": "fff418",
+                    "parent": "root"
+                }
+            ],
+            "aabb": {
+                "width": 0,
+                "y": 0,
+                "height": 0,
+                "x": 0
+            },
+            "slot": [
+                {
+                    "displayIndex": -1,
+                    "name": "炸弹",
+                    "parent": "炸弹",
+                    "color": {}
+                },
+                {
+                    "displayIndex": -1,
+                    "z": 1,
+                    "name": "wargolem_burst_flash_a_sheet_yellow_01",
+                    "parent": "wargolem_burst_flash_a_sheet_yellow_01",
+                    "color": {}
+                },
+                {
+                    "displayIndex": -1,
+                    "z": 2,
+                    "name": "back 8_00",
+                    "parent": "back 8_00",
+                    "color": {}
+                },
+                {
+                    "blendMode": "add",
+                    "z": 3,
+                    "parent": "fff418",
+                    "displayIndex": -1,
+                    "name": "fff418",
+                    "color": {}
+                }
+            ],
+            "defaultActions": [
+                {
+                    "gotoAndPlay": "fire"
+                }
+            ],
+            "name": "bomb",
+            "ik": []
+        }
+    ]
+}

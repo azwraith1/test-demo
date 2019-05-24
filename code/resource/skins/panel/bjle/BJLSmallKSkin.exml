@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BJLSmallKSkin" width="17" height="108" xmlns:e="http://ns.egret.com/eui" xmlns:bjle="bjle.*">
+	<bjle:BJLResult1 skinName="BJLResultSkin1" height="17" width="17" x="0" y="0"/>
+	<bjle:BJLResult1 skinName="BJLResultSkin1" height="17" width="17" x="0" y="18"/>
+	<bjle:BJLResult1 skinName="BJLResultSkin1" height="17" width="17" x="0" y="36"/>
+	<bjle:BJLResult1 skinName="BJLResultSkin1" height="17" width="17" x="0" y="54"/>
+	<bjle:BJLResult1 skinName="BJLResultSkin1" height="17" width="17" x="0" y="72"/>
+	<bjle:BJLResult1 skinName="BJLResultSkin1" height="17" width="17" x="0" y="90"/>
+</e:Skin>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="majiang.RecordBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ls_bg2_png" height="346" width="497" scale9Grid="12,7,10,21"/>
+	<e:Image source="ls_bg_png" x="7.99" y="8" width="480" height="44" anchorOffsetX="0" scale9Grid="4,5,10,12"/>
+	<e:Image source="ls_bg_png" x="7.99" y="292" width="480" height="44" anchorOffsetX="0" scale9Grid="4,5,11,12"/>
+	<e:Label id="recordLabel" text="总输赢：-20" size="24" fontFamily="Arial" textColor="0xFFDC51" stroke="1" borderColor="0x000000" anchorOffsetX="0" width="199.5" textAlign="right" x="276.5" y="302"/>
+	<e:Image source="title_png" y="14" horizontalCenter="0.5"/>
+    <e:Scroller id="scroller" y="56" skinName="skins.ScrollerSkin" scrollPolicyH="off" width="477" height="233" scrollPolicyV="auto" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:List id="recordList" x="1" y="-200" itemRendererSkinName="majiang.RecordItemSkin">
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+			<e:ArrayCollection>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

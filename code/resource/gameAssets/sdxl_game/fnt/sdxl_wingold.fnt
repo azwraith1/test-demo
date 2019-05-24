@@ -1,0 +1,13 @@
+{"file":"sdxl_wingold.png","frames":{
+"1":{"x":183,"y":168,"w":41,"h":81,"offX":2,"offY":1,"sourceW":45,"sourceH":82},
+"2":{"x":1,"y":84,"w":59,"h":82,"offX":2,"offY":0,"sourceW":63,"sourceH":82},
+"3":{"x":123,"y":85,"w":58,"h":82,"offX":2,"offY":0,"sourceW":62,"sourceH":82},
+"4":{"x":1,"y":1,"w":63,"h":81,"offX":2,"offY":1,"sourceW":67,"sourceH":82},
+"5":{"x":183,"y":85,"w":58,"h":81,"offX":2,"offY":1,"sourceW":62,"sourceH":82},
+"6":{"x":128,"y":1,"w":60,"h":82,"offX":2,"offY":0,"sourceW":64,"sourceH":82},
+"7":{"x":1,"y":168,"w":55,"h":81,"offX":2,"offY":1,"sourceW":59,"sourceH":82},
+"8":{"x":66,"y":1,"w":60,"h":82,"offX":2,"offY":0,"sourceW":64,"sourceH":82},
+"9":{"x":62,"y":85,"w":59,"h":82,"offX":2,"offY":0,"sourceW":63,"sourceH":82},
+"0":{"x":190,"y":1,"w":59,"h":82,"offX":2,"offY":0,"sourceW":63,"sourceH":82},
+".":{"x":226,"y":168,"w":21,"h":22,"offX":2,"offY":60,"sourceW":25,"sourceH":82},
+" ":{"x":243,"y":85,"w":5,"h":5,"offX":0,"offY":0,"sourceW":13,"sourceH":82}}}

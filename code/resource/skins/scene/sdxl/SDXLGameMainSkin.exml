@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SDXLGameMainSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:sdxl="sdxl.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="resizeGroup" width="1280" height="720" x="0" y="0">
+		<sdxl:SDXLGameScene1 id="scene1" skinName="SDXLGameScene1Skin" left="0" top="0" bottom="0" right="0"/>
+		<sdxl:SDXLGameScene3 id="scene3" skinName="SDXLGameScene3Skin" scaleX="1" scaleY="1" left="0" right="0" top="720" bottom="-720" visible="false"/>
+	</e:Group>
+</e:Skin>

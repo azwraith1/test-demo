@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MajiangHallSceneceSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:majiang="majiang.*" width="1280"
+        height="720">
+	<e:Group id="resizeGroup" width="1280" height="720">
+		<e:Group scaleX="1" scaleY="1" left="0" top="2" right="0" bottom="-2">
+			<e:Image scaleX="1" scaleY="1" right="0" left="0" top="0" bottom="0"  source="hall_bg_png"/>
+			<e:Group height="83" left="0" right="0" top="0">
+				<e:Image scaleX="1" scaleY="1" source="hall_bg_s_png" scale9Grid="80,10,79,63" top="0" left="0"  width="512" height="82"/>
+				<e:Image scaleX="-1" scaleY="1" source="hall_bg_s_png" scale9Grid="80,10,79,63" right="0" top="0"  width="512" height="82"/>
+				<e:Image scaleX="1" scaleY="1" scale9Grid="80,10,79,63" source="hall_logo_bg_png" horizontalCenter="0" top="0"  width="396" height="80"/>
+				<e:Image scaleX="1" scaleY="1" scale9Grid="80,10,79,63" horizontalCenter="-5" top="0" source="hall_logo_png"  width="170" height="71"/>
+				<e:Image scaleX="1" scaleY="1" anchorOffsetX="0" width="300" source="hall_namelable_png"
+				         scale9Grid="28,16,20,8"  height="43" x="148" y="15"/>
+				<e:Image scaleX="1" scaleY="1" source="hall_image_bg_png"  width="74" height="74" left="96" top="1"/>
+				<e:Image id="hall_playerImage" scaleX="1" scaleY="1"  width="65" height="65" left="101" top="5" source="hall_header_1_1_png"/>
+				<e:Image id="playerIcon" scaleX="1" scaleY="1" source="hall_playerimage_png" bottom="-4" right="1095"/>
+				<e:Image scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" width="256.17"
+				         source="hall_namelable_png" scale9Grid="33,17,11,5"  height="42" right="88" top="16"/>
+				<e:Image scaleX="1" scaleY="1" source="hall_gold_png"  right="307" top="18" width="35" height="37"/>
+				<e:Label id="hall_playerName" text="LMC傻逼傻逼傻逼傻逼傻逼傻逼" anchorOffsetX="0" width="271"
+				         textAlign="left" size="20" verticalAlign="middle" scaleX="1" scaleY="1" left="172" height="25"  top="25"/>
+				<e:BitmapLabel id="goldLabel" width="371.2" height="57.25" text="0" anchorOffsetY="0" anchorOffsetX="0" scaleX="0.5"
+				               scaleY="0.5" font="font_gold_fnt" letterSpacing="-5" top="22" right="119" />
+				<e:Image id="gold_add" source="hall_add_png" top="19" right="88" />
+				<e:Button id="mj_btn_fdsx" label="" width="45" height="45" y="15" right="15">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="hall_quanping_png" />
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="backHomeBtn" label="" y="8.92" x="18.16" width="60" height="60" visible="false">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="home_back_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+
+			</e:Group>
+			<e:Scroller id="gameScroller" width="1188" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" bounces="false" height="427" horizontalCenter="-4" verticalCenter="44.5">
+				<e:Group id="gameGroup" width="1188" anchorOffsetX="0" height="427">
+					<e:Button id="scButton" label="" scaleX="1" scaleY="1" skinName="HallscmjSkin" width="325" height="408" x="28" y="12.03"/>
+					<e:Button id="nnButton" label="" scaleX="1" scaleY="1" skinName="HallblnnSkin" width="342" height="206" x="364.97" y="12.03"/>
+					<e:Button id="sgButton" label="" scaleX="1" scaleY="1" skinName="HallblsgSkin" width="345" height="207" x="335.38" y="219.77"/>
+					<e:Button id="dzButton" label="Button" x="720.9" skinName="HallbldzSkin" width="345" height="207" y="12.03"/>
+					<e:Button id="lhjButton" label="" scaleX="1" scaleY="1" skinName="HallbllhjSkin" width="345" height="204" x="691.82" y="219.94"/>
+					<e:Button id="byButton" label="" scaleX="1" scaleY="1" skinName="HallblbySkin" width="328" height="208" x="1072.66" y="9.37"/>
+				</e:Group>
+			</e:Scroller>
+
+			<e:Group width="1062.12" height="86.36" anchorOffsetX="0" anchorOffsetY="0" bottom="0" horizontalCenter="0">
+				<e:Image source="hall_d_bg_png" scaleX="1" scaleY="1" horizontalCenter="0" bottom="6.359999999999999" />
+				<e:Button id="btn_paihang" label="Button" x="166.66" y="10">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="hall_paihang_png" source.down="hall_paihang_png" />
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="btn_jilu" label="Button" x="370.33" y="10">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="hall_rect_png" source.down="hall_rect_png" />
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="btn_wenhao" label="Button" x="574.39" y="10">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="hall_guize_png" source.down="hall_guize_png" />
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="btn_shezi" label="Button" x="789.91" y="10">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="hall_set_png" source.down="hall_set_png" />
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+	<w:Config id="16583939bcd" />
+</e:Skin>

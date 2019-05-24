@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SangongRecordRendererSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="roomId" text="-22333" anchorOffsetX="0" width="118" anchorOffsetY="0" height="32" size="25"    verticalAlign="middle" textAlign="center"/>
+	<e:Label id="roomType" text="王者房" x="146" anchorOffsetX="0" width="89" anchorOffsetY="0" height="32" size="25"    textAlign="center" verticalAlign="middle"/>
+	<e:Label id="roomMoney" text="-22333" x="246" anchorOffsetX="0" width="108" anchorOffsetY="0" height="32" size="25"    verticalAlign="middle" textAlign="center" y="0"/>
+	<e:Label id="roomTime" text="2018-10-10 23:00" x="366" anchorOffsetX="0" width="211" anchorOffsetY="0" height="32" size="25"    verticalAlign="middle" textAlign="center"/>
+</e:Skin>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BJLZhuangduiSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="173" height="248">
+	<e:Image scaleX="1" x="6" y="7" source="bjl_zdbg_png"/>
+	<e:Image id="light" scaleX="1" source="bjle_game_light_2_png" y="-8" x="-6" visible="false"/>
+	<e:Label text="Label" y="20.4" anchorOffsetX="0" width="133.8" id="zhuangScore" size="22" height="22" textColor="0xEF9197" textAlign="center" x="20"/>
+	<e:Group id="mineScoreGroup" y="166.4" x="29">
+		<e:Image scaleX="1" scaleY="1" source="bjle_game_mine_money_bg_png" visible="false"/>
+		<e:Image source="bjle_header_dold_png"/>
+		<e:Label id="mineScore" text="Label" scaleX="1" scaleY="1" size="20" y="3.2" x="29" anchorOffsetX="0" width="75.8" textColor="0xDAC896" textAlign="center"/>
+	</e:Group>
+	<e:BitmapLabel id="bili" y="122" font="bjl_he_fnt" text="0:0" textAlign="center" x="0" width="173"/>
+	<e:Image source="bjle_game_kongbaiwenjian_png" anchorOffsetX="0" width="139" anchorOffsetY="0" height="197" horizontalCenter="0" verticalCenter="-9.5"/>
+</e:Skin>

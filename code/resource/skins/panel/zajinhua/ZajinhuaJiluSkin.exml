@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZajinhuaJiluSkin" xmlns:e="http://ns.egret.com/eui" width="1280" height="720" xmlns:w="http://ns.egret.com/wing" xmlns:zajinhua="zajinhua.*">
+	<w:Config id="1697f69766e"/>
+	<e:Group id="resizeGroup" width="1280" height="720" y="0" x="0">
+		<e:Rect id="rect" scaleX="1" scaleY="1" fillAlpha="0.3" left="0" right="0" top="0" bottom="0"/>
+		<e:Group scaleX="1" scaleY="1" horizontalCenter="-2" verticalCenter="-4.5">
+		<e:Image width="1024" height="643" x="0" source="zjh_tc_bg_png"/>
+		<e:Image anchorOffsetY="0" y="129" source="zjh_jl_lable_png" horizontalCenter="-2.5"/>
+		<e:Image x="457" y="17" source="zjh_jl_title_png"/>
+		<e:Button id="closeBtn" label="" x="970" y="12" scaleX="1" scaleY="1" width="58" height="58">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjh_close_bg_png"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Scroller width="928" height="397" anchorOffsetX="0" anchorOffsetY="0" y="197" x="45.34">
+			<e:Group id="jiluGroup" width="928" height="397" anchorOffsetY="0" x="0" y="30">
+			<e:layout>
+				<e:VerticalLayout paddingTop="2"/>
+			</e:layout>
+
+			</e:Group>
+		</e:Scroller>
+			<e:Label id="zwjl" text="暂无游戏记录" horizontalCenter="0" verticalCenter="0" size="36" textColor="0xfddc9e" visible="false"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

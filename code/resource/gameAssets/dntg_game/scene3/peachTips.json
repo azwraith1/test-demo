@@ -1,0 +1,6 @@
+{"file":"peachTips.png","frames":{
+"peachTip_3":{"x":1,"y":288,"w":240,"h":93,"offX":0,"offY":0,"sourceW":240,"sourceH":94},
+"peachTip_4":{"x":1,"y":193,"w":240,"h":93,"offX":0,"offY":0,"sourceW":240,"sourceH":94},
+"peach":{"x":1,"y":383,"w":121,"h":97,"offX":1,"offY":2,"sourceW":123,"sourceH":99},
+"peachTip_1":{"x":1,"y":1,"w":240,"h":94,"offX":0,"offY":0,"sourceW":240,"sourceH":94},
+"peachTip_2":{"x":1,"y":97,"w":239,"h":94,"offX":1,"offY":0,"sourceW":240,"sourceH":94}}}

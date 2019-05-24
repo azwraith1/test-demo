@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HallbldzSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="dz_Group" visible="false">
+		<e:Image scaleX="1" scaleY="1" source="dz_bg_png" x="2.01" y="0.67"/>
+		<e:Image scaleX="1" scaleY="1" x="125.68" y="2.01" source="dz_bg3_png"/>
+		<e:Image scaleX="1" scaleY="1" x="107.68" y="80.01" source="dz_bg2_png"/>
+		<e:Image scaleX="1" scaleY="1" x="28" y="139" source="dz_title_png"/>
+		<e:Image scaleX="1" scaleY="1" x="230.99" y="162.41" source="hall_online_png"/>
+		<e:Label id="peoples_dz" text="3146" x="251.27" y="161.83" anchorOffsetX="0" width="66.74" anchorOffsetY="0" height="20.03" fontFamily="Microsoft YaHei" textColor="0xFFFFFF" verticalAlign="middle" textAlign="left" size="20" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Image id="dz" scaleX="1" scaleY="1" source="hall_dzm_png"/>
+	<e:Image scaleX="1" scaleY="1" x="237" y="163" source="mj_qqqd_png"/>
+</e:Skin>

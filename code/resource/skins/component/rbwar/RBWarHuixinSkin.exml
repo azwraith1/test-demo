@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RBWarHuixinSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="545" height="172">
+	<e:Label id="infoLabel" text="豹子 | 顺金 | 金花 | 顺子 | 对8以上" y="113" textColor="0x6BD7D8" size="17"    x="124"/>
+	<e:Label id="beishuInfoLabel" text="15倍 | 10倍 |  4倍 | 3倍  |  2倍" y="132.12" textColor="0x6BD7D8" size="17"    x="124"/>
+	<e:Image source="rb_image_1_png" x="0" y="-1"/>
+	<e:Image id="blinkImage" source="rb_image_11_png" visible="false"/>
+	<e:Image source="rb_image_6_png" x="140" y="54"/>
+	<e:Label id="mineLabel" text=""    anchorOffsetX="0" width="140" size="25" textColor="0x30B8D5" textAlign="center" horizontalCenter="-5.5" bottom="-9" height="25"/>
+	<e:Group id="touchGroup" width="468" height="135" x="46" y="35" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Label id="totalLabel" text="" x="200.56" y="4.31" textColor="0xFFFFFF"    anchorOffsetX="0" textAlign="center" width="140.33" height="30"/>
+	<e:Image source="rb_image7_png" x="191" y="154"/>
+</e:Skin>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PlayerHeaderSkin" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="hall_header_1_1_png"/>
+</e:Skin>

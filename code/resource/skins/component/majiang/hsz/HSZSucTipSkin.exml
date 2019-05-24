@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HSZSucTipSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="334" height="136">
+	<e:Image id="bgImage" source="hsz_tip0_png"/>
+	<e:Group id="group1" anchorOffsetX="167" anchorOffsetY="67.5" width="334" height="135" x="167" y="68" visible="false">
+		<e:Image source="hsz_dir2_png" anchorOffsetX="41.5" anchorOffsetY="66" y="119.85" x="45.19" scaleX="-1"/>
+		<e:Image anchorOffsetY="66" y="14.65" x="290.65" source="hsz_dir1_png" anchorOffsetX="41.5" scaleX="-1"/>
+	</e:Group>
+	<e:Group id="group2" anchorOffsetX="167" anchorOffsetY="67.5" width="334" height="135" y="68" x="167" visible="false">
+		<e:Image source="hsz_dir2_png" anchorOffsetX="82.5" anchorOffsetY="134" y="187.38" x="334.5"/>
+		<e:Image anchorOffsetX="82.5" anchorOffsetY="134" y="86.35" x="85.53" source="hsz_dir1_png"/>
+	</e:Group>
+	<e:Group id="group3" anchorOffsetY="67.5" width="334" height="135" x="167" y="68" anchorOffsetX="167" visible="false">
+		<e:Image id="topImage" anchorOffsetX="56" anchorOffsetY="150.5" y="320.35" source="hsz_dir4_png" x="362"/>
+		<e:Image id="bottomImage" anchorOffsetX="56" anchorOffsetY="151.5" y="-39.89" source="hsz_dir3_png" x="29"/>
+	</e:Group>
+</e:Skin>

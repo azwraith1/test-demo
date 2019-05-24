@@ -1,0 +1,6 @@
+{"file":"preloading.png","frames":{
+"loadingbar_1_png":{"x":936,"y":0,"w":13,"h":42,"offX":0,"offY":0,"sourceW":13,"sourceH":42},
+"loadingbar_2_png":{"x":0,"y":0,"w":758,"h":26,"offX":0,"offY":0,"sourceW":759,"sourceH":26},
+"loadingbar_3_png":{"x":882,"y":0,"w":40,"h":48,"offX":0,"offY":0,"sourceW":40,"sourceH":48},
+"loadingmask_png":{"x":924,"y":0,"w":10,"h":111,"offX":0,"offY":0,"sourceW":10,"sourceH":111},
+"loadingtext_png":{"x":760,"y":0,"w":120,"h":27,"offX":0,"offY":0,"sourceW":120,"sourceH":27}}}

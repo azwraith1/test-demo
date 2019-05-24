@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MajiangBackBtnSkin" currentState="up" xmlns:e="http://ns.egret.com/eui" states="up,down" >
+	<e:Button label="" x="0" y="0" horizontalCenter.up="0" verticalCenter.up="0" verticalCenter.down="0" horizontalCenter.down="0" scaleX.down="0.9" scaleY.down="0.9" touchChildren="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mj_btn_back_png" source.down="mj_btn_back_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+</e:Skin>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="majiang.SelectGangSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:majiang="majiang.*">
+	<e:Image id="bgImage" source="img_tc1_png" width="18" scale9Grid="9,14,12,53"/>
+	<e:Group id="itemGroup" anchorOffsetY="0" height="63" verticalCenter="0" left="18">
+		<e:layout>
+			<e:HorizontalLayout gap="30"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

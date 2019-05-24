@@ -1,0 +1,7 @@
+{"file":"nns_btnwz.png","frames":{
+"抢":{"x":0,"y":0,"w":28,"h":28,"offX":2,"offY":0,"sourceW":32,"sourceH":28},
+"不":{"x":28,"y":0,"w":28,"h":27,"offX":2,"offY":1,"sourceW":32,"sourceH":28},
+"有":{"x":0,"y":28,"w":27,"h":28,"offX":2,"offY":0,"sourceW":31,"sourceH":28},
+"无":{"x":27,"y":55,"w":27,"h":27,"offX":2,"offY":1,"sourceW":31,"sourceH":28},
+"牛":{"x":28,"y":27,"w":27,"h":28,"offX":2,"offY":0,"sourceW":31,"sourceH":28},
+" ":{"x":54,"y":55,"w":5,"h":5,"offX":0,"offY":0,"sourceW":9,"sourceH":28}}}

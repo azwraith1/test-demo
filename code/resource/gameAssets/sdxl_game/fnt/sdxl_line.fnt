@@ -1,0 +1,13 @@
+{"file":"sdxl_line.png","frames":{
+"1":{"x":77,"y":169,"w":26,"h":53,"offX":2,"offY":1,"sourceW":30,"sourceH":55},
+"2":{"x":81,"y":113,"w":38,"h":54,"offX":2,"offY":0,"sourceW":42,"sourceH":55},
+"3":{"x":83,"y":56,"w":38,"h":55,"offX":2,"offY":0,"sourceW":42,"sourceH":55},
+"4":{"x":83,"y":1,"w":40,"h":53,"offX":2,"offY":1,"sourceW":44,"sourceH":55},
+"5":{"x":1,"y":115,"w":37,"h":54,"offX":2,"offY":1,"sourceW":41,"sourceH":55},
+"6":{"x":42,"y":1,"w":39,"h":55,"offX":2,"offY":0,"sourceW":43,"sourceH":55},
+"7":{"x":40,"y":115,"w":35,"h":53,"offX":2,"offY":1,"sourceW":39,"sourceH":55},
+"8":{"x":1,"y":1,"w":39,"h":55,"offX":2,"offY":0,"sourceW":43,"sourceH":55},
+"9":{"x":41,"y":58,"w":38,"h":55,"offX":2,"offY":0,"sourceW":42,"sourceH":55},
+"0":{"x":1,"y":58,"w":38,"h":55,"offX":2,"offY":0,"sourceW":42,"sourceH":55},
+".":{"x":105,"y":169,"w":13,"h":15,"offX":2,"offY":39,"sourceW":17,"sourceH":55},
+" ":{"x":121,"y":113,"w":5,"h":5,"offX":0,"offY":0,"sourceW":8,"sourceH":55}}}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NiuniuHallBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="330" height="274">
+	<e:Group touchThrough="false" touchEnabled="false" touchChildren="false" x="0" width="330" height="274">
+		<e:Group id="effcGroup" width="330" height="274" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+		<e:Label id="zhunruLabel" text="准入：1800" y="227.5" size="20"    textColor="0x472507" anchorOffsetX="0" textAlign="center" horizontalCenter="20"/>
+	</e:Group>
+</e:Skin>

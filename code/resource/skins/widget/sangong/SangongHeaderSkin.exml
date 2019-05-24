@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SangongHeaderSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="124" height="186">
+	<w:Config id="166f676e98d"/>
+	<e:Group y="0" width="124" height="186">
+		<e:Image source="header_db_2_png" x="8" y="8"/>
+		<e:Image id="headerImage_k" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="header_db_2_1_png" visible="false"/>
+		<e:Image id="headerImage" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.95" scaleY="0.95" y="45.33" width="104" height="106" horizontalCenter="0" source="hall_header_2_8_png"/>
+		<e:Label id="nameLabel" text="名字信息" size="21" anchorOffsetX="0" width="200" textAlign="center"    height="21" textColor="0xffffff" scaleX="1" scaleY="1" y="18.73" x="-38"/>
+		<e:BitmapLabel id="liushuiLabel" text="+5000" letterSpacing="-1.5" textAlign="center" width="188.67" anchorOffsetX="0" height="28" scaleX="1" scaleY="1" font="sg_win_fnt" y="-21.66" x="-32" visible="false"/>
+		<e:Image id="zhuangImage" x="30.61" y="54.44" anchorOffsetX="18" anchorOffsetY="17.5" scaleX="1" scaleY="1" source="sg_zhuang_img_png" visible="false"/>
+		<e:Group id="winGroup" y="-78.33" width="151" height="54" scaleX="1" scaleY="1" x="-13" visible="false">
+			<e:Image id="w1" scaleX="1" scaleY="1" source="ni_png" visible="false"/>
+			<e:Image id="w2" x="51.6" scaleX="1" scaleY="1" source="yin_png" y="0" visible="false"/>
+			<e:Image id="w3" x="106.4" scaleX="1" scaleY="1" source="la_png" visible="false"/>
+		</e:Group>
+		<e:Label id="indexLabel" text="" x="51.41" y="58.25" scaleX="1" scaleY="1"/>
+		<e:Label id="goldLabel" text="0" y="150.4" size="18" anchorOffsetX="0" textAlign="center"    textColor="0xFFFFFF" x="15.39" width="95.4" height="18" scaleX="1" scaleY="1" verticalAlign="middle"/>
+	</e:Group>
+	<e:Group id="beishuGroup" y="4" scaleX="1" scaleY="1" x="-82" visible="false">
+		<e:Image id="beishuDb" source="sg_piaofen_img_png" anchorOffsetX="44.5" anchorOffsetY="29" y="29" x="48.53"/>
+		<e:BitmapLabel id="beishuLabel" text="" letterSpacing="-6" anchorOffsetX="0" width="74" textAlign="center" font="sg_qz_yz_fnt" x="8.75" y="8" height="31"/>
+	</e:Group>
+</e:Skin>

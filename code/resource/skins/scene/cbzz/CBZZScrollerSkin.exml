@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CBZZScrollerSkin" xmlns:e="http://ns.egret.com/eui" xmlns:cbzz="cbzz.*" xmlns:w="http://ns.egret.com/wing" width="940">
+	<e:Scroller id="scroller" width="940" height="534" x="0" y="0">
+		<e:Group id="itemGroup" height="522" width="930">
+			<cbzz:CBZZScrollerItem id="item1" width="188" height="534" x="0" y="0"/>
+			<cbzz:CBZZScrollerItem id="item2" width="188" height="534" x="188" y="0"/>
+			<cbzz:CBZZScrollerItem id="item3" width="188" height="534" x="376" y="0"/>
+			<cbzz:CBZZScrollerItem id="item4" width="188" height="534" x="564" y="0"/>
+			<cbzz:CBZZScrollerItem id="item5" width="188" height="534" x="752" y="0"/>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

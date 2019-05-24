@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MajiangJiesuan" width="540" height="35" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="dongzuoxiang" text="" y="0" width="165" height="35" verticalAlign="middle" anchorOffsetX="0" fontFamily="Microsoft YaHei" size="20" strokeColor="0x513f7d" textColor="0xffffff" left="5"/>
+	<e:Label id="beishu" y="0" width="110" height="35" verticalAlign="middle" anchorOffsetX="0" textAlign="center" fontFamily="Microsoft YaHei" size="20" strokeColor="0x513f7d" stroke="1" text="" horizontalCenter="0"/>
+	<e:Label id="fen" text="" y="0" width="192" height="35" verticalAlign="middle" anchorOffsetX="0" textAlign="right" fontFamily="Microsoft YaHei" size="20" strokeColor="0x513f7d" right="5"/>
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" scale9Grid="3,0,20,1" source="fengexian_png" horizontalCenter="0" bottom="0"/>
+</e:Skin>

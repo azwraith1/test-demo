@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZajinhuaHaederSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:zajinhua="zajinhua.*" width="124" height="186">
+	<w:Config id="169097cead4"/>
+	<e:Group width="124" height="186">
+		<e:Group y="0" width="124" height="186" x="0" scaleX="1" scaleY="1">
+			<e:Image source="zjh_player_bg_png" x="6" y="11"/>
+			<e:Image id="headerImage_mask" x="13" y="40.7" source="zjh_m11_png"/>
+			<e:Image id="headerImage" anchorOffsetX="0" anchorOffsetY="0" y="36.74" width="104" height="106" x="10.01" source="hall_header_2_7_png"/>
+			<e:Label id="nameLabel" text="名字信息" size="16" anchorOffsetX="0" width="200" textAlign="center" height="16" scaleX="1" scaleY="1" y="18.73" x="-38" textColor="0xf9ea6d" bold="true"/>
+			<e:BitmapLabel id="liushuiLabel" text="0" letterSpacing="-1.5" textAlign="center" anchorOffsetX="0" scaleX="0.8" scaleY="0.8" font="sg_win_fnt" y="-12.16" height="30" width="180" horizontalCenter="0" visible="false"/>
+			<e:Group id="xiqianGroup" y="-60" anchorOffsetX="0" anchorOffsetY="0" width="180" scaleX="0.8" scaleY="0.8" horizontalCenter="0" visible="false">
+				<e:Image id="xiqianImage" source="zjh_happymoney_png" x="135.06" y="21.15" scaleX="0.8" scaleY="0.8"/>
+				<e:BitmapLabel id="xiqian" text="0" letterSpacing="-1.5" anchorOffsetX="0" font="sg_win_fnt" y="22" height="30" x="23" textAlign="center"/>
+			</e:Group>
+			<e:Image id="zhuangImage" x="30.61" y="54.44" anchorOffsetX="18" anchorOffsetY="17.5" scaleX="1" scaleY="1" source="sg_zhuang_img_png" visible="false"/>
+
+			<e:Label id="indexLabel" text="" x="51.41" y="58.25" scaleX="1" scaleY="1"/>
+			<e:Label id="goldLabel" text="" y="147.35" size="16" anchorOffsetX="0" textAlign="center"    x="36.23" width="70" scaleX="1" scaleY="1" textColor="0xf9ea6d" anchorOffsetY="0"/>
+
+			<e:Image id="headerImage_k" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="zjh_bppng_png" horizontalCenter="0" verticalCenter="0" visible="false"/>
+			<e:Group id="qpGroup" y="40.7" x="13" visible="false">
+				<e:Image anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="zjh_m1_png"/>
+				<e:Image anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="zjh_qppng_png" x="19" y="34.75"/>
+			</e:Group>
+			<e:Image id="bpLose" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="zjh_m1_png" y="40.7" x="13" visible="false"/>
+		</e:Group>
+		<e:Group id="beishuGroup" y="5" scaleX="1" scaleY="1" x="-82" visible="false">
+			<e:Image id="beishuDb" source="sg_piaofen_img_png" anchorOffsetX="44.5" anchorOffsetY="29" y="29" x="48.53" visible="false"/>
+		</e:Group>
+		<e:Image id="bipaiLose" source="zjh_bp_shu_png" anchorOffsetX="77.5" anchorOffsetY="47.5" scaleX="0.5" scaleY="0.5" x="62" y="94" visible="false"/>
+	</e:Group>
+</e:Skin>

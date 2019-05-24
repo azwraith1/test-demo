@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="majiang.MineChupaiGroupSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:majiang="majiang.*">
+	<e:Group id="mainGroup" anchorOffsetX="0" width="311" height="165">
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+		<e:Group id="group1" scaleX="1" scaleY="1" x="0" y="0" width="307" height="70">
+			<e:Image id="mj1" scaleX="1" scaleY="1" y="0" source="mine_chupai_1_png"/>
+			<e:Image id="mj2" x="43.36" scaleX="1" scaleY="1" y="0" source="mine_chupai_2_png"/>
+			<e:Image id="mj3" x="85.36" y="0" scaleX="1" scaleY="1" source="mine_chupai_3_png"/>
+			<e:Image id="mj7" x="255.19" y="1.03" scaleY="1" source="mine_chupai_7_png"/>
+			<e:Image id="mj6" x="213.18" y="1" scaleX="1" scaleY="1" source="mine_chupai_6_png"/>
+			<e:Image id="mj5" x="170.52" y="1" scaleX="1" scaleY="1" source="mine_chupai_5_png"/>
+			<e:Image id="mj4" x="127.69" y="1" scaleX="1" scaleY="1" source="mine_chupai_4_png"/>
+		</e:Group>
+		<e:Group id="group2" scaleX="1" scaleY="1" y="49.47" x="-4.34" width="313" height="65">
+			<e:Image id="mj8" scaleX="1" scaleY="1" y="-3.03" source="mine_chupai_8_png" x="1.01"/>
+			<e:Image id="mj9" x="44.77" scaleX="1" scaleY="1" y="-3.03" source="mine_chupai_9_png"/>
+			<e:Image id="mj10" x="88.83" y="-3.03" scaleX="1" scaleY="1" source="mine_chupai_10_png"/>
+			<e:Image id="mj14" x="261.33" y="-3.03" scaleY="1" source="mine_chupai_14_png"/>
+			<e:Image id="mj13" x="218.65" y="-3.03" scaleX="1" scaleY="1" source="mine_chupai_13_png"/>
+			<e:Image id="mj12" x="175.32" y="-3.03" scaleX="1" scaleY="1" source="mine_chupai_12_png"/>
+			<e:Image id="mj11" x="131.5" y="-3.03" scaleX="1" scaleY="1" source="mine_chupai_11_png"/>
+		</e:Group>
+		<e:Group id="group3" scaleX="1" scaleY="1" y="87.39" x="-7.97" width="318" height="77">
+			<e:Image id="mj15" scaleX="1" scaleY="1" y="7" source="mine_chupai_15_png" x="1.33"/>
+			<e:Image id="mj16" x="46.39" scaleX="1" scaleY="1" y="7" source="mine_chupai_16_png"/>
+			<e:Image id="mj17" x="90.35" y="7.33" scaleX="1" scaleY="1" source="mine_chupai_17_png"/>
+			<e:Image id="mj21" x="266.71" y="8" scaleY="1" source="mine_chupai_21_png"/>
+			<e:Image id="mj20" x="223.14" y="8.33" scaleX="1" scaleY="1" source="mine_chupai_20_png"/>
+			<e:Image id="mj19" x="179.29" y="8.33" scaleX="1" scaleY="1" source="mine_chupai_19_png"/>
+			<e:Image id="mj18" x="134.89" y="7.33" scaleX="1" scaleY="1" source="mine_chupai_18_png"/>
+		</e:Group>
+
+		
+	</e:Group>
+</e:Skin>

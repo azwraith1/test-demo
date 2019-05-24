@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HuTipsBarSkin" xmlns:e="http://ns.egret.com/eui">
+	<e:Image id="bgImage" source="img_tc1_png" width="18" scale9Grid="15,14,7,50"/>
+	<e:Group id="itemGroup" anchorOffsetY="0" height="63" verticalCenter="0" left="18">
+		<e:layout>
+		<e:HorizontalLayout gap="30"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

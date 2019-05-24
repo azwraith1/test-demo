@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainHallSceneSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="resizeGroup" width="1280" height="720" x="0" y="0">
+		<e:Image source="main_hall_bg_jpg" left="0" right="0" top="0" bottom="0"/>
+		<e:Group id="btnGroup" bottom="0" height="88" left="0">
+			<e:Button id="settingBtn" label="" scaleX="1" scaleY="1" x="0" height="87" y="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="main_hall_btn_set_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="ruleBtn" label="" x="108.49" y="1" visible="false">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="main_hall_btn_rule_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="recordBtn" label="" x="210.94" y="1" visible="false">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="main_hall_btn_record_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Scroller id="gameScroller" width="1023.84" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" bounces="false" height="485" verticalCenter="7.5" horizontalCenter="-127">
+			<e:Group id="gameGroup" width="807.7" anchorOffsetX="0" height="485" x="380.3" y="1.52" anchorOffsetY="0">
+			</e:Group>
+		</e:Scroller>
+		<e:Image source="main_hall_bg2_png" left="1" right="-1" top="0" bottom="0" touchEnabled="false"/>
+		<e:Group id="topGroup" top="0" left="0" right="0">
+			<e:Image source="main_hall_img_14_png" left="0" right="0" top="0"/>
+			<e:Button id="backHomeBtn" label="" left="0" top="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="main_hall_btn_exit_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Group id="playerGroup" width="358.67" height="72" anchorOffsetY="0" anchorOffsetX="0" left="72" top="0">
+			<e:Image id="headerMask" source="main_hall_img_15_png" x="2" y="0" width="68" height="69"/>
+			<e:Image id="headerImage" source="main_hall_img_15_png" x="2" y="0" width="68" height="69"/>
+			<e:Image source="main_hall_img_16_png" x="2" y="0"/>
+			<e:Image source="main_hall_img_9_png" x="82.5" y="29.5"/>
+			<e:Image source="main_hall_img_8_png" x="83.5" y="35.5"/>
+			<e:Label id="nameLabel" text="Label" x="91" y="6.5" size="20"/>
+			<e:Label id="goldLabel" text="0000000" size="25" anchorOffsetX="0" width="191" textColor="0xf0dd41" textAlign="center" horizontalCenter="32.16499999999999" verticalCenter="13.5"/>
+			<e:Button id="rechargeBtn" label="" x="307" y="36">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="main_hall_img_7_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="headerBtn" label="" x="0" y="2" anchorOffsetX="0" width="71" anchorOffsetY="0" height="67" alpha="0"/>
+			</e:Group>
+			<e:Image source="main_hall_logo_png" y="15" horizontalCenter="0"/>
+
+		</e:Group>
+		<e:Group id="personGroup" bottom="0" right="0" touchChildren="false" touchEnabled="false" touchThrough="true"/>
+		<e:Button id="fullScreenBtn" label="" right="20" top="21">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="main_hall_img_11_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="images1" width="188" height="231" x="46" y="277" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Group id="ycGroup" anchorOffsetX="0" anchorOffsetY="0" right="76" top="22"/>
+	</e:Group>
+	<w:Config id="1699a2d57e6"/>
+</e:Skin>

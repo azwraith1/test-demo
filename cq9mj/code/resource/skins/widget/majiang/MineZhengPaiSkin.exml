@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="majiang.MineZhengPaiSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="41" height="55">
+	<e:Image id="bgImage" source="img_pd_png" y="0"/>
+	<e:Image id="colorImage" width="36.8" height="48.8" source="color_value_35_png" anchorOffsetX="0" anchorOffsetY="0" x="2" y="2"/>
+</e:Skin>

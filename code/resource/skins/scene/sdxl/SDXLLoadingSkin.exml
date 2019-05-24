@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SDXLLoadingSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Group id="resizeGroup" width="1280" height="720" x="0" y="0">
+			<e:Image source="sdxl_loadingbg_jpg" left="0" right="0" top="0" bottom="0"/>
+			<e:Image id="tipsLabel" source="sdxl_loading3_png" horizontalCenter="0" bottom="90"/>
+			<e:Group id="m_pProgressGroup" width="727" height="90" horizontalCenter="0" bottom="0">
+				<e:Image source="sdxl_loading1_png" y="25" scaleX="1" scaleY="1" horizontalCenter="0"/>
+				<e:Image id="loadingPrograssBar" source="sdxl_loading2_png" y="34" scaleX="1" scaleY="1" x="23.75" width="0"/>
+			</e:Group>
+			<e:Group id="clickGroup2" horizontalCenter="0" bottom="-2">
+				<e:Image id="clickIma" source="dntg_click_png" y="68.51999999999998" horizontalCenter="0" x="-250" scaleX="1" scaleY="1" visible="false"/>
+				<e:Image id="startText" source="dntg_click_start_png" y="78" horizontalCenter="0" x="-108" scaleX="1" scaleY="1" visible="false"/>
+			</e:Group>
+
+    </e:Group>
+</e:Skin>

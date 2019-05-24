@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameRecordRendererSkin" width="602" height="30" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+
+
+
+
+
+	<e:Group width="602" height="30" x="0" y="0">
+		<e:Label id="paijunumber" text="192222999" x="14" width="121.6" textColor="0xb16615" size="15"    textAlign="center" anchorOffsetX="0" y="7" scaleX="1" scaleY="1"/>
+		<e:Label id="room" text="初级场" x="184.59999999999997" width="60" textColor="0xb16615" size="15"    textAlign="center" y="7" scaleX="1" scaleY="1"/>
+		<e:Label id="winOrLose" text="0" x="239.75" width="111.25" textColor="0xb16615" size="15"    textAlign="center" anchorOffsetX="0" y="7" scaleX="1" scaleY="1"/>
+		<e:Label id="gametimes" text="2018-09-01 18:00:00" x="353.66999999999996" width="160" textColor="0xb16615" size="15"    textAlign="center" y="7" scaleX="1" scaleY="1"/>
+		<e:Image source="record_1_png" y="28" width="602" scale9Grid="3,0,18,2" x="0" scaleX="1" scaleY="1"/>
+		<e:Image id="hfbtn" x="563" source="huifang_btn_png" width="40" height="25" y="13" anchorOffsetX="20" anchorOffsetY="12.5"/>
+	</e:Group>
+</e:Skin>

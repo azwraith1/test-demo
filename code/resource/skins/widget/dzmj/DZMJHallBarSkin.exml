@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DZMJHallBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="dzmj_scene_db1_png" width="288" height="436" visible="false"/>
+	<e:Group id="dbGroup" touchChildren="false" touchEnabled="false" touchThrough="false" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="titleImage" source="dzmj_scene_tip1_png" y="21" horizontalCenter="0"/>
+	<e:BitmapLabel id="zhunruLabel" x="139" y="329" font="dzmj_scene_zhunru1_fnt" text="2" letterSpacing="-4" width="98" height="23" textAlign="center" anchorOffsetX="0"/>
+	<e:BitmapLabel id="difenLabel" x="140.5" y="367" text="2" letterSpacing="-2" width="96.5" textAlign="center" font="dzmj_scene_difen1_fnt" height="18" anchorOffsetX="0"/>
+	<e:Image id="zhunruImage" source="dzmj_scene_zr1_png" x="74" y="326"/>
+	<e:Image id="difenImage" source="dzmj_scene_df1_png" x="77" y="364"/>
+</e:Skin>

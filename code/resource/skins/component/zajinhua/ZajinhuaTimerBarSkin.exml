@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZajinhuaTimerBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="105" height="105">
+	<e:Image id="djs_cirl" anchorOffsetX="52" anchorOffsetY="52" source="zjh_red_png" x="52" y="52"/>
+</e:Skin>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BDZGameSceneSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="169bd05fb51"/>
+	<e:Group id="resizeGroup" width="1280" height="720" x="0" y="0">
+		<e:Image source="bdz_img_bg_png" left="0" right="0" top="0" bottom="0"/>
+		<e:Group id="uiGroup" left="0" top="0" right="0" bottom="0">
+			<e:Image id="fapaiImage" source="bdz_img_2_png" horizontalCenter="0" top="0"/>
+			<e:Group id="dateGroup" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" width="177" height="48" top="70" horizontalCenter="0">
+				<e:Image id="roundImg1" source="bdz_round_1_1_png"/>
+				<e:Image id="roundImg2" x="64" y="0" source="bdz_round_2_1_png"/>
+				<e:Image id="roundImg3" x="128.65" y="0" source="bdz_round_3_1_png"/>
+			</e:Group>
+			<e:Group width="311" height="46" right="125" top="6" visible="false" locked="true">
+				<e:Image source="bdz_img_1_png" x="0"/>
+				<e:Label id="dichiLabel" text="0" x="110.33" y="13" size="20" fontFamily="SimHei" textColor="0xd0b36d" textAlign="right" anchorOffsetX="0" width="187.33"/>
+			</e:Group>
+			<e:Group width="305" height="42" verticalCenter="-30" horizontalCenter="-0.5">
+				<e:Image x="0" source="bdz_img_4_png"/>
+				<e:Label id="totalGoldLabel" text="222元223分" x="61.33" y="11" size="20" fontFamily="SimHei" textAlign="right" anchorOffsetX="0" width="235" textColor="0xd0b36d"/>
+			</e:Group>
+			<e:Component id="cmPoint3" scaleX="1" scaleY="1" width="1" height="1" left="335" verticalCenter="-205.5"/>
+			<e:Component id="cmPoint2" scaleX="1" scaleY="1" width="1" height="1" left="334" verticalCenter="-27.5"/>
+			<e:Component scaleX="1" scaleY="1" width="1" height="1" id="cmPoint1" horizontalCenter="0" bottom="230"/>
+			<e:Component id="cmPoint4" scaleX="1" scaleY="1" width="1" height="1" right="341" verticalCenter="-208.5"/>
+			<e:Component id="cmPoint5" scaleX="1" scaleY="1" width="1" height="1" right="341" verticalCenter="-23.5"/>
+			<e:Group id="playerGroup3" width="257" height="153" left="140" verticalCenter="-212.5">
+				<ns1:BDZShoupai id="shoupai3" skinName="BDZLeftShoupaiSkin" scaleX="0.7200000000000001" scaleY="0.7200000000000001" y="0"/>
+				<e:Image id="czTipImage3" source="bdz_1bd_3_png" x="272" y="7.510000000000005" scaleX="1" scaleY="1" alpha="0.5"/>
+				<e:Image id="tipImage3" source="bdz_1bd_2_png" x="260.32" y="2.01"/>
+				<e:Label id="playerYzLabel3" text="" x="16.5" y="2.5" size="18" height="18" textAlign="right" anchorOffsetX="0" width="204"/>
+				<e:Button id="patternTip3" label="" x="33" y="121" touchEnabled="false" touchChildren="false" visible="false">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="bdz_px_di_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="18" textColor="0xfffdb8"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Group id="playerGroup2" width="257" height="153" left="140" verticalCenter="-35.5">
+				<ns1:BDZShoupai id="shoupai2" skinName="BDZLeftShoupaiSkin" scaleX="0.7200000000000001" scaleY="0.7200000000000001" y="0"/>
+				<e:Image id="czTipImage2" source="bdz_1bd_3_png" x="272" y="7.510000000000005" scaleX="1" scaleY="1"  alpha="0.5"/>
+				<e:Image id="tipImage2" source="bdz_1bd_2_png" x="260.32" y="2.01"/>
+				<e:Label id="playerYzLabel2" text="" x="18" y="2.5" size="18" height="18" anchorOffsetX="0" width="202.5" textAlign="right"/>
+				<e:Button id="patternTip2" label="" x="33" y="121" touchEnabled="false" touchChildren="false" visible="false">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="bdz_px_di_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="18" textColor="0xfffdb8"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Group id="playerGroup5" width="257" height="153" right="145" verticalCenter="-35.5">
+				<ns1:BDZShoupai id="shoupai5" scaleX="0.7200000000000001" scaleY="0.7200000000000001" y="0" skinName="BDZRightShoupaiSkin"/>
+				<e:Image id="czTipImage5" source="bdz_1bd_3_png" scaleX="1" scaleY="1" width="59" x="-74" y="8"  alpha="0.5"/>
+				<e:Image id="tipImage5" y="2.01" source="bdz_1bd_1_png" x="-87"/>
+				<e:Label id="playerYzLabel5" text="" x="35.49" y="2.5" size="18" height="18" textAlign="left" anchorOffsetX="0" width="176.5"/>
+				<e:Button id="patternTip5" label="" x="68" y="121" touchEnabled="false" touchChildren="false" visible="false">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="bdz_px_di_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="18" textColor="0xfffdb8"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Group id="playerGroup4" width="257" height="153" right="144" verticalCenter="-217.5">
+				<ns1:BDZShoupai id="shoupai4" scaleX="0.7200000000000001" scaleY="0.7200000000000001" y="0" skinName="BDZRightShoupaiSkin"/>
+				<e:Image id="czTipImage4" source="bdz_1bd_3_png" scaleX="1" scaleY="1" width="59" x="-74" y="8"  alpha="0.5"/>
+				<e:Image id="tipImage4" source="bdz_1bd_1_png" y="2.01" x="-87"/>
+				<e:Label id="playerYzLabel4" text="" x="35.49" y="2.5" size="18" height="18" textAlign="left" anchorOffsetX="0" width="176.5"/>
+				<e:Button id="patternTip4" label="" x="64" y="121" touchEnabled="false" touchChildren="false" visible="false">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="bdz_px_di_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="18" textColor="0xfffdb8"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Group id="cmGroup" width="305" height="183" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="-144.5" horizontalCenter="0">
+				<ns1:BDZCMList id="cmList7" x="56.01" y="17.71" skinName="BDZCMListSkin" scaleX="0.7" scaleY="0.7" width="78" height="82"/>
+				<ns1:BDZCMList id="cmList3" x="103" y="19.94" skinName="BDZCMListSkin" scaleX="0.7" scaleY="0.7" width="78" height="82"/>
+				<ns1:BDZCMList id="cmList4" x="150.91" y="27.83" skinName="BDZCMListSkin" scaleX="0.7" scaleY="0.7" width="78" height="82"/>
+				<ns1:BDZCMList id="cmList6" x="199.51" y="28.5" skinName="BDZCMListSkin" scaleX="0.7" scaleY="0.7" width="78" height="82"/>
+				<ns1:BDZCMList id="cmList9" x="31" y="59.2" skinName="BDZCMListSkin" scaleX="0.7" scaleY="0.7" width="78" height="82"/>
+				<ns1:BDZCMList id="cmList1" x="93.4" y="67.64" skinName="BDZCMListSkin" scaleX="0.7" scaleY="0.7" width="78" height="82"/>
+				<ns1:BDZCMList id="cmList2" x="140.6" y="74.5" skinName="BDZCMListSkin" scaleX="0.7" scaleY="0.7" width="78" height="82"/>
+				<ns1:BDZCMList id="cmList8" x="189.11" y="77.5" skinName="BDZCMListSkin" scaleX="0.7" scaleY="0.7" width="78" height="82"/>
+				<ns1:BDZCMList id="cmList5" x="57.33" y="99.23" skinName="BDZCMListSkin" scaleX="0.7" scaleY="0.7" width="78" height="82"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="effectGroup" left="0" top="0" right="0" bottom="0">
+		</e:Group>
+		<e:Group id="touchGroup" left="0" top="0" right="0" bottom="0">
+			<ns1:BDZHeader id="header3" skinName="BDZHeaderSkin" width="130" height="185" scaleX="0.8" scaleY="0.8" verticalCenter="-216" left="25"/>
+			<ns1:BDZHeader id="header2" skinName="BDZHeaderSkin" width="130" height="185" scaleX="0.8" scaleY="0.8" verticalCenter="-36" left="25"/>
+			<ns1:BDZHeader id="header4" skinName="BDZHeaderSkin" width="130" height="185" scaleX="0.8" scaleY="0.8" right="25" verticalCenter="-216"/>
+			<ns1:BDZHeader id="header5" skinName="BDZHeaderSkin" width="130" height="185" scaleX="0.8" scaleY="0.8" right="25" verticalCenter="-36"/>
+			<ns1:BDZHeader id="header1" skinName="BDZHeaderSkin" width="130" height="185" bottom="106" horizontalCenter="-234"/>
+			<e:Group id="buttonGroup" scaleX="1" scaleY="1" bottom="0" width="1280" horizontalCenter="0" height="95">
+				<e:Image source="bdz_btn_bar_png" y="0" left="0" right="0"/>
+				<e:Button id="btnqp" label="" y="3.99" x="3" name="btn1">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="bdz_qp_btn_png" source.disabled="bdz_qp_btn_dis_png"/>
+						<e:Label id="labelDisplay" size="16" fontFamily="SimHei" bottom="5" horizontalCenter="0" text="123"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="btnpass" label="" y="4" x="643" name="btn7">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="bdz_pass_btn_png" source.disabled="bdz_qp_btn_dis_png"/>
+						<e:Label id="labelDisplay" size="16" fontFamily="SimHei" bottom="5" horizontalCenter="0" text="123"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="btn2bd" label="" x="217" y="3.99" name="btn2" currentState="up">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="bdz_1bd_btn_png" source.disabled="bdz_1bd_btn_dis_png"/>
+						<e:Label id="labelDisplay" size="16" fontFamily="SimHei" bottom="5" horizontalCenter="0" text="123"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="btn1bd" label="" x="430" y="4" name="btn3">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="bdz_2bd_btn_png" source.disabled="bdz_2bd_btn_dis_png"/>
+						<e:Label id="labelDisplay" size="16" fontFamily="SimHei" bottom="5" horizontalCenter="0" text="123"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="btngz" label="" x="643" y="3.99" name="btn4">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="bdz_gz_btn_png" source.disabled="bdz_gz_btn_dis_png"/>
+						<e:Label id="labelDisplay" size="16" fontFamily="SimHei" bottom="5" horizontalCenter="0" text="123"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="btnper25" label="" x="856" y="3.99" name="btn5">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="bdz_per25_btn_png" source.disabled="bdz_per25_btn_dis_png"/>
+						<e:Label id="labelDisplay" size="16" fontFamily="SimHei" bottom="5" horizontalCenter="0" text="123"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="btnper50" label="" x="1068.32" y="3.99" name="btn6">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="bdz_per50_btn_png" source.disabled="bdz_per50_btn_dis_png"/>
+						<e:Label id="labelDisplay" size="16" fontFamily="SimHei" bottom="5" horizontalCenter="0" text="123"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Group id="changeGroup" anchorOffsetX="0" anchorOffsetY="0" height="95" scaleX="1" scaleY="1" width="1280" horizontalCenter="0" bottom="0" visible="false">
+				<e:Image source="bdz_btn_bar_png" left="0" right="0"/>
+				<e:Button id="noChangeBtn" label="" y="4" x="18.71">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="bdz_select_up_2_png" source.disabled="bdz_select_up_2_dis_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="selectBtn1" label="" x="367.52" y="6">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="bdz_select_1_1_png" source.down="bdz_select_1_2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Button id="selectBtn2" label="" x="509" y="6">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="bdz_select_2_1_png" source.down="bdz_select_2_2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Button id="selectBtn3" label="" x="646.9" y="6">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="bdz_select_3_1_png" source.down="bdz_select_3_2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Button id="selectBtn4" label="" x="787.96" y="6">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="bdz_select_4_1_png" source.down="bdz_select_4_2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Button id="changeBtn" label="" x="933.08" y="3.52">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="bdz_select_up_1_png" source.disabled="bdz_select_up_1_dis_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Group id="playerGroup1" width="356" height="212" bottom="124" horizontalCenter="15" touchEnabled="false" touchChildren="true" touchThrough="true">
+				<ns1:BDZShoupai id="shoupai1" skinName="BDZLeftShoupaiSkin" y="0"/>
+				<e:Image id="czTipImage1" source="bdz_1bd_3_png" scaleX="1" scaleY="1" y="24.72" x="371" alpha="0.5"/>
+				<e:Image id="tipImage1" source="bdz_1bd_2_png" y="18.72" x="359"/>
+				<e:Label id="playerYzLabel1" text="" x="23.15" y="-24.16" size="22" height="22" textAlign="center" anchorOffsetX="0" width="286.5"/>
+				<e:Button id="patternTip1" label="" x="80.5" y="216" touchEnabled="false" touchChildren="false" visible="false">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="bdz_px_di_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="18" textColor="0xfffdb8"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Button id="backBtn" label="" scaleX="1" scaleY="1" top="12" left="19" x="19" y="17">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="bdz_backbtn_png"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="restartBtn" label="" right="142" bottom="181" visible="false">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="bdz_next_btn_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+	</e:Group>
+</e:Skin>

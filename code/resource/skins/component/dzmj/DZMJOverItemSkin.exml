@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DZMJOverItemSkin" width="540" height="35" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="type1" text="" size="20"    textColor="0xfff728" left="54" verticalCenter="0.5" height="20"/>
+	<e:Label id="fan1" text="" size="20"    textColor="0xFFF728" y="8" right="330" height="20"/>
+	<e:Label id="type2" text="" size="20"    textColor="0xFFF728" left="328" verticalCenter="0.5" height="20"/>
+	<e:Label id="fan2" text="" size="20"    textColor="0xFFF728" right="54" y="8" height="20"/>
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" scale9Grid="3,0,20,1" source="fengexian_png" horizontalCenter="0" bottom="0"/>
+</e:Skin>

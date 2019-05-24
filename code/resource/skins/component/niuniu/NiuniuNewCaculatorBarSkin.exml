@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NiuniuNewCaculatorBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="167118a93e3"/>
+
+
+
+
+
+
+
+
+
+
+	<e:Group width="338" height="94" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image x="249" y="36.52999999999997" source="nns_dh_png" scaleX="1" scaleY="1"/>
+		<e:Image x="9.430000000000007" y="9.529999999999973" source="nns_jskk_png" scaleX="1" scaleY="1"/>
+		<e:Image x="95" y="9.529999999999973" source="nns_jskk_png" scaleX="1" scaleY="1"/>
+		<e:Image x="180" y="9.529999999999973" source="nns_jskk_png" scaleX="1" scaleY="1"/>
+		<e:Image y="9.529999999999973" x="264.93" source="nns_jskk_png" scaleX="1" scaleY="1"/>
+		<e:Image x="79" y="36.52999999999997" source="nns_jh_png" scaleX="1" scaleY="1"/>
+		<e:Image x="164" y="36.52999999999997" source="nns_jh_png" scaleX="1" scaleY="1"/>
+		<e:BitmapLabel id="number0" font="nns_pingfen_fnt" text="" letterSpacing="1.5" height="26" x="20" y="28" textAlign="center" width="45" scaleX="1" scaleY="1"/>
+		<e:BitmapLabel id="number1" font="nns_pingfen_fnt" text="" letterSpacing="1.5" height="26" x="106" y="28" textAlign="center" width="45" scaleX="1" scaleY="1"/>
+		<e:BitmapLabel id="number2" font="nns_pingfen_fnt" text="" letterSpacing="1.5" height="26" x="192" y="28" textAlign="center" width="45" scaleX="1" scaleY="1"/>
+		<e:BitmapLabel id="number3" font="nns_pingfen_fnt" text="" letterSpacing="1.5" height="26" x="275" y="29" textAlign="center" width="47" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PublicNoticeComponentGameSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="500">
+	<e:Group id="mainGroup" height="36" width="500" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="publicNoticeBg" width="500" source="laba_diban_png" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0" scale9Grid="252,10,12,8"/>
+		<e:Image id="publicNoticeBgLaBa" source="laba_png" verticalCenter="0" y="2" scaleX="1" scaleY="1" left="12" visible="false"/>
+		<e:Rect id="rects" width="400" height="30" fillAlpha="1" strokeAlpha="1" horizontalCenter="0" x="50" scaleX="1" scaleY="1" verticalCenter="0" visible="false"/>
+		<e:Label id="publicNoticeLable" text="跑马灯shy" size="22"    anchorOffsetX="0" anchorOffsetY="0" x="450" textAlign="left" textColor="0xffffff" scaleX="1" scaleY="1" verticalCenter="0"/>
+	</e:Group>
+
+
+
+
+</e:Skin>

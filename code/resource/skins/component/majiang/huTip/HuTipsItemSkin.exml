@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="majiang.HuTipsItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:majiang="majiang.*" xmlns:w="http://ns.egret.com/wing" width="120" height="63">
+	<e:Image source="img_tc2_png" x="0" y="0" scale9Grid="11,7,70,49" width="120"/>
+	<majiang:MineZhengpai id="pai" x="4.78" y="4.2" skinName="majiang.MineZhengPaiSkin"/>
+	<e:Label text="倍" x="95.68" y="8.98" textColor="0xc9e5c7" size="20" anchorOffsetX="0"/>
+	<e:Label id="fanLabel" text="0" x="47.68" y="8.98" anchorOffsetX="0" textAlign="center" textColor="0xc9e5c7" size="20" width="48" height="20"/>
+	<e:Label id="syLabel" text="0" x="47.68" y="33.34" anchorOffsetX="0" width="48" textAlign="center" textColor="0xc9e5c7" size="20" height="20"/>
+	<e:Label text="张" x="95.68" y="33.34" textColor="0xc9e5c7" size="20"/>
+</e:Skin>

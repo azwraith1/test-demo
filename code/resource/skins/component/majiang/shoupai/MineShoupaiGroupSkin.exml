@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="majiang.MineShoupaiGroupSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:game="game.*" xmlns:majiang="majiang.*">
+	<e:Group id="mainGroup" touchChildren="true" touchThrough="true" anchorOffsetX="0" width="1066" height="111">
+		<e:Image id="image1" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="mine_shoupai_1_png"/>
+		<e:Image id="image2" x="76" y="0" source="mine_shoupai_1_png"/>
+		<e:Image id="image3" x="152" y="0" source="mine_shoupai_1_png"/>
+		<e:Image id="image4" x="228" y="0" source="mine_shoupai_1_png"/>
+		<e:Image id="image5" x="304" y="0" source="mine_shoupai_1_png"/>
+		<e:Image id="image6" x="380" y="0" source="mine_shoupai_1_png"/>
+		<e:Image id="image7" x="456" y="0" source="mine_shoupai_1_png"/>
+		<e:Image id="image8" x="532" y="0" source="mine_shoupai_1_png"/>
+		<e:Image id="image9" x="608" y="0" source="mine_shoupai_1_png"/>
+		<e:Image id="image10" source="mine_shoupai_1_png" x="684" y="0"/>
+		<e:Image id="image11" source="mine_shoupai_1_png" x="760" y="0"/>
+		
+		<e:Image id="image12" source="mine_shoupai_1_png" x="836" y="0"/>
+		<e:Image source="mine_shoupai_1_png" x="912" y="0" id="image13"/>
+		<e:Image id="image14" source="mine_shoupai_1_png" x="988" y="0"/>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+
+</e:Skin>

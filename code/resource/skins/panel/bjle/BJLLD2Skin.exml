@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BJLLD2Skin" xmlns:e="http://ns.egret.com/eui" xmlns:bjle="bjle.*" xmlns:w="http://ns.egret.com/wing" width="431" height="108">
+	<e:Image source="bjl_wg_1_png"/>
+	<e:Group width="431" height="108">
+		<bjle:BjlDLItem id="item1" x="341" y="61" skinName="BJLSmallKSkin"/>
+		<bjle:BjlDLItem x="351" y="71" skinName="BJLSmallKSkin" id="item2"/>
+		<bjle:BjlDLItem x="361" y="81" skinName="BJLSmallKSkin" id="item3"/>
+		<bjle:BjlDLItem x="371" y="91" skinName="BJLSmallKSkin" id="item4"/>
+		<bjle:BjlDLItem x="381" y="101" skinName="BJLSmallKSkin" id="item5"/>
+		<bjle:BjlDLItem x="391" y="111" skinName="BJLSmallKSkin" id="item6"/>
+		<bjle:BjlDLItem x="401" y="121" skinName="BJLSmallKSkin" id="item7"/>
+		<bjle:BjlDLItem x="411" y="131" skinName="BJLSmallKSkin" id="item8"/>
+		<bjle:BjlDLItem x="421" y="141" skinName="BJLSmallKSkin" id="item9"/>
+		<bjle:BjlDLItem x="431" y="151" skinName="BJLSmallKSkin" id="item10"/>
+		<bjle:BjlDLItem x="441" y="161" skinName="BJLSmallKSkin" id="item11"/>
+		<bjle:BjlDLItem x="451" y="171" skinName="BJLSmallKSkin" id="item12"/>
+		<bjle:BjlDLItem x="461" y="181" skinName="BJLSmallKSkin" id="item13"/>
+		<bjle:BjlDLItem x="471" y="191" skinName="BJLSmallKSkin" id="item14"/>
+		<bjle:BjlDLItem x="481" y="201" skinName="BJLSmallKSkin" id="item15"/>
+		<bjle:BjlDLItem x="491" y="211" skinName="BJLSmallKSkin" id="item16"/>
+		<bjle:BjlDLItem x="501" y="221" skinName="BJLSmallKSkin" id="item17"/>
+		<bjle:BjlDLItem x="511" y="231" skinName="BJLSmallKSkin" id="item18"/>
+		<bjle:BjlDLItem x="521" y="241" skinName="BJLSmallKSkin" id="item19"/>
+		<bjle:BjlDLItem x="531" y="251" skinName="BJLSmallKSkin" id="item20"/>
+		<bjle:BjlDLItem x="541" y="261" skinName="BJLSmallKSkin" id="item21"/>
+		<bjle:BjlDLItem x="551" y="271" skinName="BJLSmallKSkin" id="item22"/>
+		<bjle:BjlDLItem x="561" y="281" skinName="BJLSmallKSkin" id="item23"/>
+		<bjle:BjlDLItem x="571" y="291" skinName="BJLSmallKSkin" id="item24"/>
+		<e:layout>
+			<e:HorizontalLayout gap="1" paddingLeft="0"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

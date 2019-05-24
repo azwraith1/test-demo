@@ -1,0 +1,14 @@
+{"file":"bjle_minewin.png","frames":{
+"0":{"x":0,"y":63,"w":23,"h":31,"offX":2,"offY":0,"sourceW":27,"sourceH":32},
+"1":{"x":68,"y":0,"w":18,"h":31,"offX":2,"offY":0,"sourceW":22,"sourceH":32},
+"2":{"x":24,"y":31,"w":22,"h":31,"offX":2,"offY":0,"sourceW":26,"sourceH":32},
+"3":{"x":24,"y":0,"w":22,"h":31,"offX":2,"offY":0,"sourceW":26,"sourceH":32},
+"4":{"x":0,"y":32,"w":24,"h":31,"offX":2,"offY":0,"sourceW":28,"sourceH":32},
+"5":{"x":46,"y":0,"w":22,"h":30,"offX":2,"offY":1,"sourceW":26,"sourceH":32},
+"6":{"x":0,"y":94,"w":23,"h":31,"offX":2,"offY":0,"sourceW":27,"sourceH":32},
+"7":{"x":23,"y":94,"w":23,"h":30,"offX":2,"offY":1,"sourceW":27,"sourceH":32},
+"8":{"x":0,"y":0,"w":24,"h":32,"offX":2,"offY":0,"sourceW":28,"sourceH":32},
+"9":{"x":23,"y":63,"w":23,"h":31,"offX":2,"offY":0,"sourceW":27,"sourceH":32},
+"+":{"x":46,"y":30,"w":22,"h":24,"offX":2,"offY":4,"sourceW":26,"sourceH":32},
+".":{"x":86,"y":0,"w":10,"h":12,"offX":2,"offY":19,"sourceW":14,"sourceH":32},
+" ":{"x":96,"y":0,"w":5,"h":5,"offX":0,"offY":0,"sourceW":7,"sourceH":32}}}

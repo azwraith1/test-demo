@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BJLTimeBarSkin" xmlns:e="http://ns.egret.com/eui" width="103" height="109">
+	<e:Image y="0" x="0" source="bjle_djs_clock_png"/>
+	<e:BitmapLabel id="timeLabel" text="" anchorOffsetX="0" textAlign="center" font="bjle_clock_fnt" verticalCenter="3" letterSpacing="-5" horizontalCenter="0" width="60" height="35"/>
+</e:Skin>

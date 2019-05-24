@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RBWarQSBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:rbwar="rbwar.*" xmlns:w="http://ns.egret.com/wing" width="724" height="78">
+	<e:Image source="rb_qs_db_png"/>
+	<e:Group id="pointGroup" x="14" y="5.33">
+		<e:Image source="rb_poing_red_png"/>
+		<e:Image source="rb_poing_red_png" x="10" y="10"/>
+		<e:Image source="rb_poing_red_png" x="20" y="20"/>
+		<e:Image source="rb_poing_red_png" x="30" y="30"/>
+		<e:Image source="rb_poing_red_png" x="40" y="40"/>
+		<e:Image source="rb_poing_red_png" x="50" y="50"/>
+		<e:Image source="rb_poing_red_png" x="60" y="60"/>
+		<e:Image x="70" y="70" source="rb_point_black_png"/>
+		<e:Image source="rb_poing_red_png" x="80" y="80"/>
+		<e:Image source="rb_poing_red_png" x="90" y="90"/>
+		<e:Image source="rb_poing_red_png" x="100" y="100"/>
+		<e:Image source="rb_poing_red_png" x="110" y="110"/>
+		<e:Image source="rb_poing_red_png" x="120" y="120"/>
+		<e:Image source="rb_poing_red_png" x="130" y="130"/>
+		<e:Image source="rb_poing_red_png" x="140" y="140"/>
+		<e:Image source="rb_poing_red_png" x="150" y="150"/>
+		<e:Image source="rb_poing_red_png" x="160" y="160"/>
+		<e:Image source="rb_poing_red_png" x="170" y="170"/>
+		<e:Image source="rb_poing_red_png" x="180" y="180"/>
+		<e:Image source="rb_poing_red_png" x="190" y="190"/>
+		<e:layout>
+			<e:HorizontalLayout gap="1.3"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="textGroup" x="14" y="32.67">
+		<e:layout>
+		<e:HorizontalLayout gap="-6"/>
+		</e:layout>
+		<rbwar:RBWarQSText x="9" y="6.340000000000003" scaleX="1" scaleY="1" skinName="RBWarQSTextSkin"/>
+		<rbwar:RBWarQSText x="19" y="16.340000000000003" scaleX="1" scaleY="1" skinName="RBWarQSTextSkin"/>
+		<rbwar:RBWarQSText x="29" y="26.340000000000003" scaleX="1" scaleY="1" skinName="RBWarQSTextSkin"/>
+		<rbwar:RBWarQSText x="39" y="36.34" scaleX="1" scaleY="1" skinName="RBWarQSTextSkin"/>
+		<rbwar:RBWarQSText x="49" y="46.34" scaleX="1" scaleY="1" skinName="RBWarQSTextSkin"/>
+		<rbwar:RBWarQSText x="59" y="56.34" scaleX="1" scaleY="1" skinName="RBWarQSTextSkin"/>
+		<rbwar:RBWarQSText x="69" y="66.34" scaleX="1" scaleY="1" skinName="RBWarQSTextSkin"/>
+		<rbwar:RBWarQSText x="79" y="76.34" scaleX="1" scaleY="1" skinName="RBWarQSTextSkin"/>
+		<rbwar:RBWarQSText x="89" y="86.34" scaleX="1" scaleY="1" skinName="RBWarQSTextSkin"/>
+		<rbwar:RBWarQSText x="99" y="96.34" scaleX="1" scaleY="1" skinName="RBWarQSTextSkin"/>
+	</e:Group>
+	<e:Button id="qsBtn" label="" x="608" y="8">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="rb_qs_btn1_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

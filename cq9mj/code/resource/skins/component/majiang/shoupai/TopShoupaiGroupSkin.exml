@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="majiang.TopShoupaiGroupSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="mainGroup" width="505" height="53">
+		<e:Image id="image14" y="0" source="top_shoupai_14_png"/>
+		<e:Image id="image13" y="0" x="36" source="top_shoupai_13_png"/>
+		<e:Image id="image12" x="71" y="0" source="top_shoupai_12_png"/>
+		<e:Image id="image11" x="107" y="0" source="top_shoupai_11_png"/>
+		<e:Image id="image10" x="142.8" y="0" source="top_shoupai_10_png"/>
+		<e:Image id="image9" x="178.2" source="top_shoupai_9_png" y="0"/>
+		<e:Image id="image8" x="214.4" source="top_shoupai_8_png" y="0"/>
+		<e:Image id="image7" x="250.5" source="top_shoupai_7_png" y="0"/>
+		<e:Image id="image6" x="285.88" source="top_shoupai_6_png" y="0"/>
+		<e:Image id="image1" x="462.46" y="0" source="top_shoupai_1_png"/>
+		<e:Image id="image2" x="426.78" y="0" anchorOffsetX="0" width="41" source="top_shoupai_2_png"/>
+		<e:Image x="392.02" id="image3" y="0" source="top_shoupai_3_png"/>
+		<e:Image id="image4" x="355.86" source="top_shoupai_4_png" y="0"/>
+		<e:Image id="image5" x="321.68" source="top_shoupai_5_png" y="0"/>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

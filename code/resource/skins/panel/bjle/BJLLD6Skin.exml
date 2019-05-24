@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BJLLD6Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="bjl_wg_3_png"/>
+	<e:Image x="12.4" source="bjle_xyj_zhuang_png" top="2"/>
+	<e:Image x="122" source="bjle_xyj_xian_png" top="2"/>
+	<e:Image id="zitem1" x="13" y="31" source="" width="17" height="17"/>
+	<e:Image id="zitem2" x="43" y="31" source="" width="17" height="17"/>
+	<e:Image id="zitem3" x="74" width="17" height="17" source="" y="31"/>
+	<e:Image id="xitem1" x="124" width="17" height="17" source="" y="31"/>
+	<e:Image id="xitem2" x="154" width="17" height="17" source="" y="31"/>
+	<e:Image id="xitem3" x="184" width="17" height="17" source="" y="31"/>
+</e:Skin>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BJLHallBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="238">
+	<e:Group anchorOffsetX="0" anchorOffsetY="0" x="0" width="720" height="238" y="0">
+		<e:Image id="rbw_zh" scaleX="1" scaleY="1" x="0" y="0" source="bjl_hall_ld_png"/>
+		<e:BitmapLabel id="timeLable" anchorOffsetY="0" anchorOffsetX="0" text="09" letterSpacing="-5" textAlign="center" horizontalCenter="316.5" verticalCenter="-43.5" font="bjle_clock_fnt" scaleX="0.7" scaleY="0.7" width="70" height="35"/>
+		<e:Image id="runstats" scaleX="0.7" scaleY="0.7" y="60" source="bjle_game_xzz_png" x="568"/>
+		<e:Button id="runGame" label="Button" x="568" y="147">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bjl_hall_jryx_png" source.down="bjl_hall_jryx_png"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="zhunru" text="限额：0-900" x="560.67" y="102.33" textColor="0xefefef" size="20" anchorOffsetX="0" width="144.46" textAlign="center"/>
+		<e:Group id="ldGroup" width="541.33" height="162" x="18.67" y="38" anchorOffsetX="0" anchorOffsetY="0"/>
+	</e:Group>
+</e:Skin>

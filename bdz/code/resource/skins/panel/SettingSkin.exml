@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SettingSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16589d8e735"/>
+
+	<e:Group id="resizeGroup" width="1280" height="720">
+		<e:Rect id="rects" fillColor="0x000000" fillAlpha="0.4" scaleX="1" scaleY="1" left="0" top="0" right="0" bottom="0"/>
+		<e:Group anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" width="655" height="416" horizontalCenter="0" verticalCenter="0">
+			<e:Image anchorOffsetY="0" anchorOffsetX="0" scale9Grid="225,120,188,72" width="655" height="416" source="panel_bg_png" x="0" y="0"/>
+
+
+			<e:Group id="musicGroup" anchorOffsetX="0" anchorOffsetY="0" x="137" y="223">
+			<e:ToggleSwitch id="musicBtn" label="ToggleButton" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width.disabled="100%" height.disabled="100%" source="sz_btn_guan_png" source.down="sz_btn_kai_png"/>
+					<e:Image source="pg_png" includeIn="down" x="75.04" y="2"/>
+					<e:Image includeIn="up" source="pg_png" y="2"/>
+				</e:Skin>
+				</e:skinName>
+			</e:ToggleSwitch>
+			</e:Group>
+			<e:Group id="soundGroup" x="404" y="223">
+			<e:ToggleSwitch id="soundBtn" label="ToggleButton" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width.disabled="100%" height.disabled="100%" source="sz_btn_guan_png" source.down="sz_btn_kai_png"/>
+					<e:Image source="pg_png" includeIn="down" y="2" x="74"/>
+					<e:Image includeIn="up" source="pg_png" y="2"/>
+				</e:Skin>
+				</e:skinName>
+			</e:ToggleSwitch>
+			</e:Group>
+			<e:Button id="closeBtn" label="Button" anchorOffsetY="0" x="597" y="4">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image source="close_btn_png" source.down="close_btn_png"/>
+					</e:Skin>
+				</e:skinName>
+
+
+			</e:Button>
+			<e:Image source="panel_title_bg_png" x="190" y="0"/>
+			<e:Image source="help_title_bg_png" scaleX="0.6" scaleY="0.6" y="7" x="265"/>
+			<e:Image x="380.02" source="help_sound_bg_png" scaleX="0.7" scaleY="0.7" y="154"/>
+			<e:Image x="114.01" source="help_music_bg_png" scaleX="0.7" scaleY="0.7" y="154"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

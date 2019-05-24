@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RBWJiLuSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:rbwar="rbwar.*">
+	<e:Group id="resizeGroup" width="1280" height="720" y="0" x="0">
+		<e:Rect id="rect" scaleX="1" scaleY="1" fillAlpha="0.3" top="0" left="0" right="0" bottom="0"/>
+		<e:Group scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+			<e:Image source="rbw_plane_png" width="1024" height="643" y="0" x="0"/>
+			<e:Image source="rbw_diban_png" width="981" anchorOffsetY="0" height="539" x="22" y="80"/>
+			<e:Image source="rbw_pjbh_png" height="35" width="122" x="96.91" y="96"/>
+			<e:Image source="rbw_fanjian_png" width="64" height="35" x="358.91" y="96"/>
+			<e:Image width="64" height="35" source="rbw_yinkui_png" x="537.56" y="96"/>
+			<e:Image width="64" height="35" source="rbw_shijian_png" x="762.7" y="96"/>
+			<e:Image source="rbw_jilu_png" width="93" height="48" x="462.06" y="14"/>
+			<e:Button id="closeBtn" label="" x="942" y="4" scaleX="1" scaleY="1" width="58" height="58">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:rbwar="rbwar.*">
+				<e:Image width="100%" height="100%" source="rbw_close_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Scroller width="928" height="432" anchorOffsetX="0" anchorOffsetY="0" x="48" y="162">
+			<e:Group id="jiluGroup" width="928" height="432">
+				<e:layout>
+					<e:VerticalLayout paddingTop="2"/>
+				</e:layout>
+			</e:Group>
+			</e:Scroller>
+		</e:Group>
+		<e:Label id="tishiyu" text="暂无游戏记录" horizontalCenter="0" verticalCenter="0" size="36" textColor="0xFDDC9E" visible="false"/>
+	</e:Group>
+	<w:Config id="1683abbbcef"/>
+</e:Skin>

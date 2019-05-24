@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="majiang.RightShoupaiGroupSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="mainGroup" width="44" x="0">
+		<e:Image id="image14" source="right_shoupai_14_png" y="0" scaleX="1" scaleY="1"/>
+		<e:Image id="image13" source="right_shoupai_13_png" x="5.01" y="23.96" scaleX="1" scaleY="1"/>
+		<e:Image id="image12" source="right_shoupai_12_png" x="10.83" y="48.34" scaleX="1" scaleY="1"/>
+		<e:Image id="image11" source="right_shoupai_11_png" x="15.99" y="74.49" scaleX="1" scaleY="1"/>
+		<e:Image id="image10" source="right_shoupai_10_png" x="20.66" y="101.31" scaleX="1" scaleY="1"/>
+		<e:Image id="image9" source="right_shoupai_9_png" x="26.81" y="128.13" scaleX="1" scaleY="1"/>
+		<e:Image id="image8" source="right_shoupai_8_png" x="32.16" y="156.28" scaleX="1" scaleY="1"/>
+		<e:Image id="image7" source="right_shoupai_7_png" x="37.99" y="185" scaleX="1" scaleY="1"/>
+		<e:Image id="image6" source="right_shoupai_6_png" x="43.33" y="214.49" scaleX="1" scaleY="1"/>
+		<e:Image id="image5" source="right_shoupai_5_png" x="50.15" y="244" scaleX="1" scaleY="1"/>
+		<e:Image id="image4" source="right_shoupai_4_png" x="55.97" y="274.82" scaleX="1" scaleY="1"/>
+		<e:Image id="image3" source="right_shoupai_3_png" x="62" y="306" scaleX="1" scaleY="1"/>
+		<e:Image id="image2" source="right_shoupai_2_png" x="68.67" y="339" scaleX="1" scaleY="1"/>
+		<e:Image id="image1" x="75.49" y="372.49" scaleX="1" scaleY="1" source="right_shoupai_1_png"/>
+	</e:Group>
+</e:Skin>

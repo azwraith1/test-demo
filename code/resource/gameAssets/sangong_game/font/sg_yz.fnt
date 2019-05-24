@@ -1,0 +1,13 @@
+{"file":"sg_yz.png","frames":{
+"x":{"x":0,"y":90,"w":18,"h":22,"offX":2,"offY":6,"sourceW":22,"sourceH":28},
+"0":{"x":43,"y":0,"w":19,"h":28,"offX":2,"offY":0,"sourceW":23,"sourceH":28},
+"1":{"x":20,"y":90,"w":10,"h":28,"offX":2,"offY":0,"sourceW":14,"sourceH":28},
+"2":{"x":0,"y":30,"w":19,"h":28,"offX":2,"offY":0,"sourceW":23,"sourceH":28},
+"3":{"x":40,"y":60,"w":18,"h":28,"offX":2,"offY":0,"sourceW":22,"sourceH":28},
+"4":{"x":0,"y":0,"w":20,"h":28,"offX":2,"offY":0,"sourceW":24,"sourceH":28},
+"5":{"x":22,"y":0,"w":19,"h":28,"offX":2,"offY":0,"sourceW":23,"sourceH":28},
+"6":{"x":42,"y":30,"w":18,"h":28,"offX":2,"offY":0,"sourceW":22,"sourceH":28},
+"7":{"x":21,"y":30,"w":19,"h":28,"offX":2,"offY":0,"sourceW":23,"sourceH":28},
+"8":{"x":0,"y":60,"w":18,"h":28,"offX":2,"offY":0,"sourceW":22,"sourceH":28},
+"9":{"x":20,"y":60,"w":18,"h":28,"offX":2,"offY":0,"sourceW":22,"sourceH":28},
+" ":{"x":32,"y":90,"w":5,"h":5,"offX":0,"offY":0,"sourceW":6,"sourceH":28}}}

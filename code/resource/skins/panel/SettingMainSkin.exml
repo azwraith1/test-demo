@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SettingMainSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16589d8e735"/>
+	<e:Group id="resizeGroup" width="1280" height="720">
+		<e:Rect id="rects" fillColor="0x000000" fillAlpha="0.4" scaleX="1" scaleY="1" left="0" top="0" right="0" bottom="0" locked="true"/>
+		<e:Group anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+			<e:Image anchorOffsetY="0" anchorOffsetX="0" x="0" y="0" source="main_alert_db1_png" scale9Grid="225,120,188,72" scaleX="0.52" scaleY="0.52"/>
+			<e:Image anchorOffsetY="0" anchorOffsetX="0" scale9Grid="225,120,188,72" y="68" source="main_alert_db2_png" x="19"/>
+			<e:Image anchorOffsetY="0" anchorOffsetX="0" scale9Grid="225,120,188,72" x="-41.99" y="-32.66" source="main_alert_gaoguang_png"/>
+			<e:Button id="closeBtn" label="" anchorOffsetY="0" x="457.18" y="7">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="63" height="63">
+					<e:Image width="100%" height="100%" source="main_close_btn_png" source.down="close_btn_png" width.up="63" height.up="63" width.down="63" height.down="63"/>
+
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Group id="musicGroup" anchorOffsetX="0" anchorOffsetY="0" x="188" y="127.6">
+			<e:ToggleSwitch id="musicBtn" label="ToggleButton" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image y="0" source="main_hall_kbtn_png" source.up="main_hall_gbtn_png" source.down="main_hall_kbtn_png"/>
+						<e:Image source="main_hall_kgbtn_png" y="1.33" source.up="main_hall_kgbtn_png" y.up="2.5" y.down="2.5" x.down="134" x.up="0" x.disabled="134" y.disabled="2.5"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:ToggleSwitch>
+			</e:Group>
+			<e:Group id="soundGroup" x="188" y="206.93">
+				<e:ToggleSwitch id="soundBtn" label="ToggleButton" scaleX="1" scaleY="1">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image y="0" source="main_hall_kbtn_png" source.up="main_hall_gbtn_png" source.down="main_hall_kbtn_png"/>
+						<e:Image source="main_hall_kgbtn_png" y="1.33" source.up="main_hall_kgbtn_png" y.up="2.5" y.down="2.5" x.down="134" x.up="0" x.disabled="134" y.disabled="2.5"/>
+					</e:Skin>
+					</e:skinName>
+				</e:ToggleSwitch>
+
+
+			</e:Group>
+			<e:Image y="0" source="main_alert_title_png" horizontalCenter="0"/>
+			<e:Image y="7" x="210.5" source="main_hall_sz_png"/>
+			<e:Image x="77" y="204.66" source="main_hall_wz_yx_png"/>
+			<e:Image x="77" y="126" source="main_hall_wz_yy_png"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

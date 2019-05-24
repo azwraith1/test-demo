@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZajinhuaYZBtn" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="127" height="123" x="0" y="0">
+		<e:Image id="dbImage" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" source="zjh_cm1_png" width="112" height="112"/>
+
+		<e:BitmapLabel id="valueLabel" text="19" anchorOffsetX="0" textAlign="center" letterSpacing="-2" horizontalCenter="0" verticalCenter="0.5" font="zjh_cm_number_fnt" scaleX="0.8" scaleY="0.8"/>
+	</e:Group>
+</e:Skin>

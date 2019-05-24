@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BJLResultSkin1" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="17" width="17">
+	<e:Image id="zx_quan" source="bjl_blue_big_quan_png" y="1" x="1" width="15" height="15" visible="false"/>
+	<e:Image id="zx_xiaoyuan" width="7" height="7" source="bjl_blue_dian_png" visible="false"/>
+	<e:Image id="zx_xiegang" source="bjl_blue_xie_png" y="0" x="0" width="7" height="7" visible="false"/>
+	<e:Image id="zx_hexiegang" source="bjl_blue_xie_png" height="17" width="17" visible="false"/>
+</e:Skin>

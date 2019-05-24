@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FreeGameSetSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Group id="resizeGroup" horizontalCenter="0">
+		<e:Rect alpha="0" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" width="1280"/>
+		<e:Group height="720" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0">
+			<e:Image anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" height="542" y="90" width="1005" horizontalCenter="1.5" source="dntg_common_bg_png"/>
+			<e:Group width="936" height="58.36" anchorOffsetX="0" horizontalCenter="0" anchorOffsetY="0" y="157" x="172" scaleX="1" scaleY="1">
+			<e:Button id="auto_5" label="" x="9.13" verticalCenter="0.3200000000000003">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="dntg_number_2_5_1_png" source.down="dntg_number_2_5_2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Button id="auto_10" label="" x="161.51" verticalCenter="0.3200000000000003">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="dntg_number_2_10_1_png" source.down="dntg_number_2_10_2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Button id="auto_25" label="" x="314.53" verticalCenter="0.3200000000000003">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="dntg_number_2_25_1_png" source.down="dntg_number_2_25_2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Button id="auto_50" label="" x="468.9" verticalCenter="0.3200000000000003">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="dntg_number_2_50_1_png" source.down="dntg_number_2_50_2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Button id="auto_100" label="" x="623.85" verticalCenter="0.3200000000000003">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="dntg_number_2_100_1_png" source.down="dntg_number_2_100_2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Button id="auto_wuqiong" label="" x="781.38" verticalCenter="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="dntg_number_2_99999_1_png" source.down="dntg_number_2_99999_2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			</e:Group>
+			<e:Image horizontalCenter="0" y="214" x="146" scaleX="1" scaleY="1" source="dntg_auto_db2_png"/>
+			<e:Image y="269" horizontalCenter="10.5" x="498" scaleX="1" scaleY="1" source="dntg_wenzi_bg_png" anchorOffsetX="0" width="301" scale9Grid="9,8,34,24" anchorOffsetY="0" height="41"/>
+			<e:Image id="select_kuang" horizontalCenter="-102" x="520" y="272" scaleX="1" scaleY="1" source="dntg_auto_2_png"/>
+			<e:Image id="select_ima" horizontalCenter="-93.5" x="518" y="266" scaleX="1" scaleY="1" source="dntg_auto_1_png" visible="false"/>
+			<e:Label text="免费游戏时停止" anchorOffsetX="0" width="238" anchorOffsetY="0" height="48" textAlign="center" verticalAlign="middle" horizontalCenter="38" x="559" y="266" scaleX="1" scaleY="1"/>
+			<e:Image id="close_btn" right="5" top="90" x="1088" y="89" scaleX="1" scaleY="1" source="dntg_close_record_png"/>
+			<e:Image y="97" horizontalCenter="0.5" x="552" scaleX="1" scaleY="1" source="dntg_auto_title_png"/>
+			<e:Group y="318" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" x="149" scaleX="1" scaleY="1">
+			<e:Image y="0" horizontalCenter="0" source="dntg_auto_db_png"/>
+			<e:HSlider id="oneMax" width="250" height="22" x="462.36" y="37.08" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+				<e:Skin states="up, down">
+				<e:Image id="track" source="dntg_auto_4_png" width="250" height="10"/>
+				<e:Image id="trackHighlight" source="dntg_auto_5_png" scale9Grid="15,12,2,1"/>
+				<e:Image id="thumb" source="dntg_auto_3_png" y="-18"/>
+				</e:Skin>
+			</e:HSlider>
+			<e:HSlider id="totalAdd" width="250" height="22" x="462.36" y="111.54" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+				<e:Skin states="up, down">
+				<e:Image id="track" source="dntg_auto_4_png" width="250" height="10"/>
+				<e:Image id="trackHighlight" source="dntg_auto_5_png" scale9Grid="15,12,2,1"/>
+				<e:Image id="thumb" source="dntg_auto_3_png" y="-18"/>
+				</e:Skin>
+			</e:HSlider>
+			<e:HSlider id="totalWin" width="250" height="22" x="462.36" y="188.34" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+				<e:Skin states="up, down">
+				<e:Image id="track" source="dntg_auto_4_png" width="250" height="10"/>
+				<e:Image id="trackHighlight" source="dntg_auto_5_png" scale9Grid="15,12,2,1"/>
+				<e:Image id="thumb" source="dntg_auto_3_png" y="-18"/>
+				</e:Skin>
+			</e:HSlider>
+			<e:Label text="单次赢取超过时停止" x="69" y="18" anchorOffsetX="0" width="320" anchorOffsetY="0" height="48" textAlign="center" verticalAlign="middle" scaleX="1" scaleY="1"/>
+			<e:Label text="总押注超过时停止" x="69" y="95.5" anchorOffsetX="0" width="320" anchorOffsetY="0" height="48" textAlign="center" verticalAlign="middle" scaleX="1" scaleY="1"/>
+			<e:Label text="总赢取超过时停止" x="69" y="167" anchorOffsetX="0" width="320" anchorOffsetY="0" height="48" textAlign="center" verticalAlign="middle" scaleX="1" scaleY="1"/>
+			<e:Label id="max_num" text="" x="763.5" y="31" anchorOffsetX="0" width="157.83" anchorOffsetY="0" height="27.33" textAlign="center" scaleX="1" scaleY="1"/>
+			<e:Label id="totalAdd_num" text="" x="767.09" y="103.17" anchorOffsetX="0" width="159.33" anchorOffsetY="0" height="27.33" textAlign="center" scaleX="1" scaleY="1"/>
+			<e:Label id="totalWin_num" text="" x="770.67" y="177.34" anchorOffsetX="0" width="150.66" anchorOffsetY="0" height="27.33" textAlign="center" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Button id="start_auto_play" label="" horizontalCenter="-1.5" y="545" x="143" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="dntg_auto_btn_png" source.down="dntg_auto_btn_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Button id="free_times_5" label="" y="217" anchorOffsetY="0" horizontalCenter="273" x="853" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="dntg_number_1_5_1_png" source.down="dntg_number_1_5_2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Button id="free_times_10" label="" y="217" horizontalCenter="133" x="713" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="dntg_number_1_10_1_png" source.down="dntg_number_1_10_2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Button id="free_times_15" label="" y="217" horizontalCenter="-9" x="571" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="dntg_number_1_15_1_png" source.down="dntg_number_1_15_2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Button id="free_times_20" label="" y="217" horizontalCenter="-153" x="427" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="dntg_number_1_20_1_png" source.down="dntg_number_1_20_2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Label text="免费游戏" x="106.18" y="218.33" anchorOffsetX="0" width="184.67" anchorOffsetY="0" height="42" verticalAlign="middle" textAlign="center" scaleX="1" scaleY="1"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

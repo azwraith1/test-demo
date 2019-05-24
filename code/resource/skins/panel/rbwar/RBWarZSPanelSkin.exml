@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RBWarZSPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:rbwar="rbwar.*">
+	<e:Rect id="maskRect" strokeAlpha="0" fillAlpha="0.4" scaleX="1" scaleY="1" top="0" bottom="0" left="0" right="0" width="1280" height="720" x="0" y="0"/>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image source="rbw_plane_png" scaleX="1" scaleY="1"/>
+		<e:Image source="rbw_qs_db_png" y="216" x="32"/>
+		<e:Image source="rbw_qs_title_png" y="9.94" x="465"/>
+		<e:Group id="shengfuGroup" anchorOffsetY="0" x="9.09" y="78.79">
+			<e:Image source="rbw_qs_db3_png" x="0" y="-6.06" width="994"/>
+			<e:Image id="progress1" source="rbw_qs_1_db_png" x="0" width="500" y="25" scale9Grid="345,7,88,46"/>
+			<e:Image id="progress2" x="0" width="0" y="25" source="rbw_qs_2_db_png" scale9Grid="61,17,35,36"/>
+			<e:Label id="percent1" text="100%" y="41" size="37"    textAlign="center" stroke="4" strokeColor="0xe73333" x="14"/>
+			<e:Label id="percent2" text="1%" y="41" size="37"    textAlign="center" stroke="4" x="925"/>
+			<e:Group id="tipsGroup" x="483" y="18" scaleX="1" width="127" height="69">
+				<e:Image id="tipImage2" source="rbw_qs_db_5_png" scaleX="1" scaleY="1" y="7.5" x="7"/>
+			</e:Group>
+		</e:Group>
+		<e:Button id="closeBtn" label="" x="938.67" y="6.03">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="rbw_close_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="contentGroup" width="960" height="290" x="32" y="216">
+			<rbwar:RBWarZSItem id="item1" x="-0.48" y="0" skinName="RBWarZSItemSkin" anchorOffsetX="0" width="46" anchorOffsetY="0" height="286"/>
+			<rbwar:RBWarZSItem id="item2" x="47" y="0" skinName="RBWarZSItemSkin" anchorOffsetX="0" width="47" anchorOffsetY="0" height="289"/>
+			<rbwar:RBWarZSItem id="item3" x="95.66" y="0" skinName="RBWarZSItemSkin" anchorOffsetX="0" width="47" anchorOffsetY="0" height="289"/>
+			<rbwar:RBWarZSItem id="item4" x="143.32" y="0" skinName="RBWarZSItemSkin" anchorOffsetX="0" width="47" anchorOffsetY="0" height="289"/>
+			<rbwar:RBWarZSItem id="item5" x="190.65" y="0" skinName="RBWarZSItemSkin" anchorOffsetX="0" width="47" anchorOffsetY="0" height="289"/>
+			<rbwar:RBWarZSItem id="item6" x="239.33" y="0" skinName="RBWarZSItemSkin" anchorOffsetX="0" width="47" anchorOffsetY="0" height="289"/>
+			<rbwar:RBWarZSItem id="item7" x="287.13" y="0" skinName="RBWarZSItemSkin" anchorOffsetX="0" width="47" anchorOffsetY="0" height="289"/>
+			<rbwar:RBWarZSItem id="item8" x="334.64" y="0" skinName="RBWarZSItemSkin" anchorOffsetX="0" width="47" anchorOffsetY="0" height="289"/>
+			<rbwar:RBWarZSItem id="item9" x="384.19" y="0" skinName="RBWarZSItemSkin" anchorOffsetX="0" width="47" anchorOffsetY="0" height="289"/>
+			<rbwar:RBWarZSItem id="item10" x="431.71" y="0" skinName="RBWarZSItemSkin" anchorOffsetX="0" width="47" anchorOffsetY="0" height="289"/>
+			<rbwar:RBWarZSItem id="item11" x="479.22" y="0" skinName="RBWarZSItemSkin" anchorOffsetX="0" width="47" anchorOffsetY="0" height="289"/>
+			<rbwar:RBWarZSItem id="item12" x="527.26" y="0" skinName="RBWarZSItemSkin" anchorOffsetX="0" width="47" anchorOffsetY="0" height="289"/>
+			<rbwar:RBWarZSItem id="item13" x="577" y="0" skinName="RBWarZSItemSkin" anchorOffsetX="0" width="47" anchorOffsetY="0" height="289"/>
+			<rbwar:RBWarZSItem id="item14" x="624" y="0" skinName="RBWarZSItemSkin" anchorOffsetX="0" width="47" anchorOffsetY="0" height="289"/>
+			<rbwar:RBWarZSItem id="item15" x="672" y="0" skinName="RBWarZSItemSkin" anchorOffsetX="0" width="47" anchorOffsetY="0" height="289"/>
+			<rbwar:RBWarZSItem id="item16" x="720" y="0" skinName="RBWarZSItemSkin" anchorOffsetX="0" width="47" anchorOffsetY="0" height="289"/>
+			<rbwar:RBWarZSItem id="item17" x="767" y="0" skinName="RBWarZSItemSkin" anchorOffsetX="0" width="47" anchorOffsetY="0" height="289"/>
+			<rbwar:RBWarZSItem id="item18" x="815" y="0" skinName="RBWarZSItemSkin" anchorOffsetX="0" width="47" anchorOffsetY="0" height="289"/>
+			<rbwar:RBWarZSItem id="item19" x="864" y="0" skinName="RBWarZSItemSkin" anchorOffsetX="0" width="47" anchorOffsetY="0" height="289"/>
+			<rbwar:RBWarZSItem id="item20" skinName="RBWarZSItemSkin" anchorOffsetX="0" width="47" anchorOffsetY="0" height="289" x="911" y="0"/>
+		</e:Group>
+		<e:Group id="group1" width="950" height="43" y="522" x="37">
+			<e:layout>
+				<e:HorizontalLayout gap="0"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="group2" width="950" height="43" y="577.45" x="37">
+			<e:layout>
+				<e:HorizontalLayout gap="0"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

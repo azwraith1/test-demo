@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DNTGLoadingSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="resizeGroup" width="1280" height="720">
+		<e:Image id="loadingbg" left="0" top="0" right="0" bottom="0" alpha="1" x="0" y="0" scaleX="1" scaleY="1"
+		         source="dntg_loading_bg_jpg" />
+		<e:Group left="0" right="0" top="0" bottom="0">
+			<e:Image id="tipLabel" fillMode="clip" bottom="69" source="dntg_loading_4_png" horizontalCenter="0" x="601" y="633" scaleX="1" scaleY="1"/>
+			<e:Group id="m_pProgressGroup" scaleX="1" scaleY="1" bottom="31" horizontalCenter="0" x="324" y="667">
+				<e:Image source="dntg_loading_2_png" x="0" y="1"/>
+				<e:Image id="progressBar" fillMode="clip" scaleX="1" scaleY="1" source="dntg_loading_3_png" y="2.8" x="1" width="0"/>
+			</e:Group>
+
+		</e:Group>
+		<e:Group id="clickGroup2" horizontalCenter="0" bottom="-2" x="390" y="588" scaleX="1" scaleY="1">
+			<e:Image id="clickIma" source="dntg_click_png" y="68.51999999999998" horizontalCenter="0" x="-250" scaleX="1" scaleY="1" visible="false"/>
+			<e:Image id="startText" source="dntg_click_start_png" y="78" horizontalCenter="0" x="-108" scaleX="1" scaleY="1" visible="false"/>
+		</e:Group>
+
+
+
+
+
+	</e:Group>
+</e:Skin>

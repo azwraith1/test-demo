@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LaohuLoadingSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="resizeGroup" width="1280" height="720" x="0">
+		<e:Group width="1280" height="720" horizontalCenter="0" verticalCenter="0">
+			<e:Image top="0" left="1" right="-1" bottom="0" source="tg_loading_json.loading2" x="-13" y="-23.000000000000004" scaleX="1" scaleY="1"/>
+			<e:Image id="loadingBar1" source="tg_loading_json.tg_loading_1" horizontalCenter="0" bottom="52" x="304.00000000000006" y="615" scaleX="1" scaleY="1"/>
+			<e:Image id="loadingBar2" horizontalCenter="0.5" bottom="56" source="tg_loading_json.tg_loading_2" x="310" y="620" scaleX="1" scaleY="1"/>
+			<e:Image id="loadingBar3" source="tg_loading_json.tg_loading_3" left="326" bottom="59" width="0" x="312" y="622.0000000000001" scaleX="1" scaleY="1"/>
+			<e:Image id="loadingtext1" source="tg_loading_json.tg_loading_text" horizontalCenter="0.5" bottom="90" x="587" y="589" scaleX="1" scaleY="1"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

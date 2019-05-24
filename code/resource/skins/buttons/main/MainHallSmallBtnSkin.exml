@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainHallSmallBtnSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="230" height="214">
+	<e:Image x="0" y="-25" source="main_hall_img_4_png" scaleX="0.9" scaleY="0.9"/>
+	<e:Image source="main_hall_img_3_png" x="0" y="-25" scaleX="0.9" scaleY="0.9"/>
+	<e:Group id="dbGroup" horizontalCenter="-4" verticalCenter="-21"/>
+	<e:Image y="182" source="main_hall_img_13_png" x="43"/>
+	<e:Label id="pepleCountLabel" text="30000" y="185.15" anchorOffsetX="0" width="106" textAlign="center" size="20" x="78.5"/>
+	<e:Image source="main_hall_img_17_png" x="28" y="102" scaleX="0.9" scaleY="0.9"/>
+	<e:Image id="titleImage" y="113" source="main_title_slot_png" scaleX="0.9" scaleY="0.9" horizontalCenter="0"/>
+	<e:Image id="hotImage" y="50.4" x="146.2" source="main_hall_img_hot_png" scaleX="0.4" scaleY="0.4" visible="false"/>
+	<e:Group width="142" height="169" x="146.2" y="50.4" scaleX="0.4" scaleY="0.4" id="hotImageGroup" visible="false"/>
+	<e:Image id="newImage" y="61.95" x="144.25" scaleX="0.6" scaleY="0.6" source="main_hall_img_new_png" visible="false"/>
+</e:Skin>

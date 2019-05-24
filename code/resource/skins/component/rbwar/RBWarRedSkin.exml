@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RBWarRedSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="412" height="297">
+	<e:Label id="peillabel" text="" x="11.07" y="212.86"    anchorOffsetX="0" width="156.58" size="35" textAlign="center" textColor="0x57BABD" height="35"/>
+	<e:Image source="rb_image_3_png" scaleX="1" scaleY="1"/>
+	<e:Image id="blinkImage" scaleX="1" scaleY="1" source="rb_image_10_png" visible="false"/>
+	<e:Image source="rb_title_red_png" x="23.34" y="4"/>
+	<e:Image source="rb_image7_png" y="7" x="250"/>
+	<e:Label id="mineLabel" text="" y="8"    anchorOffsetX="0" width="140" size="25" textColor="0x30B8D5" textAlign="center" x="257" height="25"/>
+	<e:Image source="rb_image_5_png" x="0.43" y="38.16" touchEnabled="false"/>
+	<e:Label id="totalLabel" text="" y="6" textColor="0xFFFFFF"    anchorOffsetX="0" width="172" x="100" anchorOffsetY="0" height="32"/>
+</e:Skin>

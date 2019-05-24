@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SDMNScrollerSkin" width="1010" height="540" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:sdmn="sdmn.*">
+	<e:Scroller id="scroller" width="1010" height="540" y="0">
+		<e:Group id="itemGroup">
+			<sdmn:SDMNScrollerItem id="item1" width="202" height="540" x="0" y="0"/>
+			<sdmn:SDMNScrollerItem id="item2" width="202" height="540" x="202" y="0"/>
+			<sdmn:SDMNScrollerItem id="item3" width="202" height="540" x="404" y="0"/>
+			<sdmn:SDMNScrollerItem id="item4" width="202" height="540" x="606" y="0"/>
+			<sdmn:SDMNScrollerItem id="item5" width="202" height="540" x="808" y="0"/>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

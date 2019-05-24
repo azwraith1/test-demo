@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BDZHeaderSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="130" height="185">
+	<e:Image id="headerMask" source="bdz_header_img_png" y="8" x="8"/>
+	<e:Image id="headerImage" y="8" source="hall_header_2_3_png" width="120" height="120" horizontalCenter="0"/>
+	<e:Image source="bdz_header_msk_png" x="5" y="6"/>
+	<e:Image source="bdz_header_namedb_png" y="130" x="1"/>
+	<e:Label id="nameLabel" text="我的名字六字" y="135.4" size="20" textColor="0xafbfbd" fontFamily="SimHei" horizontalCenter="0.5"/>
+	<e:Label id="goldLabel" text="0" y="162.4" size="20" horizontalCenter="0.5" fontFamily="SimHei" textColor="0xffffff" anchorOffsetX="0" width="123" textAlign="center"/>
+	<e:Image id="bossImage" source="bdz_dealer_png" y="-12" x="37" visible="false"/>
+	<e:Rect id="headerRect" width="130" height="145" fillAlpha="0.5" y="-17.35" x="1" anchorOffsetY="0" visible="false"/>
+	<e:BitmapLabel id="lsLabel" y="-32" font="bdz_ls_fnt" text="" height="35" horizontalCenter="0"/>
+</e:Skin>

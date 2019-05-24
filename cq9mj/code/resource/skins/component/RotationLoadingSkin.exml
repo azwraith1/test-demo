@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RotationLoadingSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="resizeGroup" width="1280" height="720">
+		<e:Rect fillColor="0x000000" fillAlpha="0.5" left="0" top="0" right="0" bottom="0"/>
+		<e:Image id="rotationImage" alpha="1" scaleX="1" scaleY="1" source="main_rotaions_png" anchorOffsetX="40" anchorOffsetY="40" horizontalCenter="0" verticalCenter="0"/>
+		<e:Label id="progressLabel" text="0%" size="16" horizontalCenter="0" verticalCenter="0" width="41" height="16" textAlign="center"/>
+	</e:Group>
+</e:Skin>

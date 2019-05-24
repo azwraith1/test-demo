@@ -1,0 +1,4 @@
+// TypeScript file
+enum NiuniuStatusEnum {
+	FAPAI, READY, TASK, MINE_CHUPAI, QINGQUE, HSZ, ANI, OTHER_CHUPAI, BLANK, CHUPAI_TASK,OVER
+}

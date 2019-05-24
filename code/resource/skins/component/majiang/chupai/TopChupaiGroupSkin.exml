@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="majiang.TopChupaiGroupSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="272" height="131">
+	<e:Group id="group3" scaleX="1" scaleY="1" x="0" y="0">
+		<e:Image id="mj21" y="-1" scaleX="1" scaleY="1" source="top_chupai_21_png" x="0"/>
+		<e:Image id="mj20" x="36.83" y="-1" source="top_chupai_20_png" scaleY="1"/>
+		<e:Image id="mj19" x="73.86" y="-0.33" scaleY="1" source="top_chupai_19_png"/>
+		<e:Image id="mj15" source="top_chupai_15_png" scaleX="1" scaleY="1" y="-1" x="220.22"/>
+		<e:Image id="mj16" source="top_chupai_16_png" x="184.02" scaleX="1" scaleY="1" y="-1"/>
+		<e:Image id="mj17" source="top_chupai_17_png" x="146.99" y="-0.33" scaleX="1" scaleY="1"/>
+		<e:Image id="mj18" x="110.83" y="-0.33" scaleY="1" source="top_chupai_18_png"/>
+	</e:Group>
+	<e:Group id="group2" scaleX="1" scaleY="1" x="-0.34" y="35.33" locked="true">
+		<e:Image id="mj14" y="0" scaleX="1" scaleY="1" source="top_chupai_14_png" x="0"/>
+		<e:Image id="mj13" x="36.83" y="0" source="top_chupai_13_png" scaleY="1"/>
+		<e:Image id="mj12" x="73.86" y="0" scaleY="1" source="top_chupai_12_png"/>
+		<e:Image id="mj8" source="top_chupai_8_png" scaleX="1" scaleY="1" y="0" x="224.24"/>
+		<e:Image id="mj9" source="top_chupai_9_png" x="186.7" scaleX="1" scaleY="1" y="0"/>
+		<e:Image id="mj10" source="top_chupai_10_png" x="149" y="0" scaleX="1" scaleY="1"/>
+		<e:Image id="mj11" x="111.5" y="0" scaleY="1" source="top_chupai_11_png"/>
+	</e:Group>
+	<e:Group id="group1" scaleX="1" scaleY="1" x="-2.42" y="73.2" locked="true">
+		<e:Image id="mj7" scaleX="1" scaleY="1" y="0" x="0" source="top_chupai_7_png"/>
+		<e:Image id="mj6" x="38" scaleX="1" scaleY="1" y="0" source="top_chupai_6_png"/>
+		<e:Image id="mj5" x="76.51" y="0" scaleX="1" scaleY="1" source="top_chupai_5_png"/>
+		<e:Image id="mj1" x="228.33" y="0" scaleX="1" scaleY="1" source="top_chupai_1_png"/>
+		<e:Image id="mj2" x="191.15" y="-0.67" scaleX="1" scaleY="1" source="top_chupai_2_png"/>
+		<e:Image id="mj3" x="152.17" y="0" scaleY="1" source="top_chupai_3_png"/>
+		<e:Image id="mj4" x="114.38" y="0" scaleX="1" scaleY="1" source="top_chupai_4_png"/>
+	</e:Group>
+</e:Skin>

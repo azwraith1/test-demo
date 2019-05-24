@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SDXLBigWinGroupSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="resizeGroup" width="1280" height="720" x="0" y="0">
+		<e:Rect id="fillMask" fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+		<e:Group left="0" right="0" top="0" bottom="0">
+			<e:Group id="goldDown" width="1280" height="720" y="0" horizontalCenter="0"/>
+			<e:Image id="bigwinIma" source="sdxl_megawin_png" horizontalCenter="0.5" alpha="0" anchorOffsetX="0" anchorOffsetY="80" bottom="484"/>
+			<e:BitmapLabel id="bigwinGold" font="sdxl_bigwin_fnt" text="123456789.0" width="1280" letterSpacing="-36" textAlign="center" alpha="0" horizontalCenter="0" bottom="220"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

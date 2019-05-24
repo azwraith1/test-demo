@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RBWarXyBtnSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="127" height="123">
+	<e:Image id="dbImage" x="7" y="8" source="game_cm_6_1_png"/>
+	<e:Image id="lightImage" source="rb_title_xy_png" x="35" y="46"/>
+	<e:Label id="labelDisplay" text="" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

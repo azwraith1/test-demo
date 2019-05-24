@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="majiang.SelectGangItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:majiang="majiang.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="img_tc2_png" anchorOffsetX="0" width="170" scale9Grid="23,15,36,33"/>
+	<majiang:MineZhengpai id="pai1" skinName="majiang.MineZhengPaiSkin"  y="4" x="3"/>
+	<majiang:MineZhengpai id="pai2" x="43" skinName="majiang.MineZhengPaiSkin"  y="4"/>
+	<majiang:MineZhengpai id="pai3" x="83" skinName="majiang.MineZhengPaiSkin"  y="4"/>
+	<majiang:MineZhengpai id="pai4" skinName="majiang.MineZhengPaiSkin" y="4" x="123"/>
+</e:Skin>

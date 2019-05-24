@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HSZBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="hsz_bg_png" x="0" y="0"/>
+	<e:Button id="enterBtn" label="确定" skinName="majiang.TextButtonSkin" bottom="12" horizontalCenter="0"/>
+	<e:Label text="请选择3张" y="23.32" size="24" stroke="2" strokeColor="0x252525" x="43.33"/>
+	<e:Label text="手牌" y="23.32" size="24" strokeColor="0x252525" stroke="2" x="240.64"/>
+	<e:Label text="同花色" y="23.32" size="24" textColor="0xffc21f" x="159.64" stroke="2" strokeColor="0x252525"/>
+	
+</e:Skin>

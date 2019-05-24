@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BJLResultSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="33" height="33">
+	<e:Image id="z_dui" source="bjl_blue_dian_png" x="-1" y="-1" height="7" width="7" visible="false"/>
+	<e:Image id="x_dui" source="bjl_blue_dian_png" width="7" height="7" x="27" y="27" visible="false"/>
+	<e:Image id="zx_w2l" source="bjl_zxh_3_png" width="33" height="33" left="0" top="0" visible="false"/>
+</e:Skin>

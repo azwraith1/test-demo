@@ -1,0 +1,12 @@
+{"file":"rbwar_time.png","frames":{
+"0":{"x":0,"y":0,"w":33,"h":47,"offX":2,"offY":0,"sourceW":37,"sourceH":47},
+"1":{"x":105,"y":0,"w":21,"h":46,"offX":2,"offY":0,"sourceW":25,"sourceH":47},
+"2":{"x":70,"y":96,"w":32,"h":46,"offX":2,"offY":0,"sourceW":36,"sourceH":47},
+"3":{"x":35,"y":49,"w":33,"h":47,"offX":2,"offY":0,"sourceW":37,"sourceH":47},
+"4":{"x":70,"y":49,"w":33,"h":45,"offX":2,"offY":1,"sourceW":37,"sourceH":47},
+"5":{"x":0,"y":98,"w":32,"h":46,"offX":2,"offY":1,"sourceW":36,"sourceH":47},
+"6":{"x":0,"y":49,"w":33,"h":47,"offX":2,"offY":0,"sourceW":37,"sourceH":47},
+"7":{"x":34,"y":98,"w":32,"h":45,"offX":2,"offY":1,"sourceW":36,"sourceH":47},
+"8":{"x":35,"y":0,"w":33,"h":47,"offX":2,"offY":0,"sourceW":37,"sourceH":47},
+"9":{"x":70,"y":0,"w":33,"h":47,"offX":2,"offY":0,"sourceW":37,"sourceH":47},
+" ":{"x":105,"y":48,"w":5,"h":5,"offX":0,"offY":0,"sourceW":11,"sourceH":47}}}

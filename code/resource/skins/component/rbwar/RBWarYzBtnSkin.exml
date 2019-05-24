@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RBWarYzBtnSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="127" height="123">
+
+
+	<e:Group width="127" height="123" x="0" y="0">
+		<e:Image id="dbImage" source="game_cm_2_1_png" width="113" height="111" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="lightImage" source="game_cm_guang_png" width="127" height="123" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" visible="false"/>
+		<e:BitmapLabel id="valueLabel" font="money_fnt_fnt" text="1" anchorOffsetX="0" textAlign="center" letterSpacing="-2" horizontalCenter="0" verticalCenter="-3"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,15 @@
+{"file":"nns_beishu.png","frames":{
+"x":{"x":33,"y":101,"w":18,"h":19,"offX":2,"offY":8,"sourceW":22,"sourceH":30},
+"1":{"x":35,"y":52,"w":11,"h":24,"offX":2,"offY":3,"sourceW":15,"sourceH":30},
+"2":{"x":0,"y":30,"w":18,"h":24,"offX":2,"offY":3,"sourceW":22,"sourceH":30},
+"3":{"x":47,"y":28,"w":17,"h":25,"offX":2,"offY":3,"sourceW":21,"sourceH":30},
+"4":{"x":0,"y":79,"w":16,"h":23,"offX":2,"offY":4,"sourceW":20,"sourceH":30},
+"5":{"x":29,"y":28,"w":18,"h":24,"offX":2,"offY":4,"sourceW":22,"sourceH":30},
+"6":{"x":47,"y":53,"w":17,"h":25,"offX":2,"offY":3,"sourceW":21,"sourceH":30},
+"7":{"x":33,"y":78,"w":16,"h":23,"offX":2,"offY":4,"sourceW":20,"sourceH":30},
+"8":{"x":18,"y":52,"w":17,"h":25,"offX":2,"offY":3,"sourceW":21,"sourceH":30},
+"9":{"x":0,"y":54,"w":17,"h":25,"offX":2,"offY":3,"sourceW":21,"sourceH":30},
+"0":{"x":17,"y":77,"w":16,"h":25,"offX":2,"offY":3,"sourceW":20,"sourceH":30},
+"不":{"x":29,"y":0,"w":29,"h":28,"offX":2,"offY":2,"sourceW":33,"sourceH":30},
+"抢":{"x":0,"y":0,"w":29,"h":30,"offX":2,"offY":0,"sourceW":33,"sourceH":30},
+" ":{"x":58,"y":0,"w":5,"h":5,"offX":0,"offY":0,"sourceW":6,"sourceH":30}}}

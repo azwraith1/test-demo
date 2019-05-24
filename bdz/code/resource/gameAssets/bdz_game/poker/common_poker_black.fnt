@@ -1,0 +1,16 @@
+{"file":"common_poker_black.png","frames":{
+"A":{"x":188,"y":0,"w":47,"h":77,"offX":2,"offY":0,"sourceW":51,"sourceH":78},
+"2":{"x":47,"y":0,"w":47,"h":77,"offX":2,"offY":0,"sourceW":51,"sourceH":78},
+"3":{"x":47,"y":77,"w":47,"h":77,"offX":2,"offY":0,"sourceW":51,"sourceH":78},
+"4":{"x":141,"y":0,"w":47,"h":77,"offX":2,"offY":1,"sourceW":51,"sourceH":78},
+"5":{"x":94,"y":0,"w":47,"h":77,"offX":2,"offY":0,"sourceW":51,"sourceH":78},
+"6":{"x":47,"y":154,"w":47,"h":77,"offX":2,"offY":0,"sourceW":51,"sourceH":78},
+"7":{"x":141,"y":77,"w":46,"h":77,"offX":2,"offY":1,"sourceW":50,"sourceH":78},
+"8":{"x":0,"y":154,"w":47,"h":77,"offX":2,"offY":1,"sourceW":51,"sourceH":78},
+"9":{"x":94,"y":154,"w":47,"h":77,"offX":2,"offY":1,"sourceW":51,"sourceH":78},
+"1":{"x":235,"y":0,"w":9,"h":77,"offX":2,"offY":1,"sourceW":13,"sourceH":78},
+"0":{"x":141,"y":154,"w":33,"h":77,"offX":2,"offY":1,"sourceW":37,"sourceH":78},
+"J":{"x":0,"y":0,"w":47,"h":77,"offX":2,"offY":1,"sourceW":51,"sourceH":78},
+"Q":{"x":0,"y":77,"w":47,"h":77,"offX":2,"offY":1,"sourceW":51,"sourceH":78},
+"K":{"x":94,"y":77,"w":47,"h":77,"offX":2,"offY":0,"sourceW":51,"sourceH":78},
+" ":{"x":244,"y":0,"w":5,"h":5,"offX":0,"offY":0,"sourceW":15,"sourceH":78}}}

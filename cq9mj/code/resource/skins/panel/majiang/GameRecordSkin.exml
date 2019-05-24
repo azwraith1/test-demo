@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameRecordSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:majiang="majiang.*">
+	<w:Config id="16564a5e6ce"/>
+  <e:Group id="resizeGroup" width="1280" height="720">
+    <e:Rect id="rects" fillAlpha="0.4" scaleX="1" scaleY="1" left="0" top="0" bottom="0" right="0"/>
+		<e:Group width="700" height="416" horizontalCenter="0.5" verticalCenter="5" scaleX="1.4" scaleY="1.4">
+			<e:Image id="rect_bg" scale9Grid="315,60,36,34" scaleX="1" scaleY="1" source="panel_bg_png" left="1" right="-1" top="0" bottom="0" width="700" height="416"/>
+			<e:Image scaleX="1" scaleY="1" source="panel_title_bg_png" top="0" horizontalCenter="-1"/>
+			<e:Image source="record_yxjl_png" scaleX="1" scaleY="1" horizontalCenter="-1" top="12"/>
+			<e:Group width="650" height="34" scaleX="1" scaleY="1" top="87" horizontalCenter="0">
+				<e:Image y="0" source="record_bg_1_png" scale9Grid="28,16,14,4" anchorOffsetX="0" width="650" scaleX="1" scaleY="1"/>
+				<e:Label text="单号" x="79.85" textColor="0xB16615" size="17" fontFamily="Microsoft YaHei" bold="true" scaleX="1" scaleY="1" y="8.23"/>
+				<e:Label text="房间" x="243.68" textColor="0xB16615" size="17" fontFamily="Microsoft YaHei" bold="true" scaleX="1" scaleY="1" y="8.23"/>
+				<e:Label text="盈亏" x="319" textColor="0xB16615" size="17" fontFamily="Microsoft YaHei" bold="true" scaleX="1" scaleY="1" y="8.23"/>
+				<e:Label text="时间" x="464.21" textColor="0xB16615" size="17" fontFamily="Microsoft YaHei" bold="true" scaleX="1" scaleY="1" y="8.23"/>
+				<e:Label text="回放" x="581.83" textColor="0xB16615" size="17" fontFamily="Microsoft YaHei" bold="true" scaleX="1" scaleY="1" y="8.23" visible="false"/>
+			</e:Group>
+			<e:Scroller width="650" height="240" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="41">
+				<e:Group id="recordGroup" anchorOffsetX="0" height="240" anchorOffsetY="0" x="0" y="-10.71" width="650">
+				<e:layout>
+					<e:VerticalLayout gap="0"/>
+				</e:layout>
+				</e:Group>
+			</e:Scroller>
+			<e:Button id="closeBtn" label="Button" scaleX="1" scaleY="1" right="12" top="2">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image source="close_btn_png" source.down="close_btn_png"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Label id="tishiyu" text="暂无对局记录" anchorOffsetX="0" width="407.76" anchorOffsetY="0" height="33.94" fontFamily="Microsoft YaHei" size="22" textAlign="center" verticalAlign="middle" textColor="0xb16615" scaleX="1" scaleY="1" horizontalCenter="-0.5" verticalCenter="37" visible="false"/>
+			<e:Group x="493" y="53.71" anchorOffsetY="0" anchorOffsetX="0" width="120" height="60">
+				<e:Image id="xzdd" scaleX="1" scaleY="1" source="rect_select_png" anchorOffsetX="0" width="120" scale9Grid="12,4,76,24" height="28" top="0" left="0"/>
+				<e:Image id="rect_jt" scaleX="1" scaleY="1" anchorOffsetX="0" x="93.44" source="rect_jt_png" top="8"/>
+				<e:Label id="lable_one" text="血流成河" size="18" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" textColor="0x855B2D" x="8.58" top="5"/>
+				<e:Image id="xlch" scaleX="1" scaleY="1" source="rect_select_png" anchorOffsetX="0" scale9Grid="12,4,76,24" width="90" height="28" left="0" bottom="0" visible="false"/>
+				<e:Label id="lable_two" text="血战到底" size="18" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" textColor="0x855b2d" x="8.58" bottom="5" visible="false"/>
+			</e:Group>
+			<e:Label text="系统最多保存30天内的记录" anchorOffsetX="0" textColor="0x855b2d" size="17" fontFamily="Microsoft YaHei" anchorOffsetY="0" height="22.86" scaleX="1" scaleY="1" bottom="21" horizontalCenter="0"/>
+		</e:Group>
+  </e:Group>
+</e:Skin>

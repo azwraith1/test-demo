@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LhjHallSdmnSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="315" height="484" x="0" y="0">
+		<e:Button id="dntg_btn0" label="" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="lhj_hall_sdmn1_png" source.down="lhj_hall_sdmn2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image scaleX="1" scaleY="1" source="lhj_hall_kuang_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="lhj_hall_continue2_png" y="402" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

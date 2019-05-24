@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CBZZIconSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="188" height="178">
+	<e:Image id="iconbg" source="cbzz_icon_bg_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="icon" horizontalCenter="0" verticalCenter="0" source="cbzz_icon_2_png"/>
+	<e:Rect id="rect" left="0" right="0" top="0" bottom="0" fillAlpha="0.5" visible="false"/>
+</e:Skin>

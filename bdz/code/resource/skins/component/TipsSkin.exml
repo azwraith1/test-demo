@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TipsSkin" width="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="50">
+	<e:Group id="resizeGroup" width="1280" height="50">
+		<e:Image source="kuang_1_png" scale9Grid="7,3,44,7" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"/>
+		<e:Label id="textLabel" text="若游戏无法全屏请使用浏览器自带全屏功能" width="1280" horizontalCenter="0" height="30" size="30" textAlign="center" fontFamily="Arial" verticalCenter="0" textColor="0xffffff" x="0" y="10" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

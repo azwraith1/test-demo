@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DZMJSettingSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16589d8e735"/>
+	<e:Group id="resizeGroup" width="1280" height="720">
+		<e:Rect id="rects" fillColor="0x000000" fillAlpha="0.4" scaleX="1" scaleY="1" left="0" top="0" right="0" bottom="0" locked="true"/>
+		<e:Group anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+			<e:Image anchorOffsetY="0" anchorOffsetX="0" x="0" y="0" scale9Grid="225,120,188,72" source="dmmj_setbg_png"/>
+
+
+			<e:Button id="closeBtn" label="" anchorOffsetY="0" x="412" y="16">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="dzmj_alert_close_png" source.down="dzmj_alert_close_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Group id="musicGroup" anchorOffsetX="0" anchorOffsetY="0" x="149" y="124.6">
+			<e:ToggleSwitch id="musicBtn" label="ToggleButton" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image y="0" source="main_hall_kbtn_png" source.up="dzmj_hall_gtbn_png" y.up="2" source.down="dzmj_hall_ktbn_png" y.down="-1"/>
+						<e:Image source="main_hall_kgbtn_png" y="1.33" y.up="1.5" y.down="0" x.down="0" x.up="135" x.disabled="134" y.disabled="2.5" source.up="dzmj_hall_kgbtn_png" source.down="dzmj_hall_kgbtn_png"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:ToggleSwitch>
+			</e:Group>
+			<e:Group id="soundGroup" anchorOffsetX="0" anchorOffsetY="0" x="150" y="207.6">
+				<e:ToggleSwitch id="soundBtn" label="ToggleButton" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image y="0" source="main_hall_kbtn_png" source.up="dzmj_hall_gtbn_png" y.up="2" source.down="dzmj_hall_ktbn_png" y.down="-1"/>
+					<e:Image source="main_hall_kgbtn_png" y="1.33" y.up="1.5" y.down="0" x.down="0" x.up="135" x.disabled="134" y.disabled="2.5" source.up="dzmj_hall_kgbtn_png" source.down="dzmj_hall_kgbtn_png"/>
+					</e:Skin>
+				</e:skinName>
+				</e:ToggleSwitch>
+			</e:Group>
+
+
+			<e:Image y="14" x="179.5" source="dzmj_hall_sz_png"/>
+			<e:Image x="51" y="213.93" source="dzmj_hall_wz_yx_png"/>
+			<e:Image x="51" y="131.1" source="dzmj_hall_wz_yy_png"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

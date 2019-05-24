@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BJLLD1Skin" xmlns:e="http://ns.egret.com/eui" xmlns:bjle="bjle.*" xmlns:w="http://ns.egret.com/wing" width="289" height="215">
+	<e:Image source="bjl_wg_0_png"/>
+	<bjle:BjlZPLItem id="item1" skinName="BJLBigkSkin"/>
+	<bjle:BjlZPLItem id="item2" x="36" skinName="BJLBigkSkin"/>
+	<bjle:BjlZPLItem id="item3" x="72" skinName="BJLBigkSkin"/>
+	<bjle:BjlZPLItem id="item4" x="108" skinName="BJLBigkSkin"/>
+	<bjle:BjlZPLItem id="item5" x="144" skinName="BJLBigkSkin"/>
+	<bjle:BjlZPLItem id="item6" x="180" skinName="BJLBigkSkin"/>
+	<bjle:BjlZPLItem id="item7" x="216" skinName="BJLBigkSkin"/>
+	<bjle:BjlZPLItem id="item8" x="252" skinName="BJLBigkSkin"/>
+</e:Skin>

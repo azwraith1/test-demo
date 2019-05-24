@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MjRightPgSkin2" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group y="0" anchorOffsetX="0" anchorOffsetY="0" skewX="0">
+		<e:Image id="p_3" scaleX="1" scaleY="1" source="right_peng_6_png"/>
+		<e:Image id="p_2" x="6.16" y="28.7" scaleX="1" scaleY="1" source="right_peng_5_png"/>
+		<e:Image id="p_1" x="13.34" y="58.99" scaleX="1" scaleY="1" source="right_peng_4_png"/>
+		<e:Image id="p_3_img" width="28.38" height="55.5" x="13.25" y="28.84" anchorOffsetY="0" anchorOffsetX="0" skewX="-90" scaleY="1" skewY="-105" source=""/>
+		<e:Image id="p_2_img" width="28.69" height="55" x="21.01" y="58.13" anchorOffsetY="0" anchorOffsetX="0" skewX="-90" scaleY="1" skewY="-105" source=""/>
+		<e:Image id="p_4" x="7.66" y="7.94" scaleX="1" scaleY="1" source="right_gang_2_png"/>
+		<e:Image id="p_1_img" width="27" height="56" x="26.5" y="87.59" anchorOffsetY="0" anchorOffsetX="0" skewX="-90" scaleY="1" skewY="-105" source=""/>
+		<e:Image id="p_4_img" width="27.72" height="56" x="24.58" y="40.39" anchorOffsetY="0" anchorOffsetX="0" skewX="-90" scaleY="1" skewY="-105" source=""/>
+		<e:Group id="rightRectGroup" anchorOffsetY="0" anchorOffsetX="0" x="6.27" y="0.33" visible="false">
+		<e:Rect id="rightRect2" width="56.19" height="88.51" fillColor="0xDD650B" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0.3" x="-0.74" y="1.25" scaleX="1" scaleY="1" skewX="-14"/>
+		<e:Rect id="rightRect3" width="56.68" height="18.53" fillColor="0xDD650B" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0.3" x="20.78" y="87.05" scaleX="1" scaleY="1" skewX="21"/>
+		<e:Rect id="rightRect0" width="14.17" height="87.02" fillColor="0xDD650B" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0.3" x="-5.6" y="16.2" scaleX="1" scaleY="1" skewX="-14" skewY="-68"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

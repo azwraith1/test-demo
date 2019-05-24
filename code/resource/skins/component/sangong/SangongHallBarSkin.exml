@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SangongHallBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="264" height="292">
+	<w:Config id="167771ebd77"/>
+	<e:Group touchThrough="false" touchEnabled="false" touchChildren="false" width="264" height="292">
+		<e:Image scaleX="1" scaleY="1" source=""/>
+		<e:Image id="barImg" x="11" y="37" scaleX="1" scaleY="1" source=""/>
+
+		<e:Group id="effcGroup" width="249" height="218" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="difenImage" y="41" horizontalCenter="49" source=""/>
+		<e:Label id="zhunruLabel" text="准入：100" size="22"    anchorOffsetX="0" width="127.5" textAlign="center" stroke="2" strokeColor="0x472c7d" textColor="0xffffff" horizontalCenter="0" bottom="42"/>
+	</e:Group>
+</e:Skin>

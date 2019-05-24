@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MjziPgSkin2" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="bgGroup" y="0" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image id="p_1" x="93.82" scaleX="1" y="16.5" source="mine_peng_4_png"/>
+		<e:Image id="p_2" x="46.71" y="16.5" source="mine_peng_5_png"/>
+		<e:Image id="p_3" y="16.5" source="mine_peng_6_png"/>
+		<e:Image id="p_3_img" x="12.21" y="22.39" anchorOffsetY="0" anchorOffsetX="0" skewX="-6" width="39" height="50" source=""/>
+		<e:Image id="p_2_img" x="59.63" y="23.84" anchorOffsetY="0" anchorOffsetX="0" skewX="-6.5" width="39" height="50" source=""/>
+		<e:Image id="p_1_img" x="106.29" y="23.84" anchorOffsetY="0" anchorOffsetX="0" skewX="-7" width="39" height="50" source=""/>
+		<e:Image id="p_4" x="51.37" source="mine_gang_2_png"/>
+		<e:Image id="p_4_img" x="65.21" y="6.37" anchorOffsetY="0" anchorOffsetX="0" skewX="-6" width="39" height="50" source=""/>
+		<e:Group id="mineRectGroup" y="16.5" x="0.5" scaleX="1" scaleY="1" visible="false">
+		<e:Rect id="mineRect2" width="138.69" height="55.91" fillColor="0xDD650B" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0.3" y="3.7" x="8.46" skewX="-8"/>
+		<e:Rect id="mineRect3" width="139.5" height="16.08" fillColor="0xDD650B" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0.3" y="58.95" x="15.86" skewX="17" ellipseHeight="5"/>
+		<e:Rect id="mineRect0" width="16.8" height="54.13" fillColor="0xDD650B" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0.3" y="20.72" x="4.22" skewY="-75" skewX="-8"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

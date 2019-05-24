@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SettingShuSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1280">
+	<w:Config id="16589d8e735"/>
+
+	<e:Group id="resizeGroup" width="720" height="1280">
+		<e:Rect id="rects" fillColor="0x000000" fillAlpha="0" scaleX="1" scaleY="1" left="-2" top="0" right="2" bottom="0"/>
+		<e:Group anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="-71.5">
+			<e:Image anchorOffsetY="0" anchorOffsetX="0" scale9Grid="225,120,188,72" source="nns_setbg_png"/>
+
+
+			<e:Group id="musicGroup" anchorOffsetX="0" anchorOffsetY="0" x="200" y="117">
+			<e:ToggleSwitch id="musicBtn" label="ToggleButton" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image source="nns_kbtn_png" y="0" source.up="nns_gbtn_png" source.down="nns_kbtn_png"/>
+						<e:Image x="94" source.up="nns_kgbtn_png" source="nns_kgbtn_png" y="3" x.down="94" x.up="6"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:ToggleSwitch>
+			</e:Group>
+			<e:Group id="soundGroup" x="200" y="213">
+				<e:ToggleSwitch id="soundBtn" label="ToggleButton" scaleX="1" scaleY="1">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image source="nns_kbtn_png" y="0" source.up="nns_gbtn_png" source.down="nns_kbtn_png"/>
+						<e:Image x="94" source.up="nns_kgbtn_png" source="nns_kgbtn_png" y="3" x.down="94" x.up="6"/>
+					</e:Skin>
+					</e:skinName>
+				</e:ToggleSwitch>
+
+			</e:Group>
+			<e:Button id="closeBtn" label="Button" anchorOffsetY="0" y="11" x="366.33">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="nns_r_btn_png" source.down="nns_r_btn_png"/>
+					</e:Skin>
+				</e:skinName>
+
+
+
+			</e:Button>
+			<e:Image x="175.01" y="17" source="nns_settitle_png"/>
+
+			<e:Image x="64" y="204" source="nns_sound_png"/>
+			<e:Image x="64" y="108" source="nns_music_png"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

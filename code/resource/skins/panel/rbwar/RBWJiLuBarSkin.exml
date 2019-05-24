@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RBWJiLuBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="928" height="30">
+	<e:Group width="928" anchorOffsetX="0" anchorOffsetY="0" height="30" x="0" y="0">
+		<e:Label id="pjbh" text="123456789098765432" x="0"    height="20" anchorOffsetX="0" width="270" size="20" verticalAlign="middle" verticalCenter="0" textAlign="left"/>
+		<e:Label id="roomtype" text="王者房" x="299.74"    height="30" y="0" width="90"/>
+		<e:Label id="w2f" text="+20051" x="449.88"    height="30" y="0" width="130" textAlign="center"/>
+		<e:Label id="time" text="2018-10-10 23:40"    height="30" y="0" anchorOffsetX="0" width="340" textAlign="center" x="588"/>
+	</e:Group>
+	<w:Config id="1683ab412f2"/>
+</e:Skin>

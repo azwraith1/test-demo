@@ -1,0 +1,1377 @@
+{
+    "frameRate": 36,
+    "name": "tongchi",
+    "isGlobal": 0,
+    "version": "5.5",
+    "compatibleVersion": "5.5",
+    "armature": [
+        {
+            "type": "MovieClip",
+            "frameRate": 36,
+            "name": "tongchi",
+            "bone": [
+                {
+                    "name": "root"
+                },
+                {
+                    "name": "通吃 文字",
+                    "parent": "root"
+                },
+                {
+                    "name": "通吃-上_0000_图层-1",
+                    "parent": "root"
+                },
+                {
+                    "name": "通吃-上_0000_图层-11",
+                    "parent": "root"
+                },
+                {
+                    "name": "通吃-上_0000_图层-12",
+                    "parent": "root"
+                },
+                {
+                    "name": "通吃-上_0001_图层-2",
+                    "parent": "root"
+                },
+                {
+                    "name": "通吃-上_0001_图层-21",
+                    "parent": "root"
+                },
+                {
+                    "name": "通吃-下_0000_图层-1",
+                    "parent": "root"
+                },
+                {
+                    "name": "通吃-下_0000_图层-11",
+                    "parent": "root"
+                },
+                {
+                    "name": "通吃-下_0000_图层-12",
+                    "parent": "root"
+                },
+                {
+                    "name": "通吃-下_0001_图层-2",
+                    "parent": "root"
+                },
+                {
+                    "name": "通吃-下_0001_图层-21",
+                    "parent": "root"
+                },
+                {
+                    "name": "nnn501",
+                    "parent": "root"
+                },
+                {
+                    "name": "Comp 1_00",
+                    "parent": "root"
+                }
+            ],
+            "aabb": {
+                "width": 0,
+                "y": 0,
+                "height": 0,
+                "x": 0
+            },
+            "slot": [
+                {
+                    "displayIndex": -1,
+                    "name": "通吃-上_0000_图层-1",
+                    "parent": "通吃-上_0000_图层-1"
+                },
+                {
+                    "displayIndex": -1,
+                    "name": "通吃-上_0000_图层-11",
+                    "parent": "通吃-上_0000_图层-11"
+                },
+                {
+                    "displayIndex": -1,
+                    "name": "通吃-上_0000_图层-12",
+                    "parent": "通吃-上_0000_图层-12"
+                },
+                {
+                    "displayIndex": -1,
+                    "name": "通吃-上_0001_图层-2",
+                    "parent": "通吃-上_0001_图层-2"
+                },
+                {
+                    "displayIndex": -1,
+                    "name": "通吃-上_0001_图层-21",
+                    "parent": "通吃-上_0001_图层-21"
+                },
+                {
+                    "displayIndex": -1,
+                    "name": "通吃-下_0000_图层-1",
+                    "parent": "通吃-下_0000_图层-1"
+                },
+                {
+                    "displayIndex": -1,
+                    "name": "通吃-下_0000_图层-11",
+                    "parent": "通吃-下_0000_图层-11"
+                },
+                {
+                    "displayIndex": -1,
+                    "name": "通吃-下_0000_图层-12",
+                    "parent": "通吃-下_0000_图层-12"
+                },
+                {
+                    "displayIndex": -1,
+                    "name": "通吃-下_0001_图层-2",
+                    "parent": "通吃-下_0001_图层-2"
+                },
+                {
+                    "displayIndex": -1,
+                    "name": "通吃-下_0001_图层-21",
+                    "parent": "通吃-下_0001_图层-21"
+                },
+                {
+                    "displayIndex": -1,
+                    "name": "通吃 文字",
+                    "parent": "通吃 文字"
+                },
+                {
+                    "blendMode": "add",
+                    "displayIndex": -1,
+                    "name": "nnn501",
+                    "parent": "nnn501"
+                },
+                {
+                    "blendMode": "add",
+                    "displayIndex": -1,
+                    "name": "Comp 1_00",
+                    "parent": "Comp 1_00"
+                }
+            ],
+            "ik": [],
+            "skin": [
+                {
+                    "slot": [
+                        {
+                            "name": "通吃-下_0000_图层-11",
+                            "display": [
+                                {
+                                    "name": "通吃-下_0000_图层-1"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "通吃-上_0001_图层-21",
+                            "display": [
+                                {
+                                    "name": "通吃-上_0001_图层-2",
+                                    "transform": {
+                                        "x": 34.06
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "nnn501",
+                            "display": [
+                                {
+                                    "name": "nnn501"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "通吃-上_0000_图层-12",
+                            "display": [
+                                {
+                                    "name": "通吃-上_0000_图层-1"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "通吃-下_0001_图层-21",
+                            "display": [
+                                {
+                                    "name": "通吃-下_0001_图层-2",
+                                    "transform": {
+                                        "x": 78.04
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "通吃-上_0000_图层-1",
+                            "display": [
+                                {
+                                    "name": "通吃-上_0000_图层-1"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "通吃-下_0000_图层-12",
+                            "display": [
+                                {
+                                    "name": "通吃-下_0000_图层-1"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "通吃-下_0000_图层-1",
+                            "display": [
+                                {
+                                    "name": "通吃-下_0000_图层-1"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Comp 1_00",
+                            "display": [
+                                {
+                                    "name": "Comp 1_00"
+                                },
+                                {
+                                    "name": "Comp 1_01"
+                                },
+                                {
+                                    "name": "Comp 1_02"
+                                },
+                                {
+                                    "name": "Comp 1_03"
+                                },
+                                {
+                                    "name": "Comp 1_04"
+                                },
+                                {
+                                    "name": "Comp 1_05"
+                                },
+                                {
+                                    "name": "Comp 1_06"
+                                },
+                                {
+                                    "name": "Comp 1_07"
+                                },
+                                {
+                                    "name": "Comp 1_08"
+                                },
+                                {
+                                    "name": "Comp 1_09"
+                                },
+                                {
+                                    "name": "Comp 1_10"
+                                },
+                                {
+                                    "name": "Comp 1_11"
+                                },
+                                {
+                                    "name": "Comp 1_12"
+                                },
+                                {
+                                    "name": "Comp 1_13"
+                                },
+                                {
+                                    "name": "Comp 1_14"
+                                },
+                                {
+                                    "name": "Comp 1_15"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "通吃-上_0001_图层-2",
+                            "display": [
+                                {
+                                    "name": "通吃-上_0001_图层-2",
+                                    "transform": {
+                                        "x": 34.37
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "通吃 文字",
+                            "display": [
+                                {
+                                    "name": "通吃 文字"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "通吃-上_0000_图层-11",
+                            "display": [
+                                {
+                                    "name": "通吃-上_0000_图层-1"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "通吃-下_0001_图层-2",
+                            "display": [
+                                {
+                                    "name": "通吃-下_0001_图层-2",
+                                    "transform": {
+                                        "x": 78.04
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "animation": [
+                {
+                    "duration": 70,
+                    "playTimes": 0,
+                    "bone": [
+                        {
+                            "name": "通吃 文字",
+                            "scaleFrame": [
+                                {
+                                    "duration": 5,
+                                    "tweenEasing": 0,
+                                    "x": 0.01,
+                                    "y": 0.5
+                                },
+                                {
+                                    "duration": 60
+                                },
+                                {
+                                    "duration": 5,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 0,
+                                    "y": 0.01
+                                }
+                            ]
+                        },
+                        {
+                            "name": "通吃-上_0000_图层-1",
+                            "translateFrame": [
+                                {
+                                    "duration": 70,
+                                    "y": -58
+                                }
+                            ],
+                            "scaleFrame": [
+                                {
+                                    "duration": 5,
+                                    "tweenEasing": 0,
+                                    "x": 0.01,
+                                    "y": 0.01
+                                },
+                                {
+                                    "duration": 2,
+                                    "tweenEasing": 0,
+                                    "x": 1.2,
+                                    "y": 1.2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "x": 0.9,
+                                    "y": 0.9
+                                },
+                                {
+                                    "duration": 20
+                                },
+                                {
+                                    "duration": 3,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 4,
+                                    "tweenEasing": 0,
+                                    "x": 1.3,
+                                    "y": 1.3
+                                },
+                                {
+                                    "duration": 3,
+                                    "tweenEasing": 0,
+                                    "x": 0.8,
+                                    "y": 0.8
+                                },
+                                {
+                                    "duration": 2,
+                                    "tweenEasing": 0,
+                                    "x": 1.15,
+                                    "y": 1.15
+                                },
+                                {
+                                    "duration": 20
+                                },
+                                {
+                                    "duration": 2,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 5,
+                                    "tweenEasing": 0,
+                                    "x": 1.2,
+                                    "y": 1.2
+                                },
+                                {
+                                    "duration": 3,
+                                    "x": 0.01,
+                                    "y": 0.01
+                                }
+                            ]
+                        },
+                        {
+                            "name": "通吃-上_0000_图层-11",
+                            "translateFrame": [
+                                {
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 68,
+                                    "x": 28,
+                                    "y": -50
+                                }
+                            ],
+                            "rotateFrame": [
+                                {
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 68,
+                                    "rotate": 20
+                                }
+                            ],
+                            "scaleFrame": [
+                                {
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 5,
+                                    "tweenEasing": 0,
+                                    "x": 0.01,
+                                    "y": 0.01
+                                },
+                                {
+                                    "duration": 2,
+                                    "tweenEasing": 0,
+                                    "x": 0.7,
+                                    "y": 0.7
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "x": 0.55,
+                                    "y": 0.55
+                                },
+                                {
+                                    "duration": 22,
+                                    "x": 0.6,
+                                    "y": 0.6
+                                },
+                                {
+                                    "duration": 3,
+                                    "tweenEasing": 0,
+                                    "x": 0.6,
+                                    "y": 0.6
+                                },
+                                {
+                                    "duration": 4,
+                                    "tweenEasing": 0,
+                                    "x": 0.7,
+                                    "y": 0.7
+                                },
+                                {
+                                    "duration": 3,
+                                    "tweenEasing": 0,
+                                    "x": 0.5,
+                                    "y": 0.5
+                                },
+                                {
+                                    "duration": 2,
+                                    "tweenEasing": 0,
+                                    "x": 0.65,
+                                    "y": 0.65
+                                },
+                                {
+                                    "duration": 18,
+                                    "x": 0.6,
+                                    "y": 0.6
+                                },
+                                {
+                                    "duration": 2,
+                                    "tweenEasing": 0,
+                                    "x": 0.6,
+                                    "y": 0.6
+                                },
+                                {
+                                    "duration": 6,
+                                    "tweenEasing": 0,
+                                    "x": 0.7,
+                                    "y": 0.7
+                                },
+                                {
+                                    "duration": 0,
+                                    "x": 0.01,
+                                    "y": 0.01
+                                }
+                            ]
+                        },
+                        {
+                            "name": "通吃-上_0000_图层-12",
+                            "translateFrame": [
+                                {
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 68,
+                                    "x": -28,
+                                    "y": -50
+                                }
+                            ],
+                            "rotateFrame": [
+                                {
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 68,
+                                    "rotate": -20
+                                }
+                            ],
+                            "scaleFrame": [
+                                {
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 5,
+                                    "tweenEasing": 0,
+                                    "x": 0.01,
+                                    "y": 0.01
+                                },
+                                {
+                                    "duration": 2,
+                                    "tweenEasing": 0,
+                                    "x": 0.7,
+                                    "y": 0.7
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "x": 0.55,
+                                    "y": 0.55
+                                },
+                                {
+                                    "duration": 22,
+                                    "x": 0.6,
+                                    "y": 0.6
+                                },
+                                {
+                                    "duration": 3,
+                                    "tweenEasing": 0,
+                                    "x": 0.6,
+                                    "y": 0.6
+                                },
+                                {
+                                    "duration": 4,
+                                    "tweenEasing": 0,
+                                    "x": 0.7,
+                                    "y": 0.7
+                                },
+                                {
+                                    "duration": 3,
+                                    "tweenEasing": 0,
+                                    "x": 0.5,
+                                    "y": 0.5
+                                },
+                                {
+                                    "duration": 2,
+                                    "tweenEasing": 0,
+                                    "x": 0.65,
+                                    "y": 0.65
+                                },
+                                {
+                                    "duration": 18,
+                                    "x": 0.6,
+                                    "y": 0.6
+                                },
+                                {
+                                    "duration": 2,
+                                    "tweenEasing": 0,
+                                    "x": 0.6,
+                                    "y": 0.6
+                                },
+                                {
+                                    "duration": 6,
+                                    "tweenEasing": 0,
+                                    "x": 0.7,
+                                    "y": 0.7
+                                },
+                                {
+                                    "duration": 0,
+                                    "x": 0.01,
+                                    "y": 0.01
+                                }
+                            ]
+                        },
+                        {
+                            "name": "通吃-上_0001_图层-2",
+                            "translateFrame": [
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 67,
+                                    "x": 47.63,
+                                    "y": -47
+                                }
+                            ],
+                            "scaleFrame": [
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 7,
+                                    "tweenEasing": 0,
+                                    "x": 0.01
+                                },
+                                {
+                                    "duration": 2,
+                                    "tweenEasing": 0,
+                                    "x": 1.1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "x": 0.95
+                                },
+                                {
+                                    "duration": 57
+                                }
+                            ]
+                        },
+                        {
+                            "name": "通吃-上_0001_图层-21",
+                            "translateFrame": [
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 67,
+                                    "x": -47.94,
+                                    "y": -47
+                                }
+                            ],
+                            "scaleFrame": [
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 7,
+                                    "tweenEasing": 0,
+                                    "x": 0.01
+                                },
+                                {
+                                    "duration": 2,
+                                    "tweenEasing": 0,
+                                    "x": -1.1
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "x": -0.95
+                                },
+                                {
+                                    "duration": 57,
+                                    "x": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "通吃-下_0000_图层-1",
+                            "translateFrame": [
+                                {
+                                    "duration": 70,
+                                    "y": 41
+                                }
+                            ]
+                        },
+                        {
+                            "name": "通吃-下_0000_图层-11",
+                            "translateFrame": [
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 67,
+                                    "x": 20,
+                                    "y": 40
+                                }
+                            ],
+                            "scaleFrame": [
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 67,
+                                    "x": 0.4,
+                                    "y": 0.4
+                                }
+                            ]
+                        },
+                        {
+                            "name": "通吃-下_0000_图层-12",
+                            "translateFrame": [
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 67,
+                                    "x": -20,
+                                    "y": 40
+                                }
+                            ],
+                            "scaleFrame": [
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 67,
+                                    "x": 0.4,
+                                    "y": 0.4
+                                }
+                            ]
+                        },
+                        {
+                            "name": "通吃-下_0001_图层-2",
+                            "translateFrame": [
+                                {
+                                    "duration": 6
+                                },
+                                {
+                                    "duration": 64,
+                                    "x": 31.96,
+                                    "y": 40
+                                }
+                            ],
+                            "scaleFrame": [
+                                {
+                                    "duration": 6
+                                },
+                                {
+                                    "duration": 6,
+                                    "tweenEasing": 0,
+                                    "x": 0.01
+                                },
+                                {
+                                    "duration": 58
+                                }
+                            ]
+                        },
+                        {
+                            "name": "通吃-下_0001_图层-21",
+                            "translateFrame": [
+                                {
+                                    "duration": 6
+                                },
+                                {
+                                    "duration": 64,
+                                    "x": -31.96,
+                                    "y": 40
+                                }
+                            ],
+                            "scaleFrame": [
+                                {
+                                    "duration": 6
+                                },
+                                {
+                                    "duration": 6,
+                                    "tweenEasing": 0,
+                                    "x": 0.01
+                                },
+                                {
+                                    "duration": 58,
+                                    "x": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "nnn501",
+                            "translateFrame": [
+                                {
+                                    "duration": 70,
+                                    "y": 5
+                                }
+                            ],
+                            "scaleFrame": [
+                                {
+                                    "duration": 3,
+                                    "tweenEasing": 0,
+                                    "x": 0.01,
+                                    "y": 1.5
+                                },
+                                {
+                                    "duration": 6,
+                                    "tweenEasing": 0,
+                                    "x": 1.5,
+                                    "y": 1.5
+                                },
+                                {
+                                    "duration": 61,
+                                    "x": 2,
+                                    "y": 1.5
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Comp 1_00",
+                            "scaleFrame": [
+                                {
+                                    "duration": 20
+                                },
+                                {
+                                    "duration": 50,
+                                    "x": 2,
+                                    "y": 2
+                                }
+                            ]
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "name": "通吃 文字",
+                            "displayFrame": [
+                                {
+                                    "duration": 70
+                                }
+                            ],
+                            "colorFrame": [
+                                {
+                                    "duration": 5,
+                                    "tweenEasing": 0,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                },
+                                {
+                                    "duration": 60
+                                },
+                                {
+                                    "duration": 5,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 0,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "通吃-上_0000_图层-1",
+                            "displayFrame": [
+                                {
+                                    "duration": 70
+                                }
+                            ],
+                            "colorFrame": [
+                                {
+                                    "duration": 5,
+                                    "tweenEasing": 0,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                },
+                                {
+                                    "duration": 57,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 5,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 3,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "通吃-上_0000_图层-11",
+                            "displayFrame": [
+                                {
+                                    "duration": 2,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 68
+                                }
+                            ],
+                            "colorFrame": [
+                                {
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 5,
+                                    "tweenEasing": 0,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                },
+                                {
+                                    "duration": 57,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 6,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 0,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "通吃-上_0000_图层-12",
+                            "displayFrame": [
+                                {
+                                    "duration": 2,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 68
+                                }
+                            ],
+                            "colorFrame": [
+                                {
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 5,
+                                    "tweenEasing": 0,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                },
+                                {
+                                    "duration": 57,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 6,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 0,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "通吃-上_0001_图层-2",
+                            "displayFrame": [
+                                {
+                                    "duration": 3,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 67
+                                }
+                            ],
+                            "colorFrame": [
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 7,
+                                    "tweenEasing": 0,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                },
+                                {
+                                    "duration": 54,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 6,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 0,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "通吃-上_0001_图层-21",
+                            "displayFrame": [
+                                {
+                                    "duration": 3,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 67
+                                }
+                            ],
+                            "colorFrame": [
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 7,
+                                    "tweenEasing": 0,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                },
+                                {
+                                    "duration": 54,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 6,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 0,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "通吃-下_0000_图层-1",
+                            "displayFrame": [
+                                {
+                                    "duration": 70
+                                }
+                            ],
+                            "colorFrame": [
+                                {
+                                    "duration": 8,
+                                    "tweenEasing": 0,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                },
+                                {
+                                    "duration": 7
+                                },
+                                {
+                                    "duration": 11,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 12,
+                                    "tweenEasing": 0,
+                                    "value": {
+                                        "aM": 70
+                                    }
+                                },
+                                {
+                                    "duration": 12,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 10,
+                                    "tweenEasing": 0,
+                                    "value": {
+                                        "aM": 70
+                                    }
+                                },
+                                {
+                                    "duration": 7,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 3,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "通吃-下_0000_图层-11",
+                            "displayFrame": [
+                                {
+                                    "duration": 3,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 67
+                                }
+                            ],
+                            "colorFrame": [
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 8,
+                                    "tweenEasing": 0,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                },
+                                {
+                                    "duration": 5
+                                },
+                                {
+                                    "duration": 10,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 12,
+                                    "tweenEasing": 0,
+                                    "value": {
+                                        "aM": 50
+                                    }
+                                },
+                                {
+                                    "duration": 12,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 10,
+                                    "tweenEasing": 0,
+                                    "value": {
+                                        "aM": 50
+                                    }
+                                },
+                                {
+                                    "duration": 9,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "通吃-下_0000_图层-12",
+                            "displayFrame": [
+                                {
+                                    "duration": 3,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 67
+                                }
+                            ],
+                            "colorFrame": [
+                                {
+                                    "duration": 3
+                                },
+                                {
+                                    "duration": 8,
+                                    "tweenEasing": 0,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                },
+                                {
+                                    "duration": 5
+                                },
+                                {
+                                    "duration": 10,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 12,
+                                    "tweenEasing": 0,
+                                    "value": {
+                                        "aM": 50
+                                    }
+                                },
+                                {
+                                    "duration": 12,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 10,
+                                    "tweenEasing": 0,
+                                    "value": {
+                                        "aM": 50
+                                    }
+                                },
+                                {
+                                    "duration": 9,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "通吃-下_0001_图层-2",
+                            "displayFrame": [
+                                {
+                                    "duration": 6,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 64
+                                }
+                            ],
+                            "colorFrame": [
+                                {
+                                    "duration": 65
+                                },
+                                {
+                                    "duration": 5,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 0,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "通吃-下_0001_图层-21",
+                            "displayFrame": [
+                                {
+                                    "duration": 6,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 64
+                                }
+                            ],
+                            "colorFrame": [
+                                {
+                                    "duration": 65
+                                },
+                                {
+                                    "duration": 5,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 0,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "nnn501",
+                            "displayFrame": [
+                                {
+                                    "duration": 70
+                                }
+                            ],
+                            "colorFrame": [
+                                {
+                                    "duration": 3,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 6,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 61,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Comp 1_00",
+                            "displayFrame": [
+                                {
+                                    "duration": 20,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 1
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 2
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 3
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 4
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 5
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 6
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 7
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 8
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 9
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 10
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 11
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 12
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 13
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 14
+                                },
+                                {
+                                    "duration": 20,
+                                    "value": 15
+                                }
+                            ],
+                            "colorFrame": [
+                                {
+                                    "duration": 50
+                                },
+                                {
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 18,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "defaultActions": [
+                {
+                    "gotoAndPlay": "default"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RBWarTimeBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image y="0" x="0" source="rb_time_bg_png"/>
+	<e:BitmapLabel id="timeLabel" x="23" y="17" font="rbwar_time_fnt" text="0" anchorOffsetX="0" width="119" textAlign="center" height="47"/>
+
+</e:Skin>

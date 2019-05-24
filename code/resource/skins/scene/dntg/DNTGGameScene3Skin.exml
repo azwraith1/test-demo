@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DNTGGameScene3Skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:dntg="dntg.*">
+	<e:Group id="resizeGroup" width="1280" height="720">
+		<e:Group id="freeGroup" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0">
+			<e:Image id="dntg_scene3_bg_png" scaleX="1" scaleY="1"
+			         source="dntg_scene3_bg_png"  left="0" right="0" top="0" bottom="0"/>
+			<e:Image id="tiangong0" scaleX="1" scaleY="1" left="0" top="0" bottom="0" right="0" source="dntg_scene3_bg_2_png" />
+			<dntg:DNTGScroller id="scroller" skinName="DNTGScollerSkin" height="510" verticalCenter="-12" horizontalCenter="0" />
+			<e:Image height="180" top="0" source="dntg_cloud_4_png"  left="0" right="0"/>
+			<e:Group width="718.18" height="128" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" bottom="2">
+				<e:Image y="0" horizontalCenter="0" source="dntg_scene3_db3_png" />
+				<e:Image x="382.14" y="40" source="dntg_scene3_label3_png" />
+				<e:Image x="209" y="40" source="dntg_scene3_label2_png" />
+				<e:BitmapLabel id="free_spin_label0" width="126.06" height="26.06" x="215" y="71" anchorOffsetX="0"
+				               anchorOffsetY="0" text="0" textAlign="center" font="free_score_fnt" />
+				<e:BitmapLabel id="free_total_win0" x="374.77" y="71" text="0" textAlign="center" anchorOffsetX="0"
+				               width="143.73" anchorOffsetY="0" height="27.54" font="free_score_fnt" />
+			</e:Group>
+			<e:Image id="bg0" left="0" top="0" source="dntg_07bg_png"  right="0" bottom="0"/>
+			<e:Image id="treeBg0" source="dntg_04bg_png"  top="0" left="0" bottom="0" right="0"/>
+			<e:Image id="bottomCloud0" width="1280" x="1" bottom="-1" source="dntg_cloud_3_png" />
+			<e:Image id="free03imag0" anchorOffsetY="0" height="530.94" source="dntg_03_bg_png"  bottom="-62" right="0"/>
+			<e:Image id="free01imag0" source="free_cloud_json.free_03"  bottom="0" right="0"/>
+			<e:Image id="free05imag0" source="free_cloud_json.free_06"  verticalCenter="-30" left="-2"/>
+			<e:Image id="free02imag0" source="free_cloud_json.free_02"  bottom="-2" left="2"/>
+			<e:Group id="suijibeishuGroup0" y="0" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5" visible="false">
+				<e:Image y="0" horizontalCenter="0" source="dntg_scene3_label1_png" />
+				<e:Image scaleX="1" scaleY="1" horizontalCenter="0" y="52.8" source="dntg_scene3_score_db_png" />
+				<e:BitmapLabel id="freemul0" x="279.67" text="2 倍" letterSpacing="-12" scaleX="0.7" scaleY="0.7" anchorOffsetX="0"
+				               anchorOffsetY="0" verticalCenter="16.5" width="165" font="dntg_bet_num_fnt" />
+				<e:BitmapLabel id="freemul1" x="422.33" text="20倍" letterSpacing="-12" scaleX="0.7" scaleY="0.7" width="165"
+				               height="58" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="16.5" font="dntg_bet_num_fnt" />
+				<e:BitmapLabel id="freemul2" x="587" letterSpacing="-12" text="200倍" scaleX="0.7" scaleY="0.7" width="165"
+				               height="58" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="16.5" font="dntg_bet_num_fnt" />
+			</e:Group>
+			<e:Group id="effectGroup0" width="1280" height="720" x="0" y="0">
+				<e:Rect id="free_game_mask0" width="1280" height="720" x="0" y="0" fillAlpha="0.7" visible="false" />
+			</e:Group>
+		</e:Group>
+		<e:Group id="peachGroup" width="1280" scaleX="1" scaleY="1" x="0" height="100" y="0">
+			<e:Image id="peach_0" x="428" y="0" scaleX="1" scaleY="1" source="peachtips_json.peach" />
+			<e:Image id="peach_2" x="748" y="0" scaleX="1" scaleY="1" source="peachtips_json.peach" />
+			<e:Image id="peach_3" x="108" y="0" scaleX="1" scaleY="1" source="peachtips_json.peach" />
+			<e:Image id="peach_1" x="1068" y="0" scaleX="1" scaleY="1" source="peachtips_json.peach" />
+		</e:Group>
+		<e:Group id="peachTipGroup" width="1280" height="180" alpha="1" scaleX="1" scaleY="1" horizontalCenter="0"
+		         bottom="20" visible="false">
+			<e:Image id="freeGame0" x="58.55" width="241" height="100" y="15" source="peachtips_json.peachTip_2" />
+			<e:Image id="freeGame1" x="399" y="15" width="241" height="100" source="peachtips_json.peachTip_1" />
+			<e:Image id="freeGame2" x="716.89" y="15" width="241" height="100" source="peachtips_json.peachTip_4" />
+			<e:Image id="freeGame3" x="1019" y="15" width="241" height="100" source="peachtips_json.peachTip_3" />
+			<e:Label id="clickTips0" text="点击蟠桃，选择免费游戏次数" y="-228.35" horizontalCenter="0" verticalAlign="middle"
+			         textAlign="center" size="36" textColor="0xEF925F" strokeColor="0x4D1300" stroke="1"
+			          bold="true" visible="false"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,14 @@
+{"file":"payList.png","frames":{
+"X":{"x":1,"y":1,"w":24,"h":29,"offX":2,"offY":0,"sourceW":28,"sourceH":29},
+".":{"x":20,"y":63,"w":14,"h":14,"offX":2,"offY":15,"sourceW":18,"sourceH":29},
+"0":{"x":1,"y":32,"w":22,"h":29,"offX":2,"offY":0,"sourceW":26,"sourceH":29},
+"1":{"x":1,"y":63,"w":17,"h":29,"offX":2,"offY":0,"sourceW":21,"sourceH":29},
+"2":{"x":25,"y":32,"w":21,"h":29,"offX":2,"offY":0,"sourceW":25,"sourceH":29},
+"3":{"x":94,"y":32,"w":21,"h":29,"offX":2,"offY":0,"sourceW":25,"sourceH":29},
+"4":{"x":77,"y":1,"w":23,"h":29,"offX":2,"offY":0,"sourceW":27,"sourceH":29},
+"5":{"x":48,"y":32,"w":21,"h":29,"offX":2,"offY":0,"sourceW":25,"sourceH":29},
+"6":{"x":52,"y":1,"w":23,"h":29,"offX":2,"offY":0,"sourceW":27,"sourceH":29},
+"7":{"x":71,"y":32,"w":21,"h":29,"offX":2,"offY":0,"sourceW":25,"sourceH":29},
+"8":{"x":102,"y":1,"w":22,"h":29,"offX":2,"offY":0,"sourceW":26,"sourceH":29},
+"9":{"x":27,"y":1,"w":23,"h":29,"offX":2,"offY":0,"sourceW":27,"sourceH":29},
+" ":{"x":117,"y":32,"w":5,"h":5,"offX":0,"offY":0,"sourceW":8,"sourceH":29}}}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZajinhuaHallSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16950e71404"/>
+	<e:Group id="resizeGroup" width="1280" height="720">
+		<e:Image source="zjh_hall_bg_png" left="0" right="0" top="0" bottom="0"/>
+
+		<e:Group left="0" right="0" height="89">
+			<e:Image scaleX="1" scaleY="1" source="zjh_hall_name_bg1_png"/>
+
+		<e:Button id="backBtn" label="Button" left="14" top="13">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjh_backbtn_png" source.down="zjh_backbtn_png"/>
+
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+			<e:Button id="recordBtn" label="Button" scaleX="1" scaleY="1" right="117" top="13">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:zajinhua="zajinhua.*">
+					<e:Image width="100%" height="100%" source="zjh_jlbtn_png" source.down="zjh_jlbtn_png"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="fullScreenBtn" label="Button" scaleX="1" scaleY="1" right="17" top="13">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="zjh_hall_qpbtn_png" source.down="zjh_hall_qpbtn_png"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="helpBtn" label="Button" scaleX="1" scaleY="1" right="220" top="13">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:zajinhua="zajinhua.*">
+					<e:Image width="100%" height="100%" source="zjh_helpbtn_png" source.down="zjh_helpbtn_png"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+		<e:Group x="110.47" y="3.92" width="84" height="85">
+			<e:Image scaleX="1" scaleY="1" x="0" y="0" source="zjh_select_header_bgk_png"/>
+			<e:Image id="header_mask" scaleX="1" scaleY="1" source="zjh_select_header_bg_png" x="3.6" y="3.6"/>
+			<e:Image id="headerImage" source="hall_header_2_1_png" x="2.8" y="2.6" scaleX="0.76" scaleY="0.76"/>
+
+
+
+
+
+
+			<e:Label id="nameLabel" text="Label" x="105" y="15.2" textColor="0xf9ea6d" size="18"    anchorOffsetX="0" width="167" anchorOffsetY="0" textAlign="center" scaleX="1" scaleY="1" verticalAlign="middle"/>
+			<e:Label id="goldLabel" text="0" x="105" y="54.08" textColor="0xF9EA6D" size="19"    anchorOffsetX="0" width="167" anchorOffsetY="0" height="18" scaleX="1" scaleY="1" verticalAlign="middle" textAlign="center"/>
+		</e:Group>
+		</e:Group>
+		<e:Group id="ycGroup" anchorOffsetX="0" anchorOffsetY="0" right="332" top="26" x="1261" y="103" scaleX="1" scaleY="1"/>
+		<e:Group id="selectGroup" horizontalCenter="0" verticalCenter="0" width="1280" height="300"/>
+	</e:Group>
+</e:Skin>

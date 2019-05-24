@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RBWHallBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group anchorOffsetX="0" anchorOffsetY="0" x="0">
+		<e:Group id="dbGroup" x="0" y="0"/>
+		<e:BitmapLabel id="tzfflable" font="rbw_tzff_fnt" anchorOffsetY="0" anchorOffsetX="0" text="" letterSpacing="-5" textAlign="center" y="0" horizontalCenter="0"/>
+		<e:Image id="rbw_zh" width="366" height="562" scaleX="1" scaleY="1" x="0" y="0"/>
+	</e:Group>
+	<w:Config id="168316081f7"/>
+</e:Skin>

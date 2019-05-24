@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BDZHallBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        width="260" height="365">
+    <e:Group anchorOffsetX="0" anchorOffsetY="0" x="0" width="260" height="365">
+			<e:Image source="bdz_hallbar_yz_png" x="91" y="355"/>
+        <e:Group id="dbGroup" x="0" y="0" width="260" height="365" locked="true">
+</e:Group>
+        <e:Image scaleX="1" scaleY="1"  source="bdz_xc_bar_png" x="-19" y="-31" width="280" height="396" visible="false"/>
+    </e:Group>
+	<e:Image source="bdz_hallbar_dy__png" x="110" y="420"/>
+	<e:BitmapLabel id="zrLabel" x="164" y="346" font="bdz_xc_font1_fnt" text="1230j" letterSpacing="-5" anchorOffsetX="0" textAlign="right" width="153"/>
+	<e:BitmapLabel id="zrLabel0" x="163" y="346" font="bdz_xc_font1_fnt" text="zr" letterSpacing="-5" anchorOffsetX="0" textAlign="center"/>
+</e:Skin>

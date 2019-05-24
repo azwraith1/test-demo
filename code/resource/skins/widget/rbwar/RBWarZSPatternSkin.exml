@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RBWarZSPatternSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="95" height="43">
+	<e:Image id="dbImage" source="rbw_qs_db2_png"/>
+	<e:Label id="contentLabel" text="Label" x="6" y="10" size="22"    anchorOffsetX="0" width="82.33" textAlign="center" textColor="0x552409"/>
+</e:Skin>

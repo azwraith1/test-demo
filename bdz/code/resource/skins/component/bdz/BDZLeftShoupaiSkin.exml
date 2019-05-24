@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BDZLeftShoupaiSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="355" height="211">
+	<e:Image source="bdz_img_3_png" x="3" y="3" touchEnabled="false"/>
+	<e:Label id="goldLabel" text="" y="5" size="20" fontFamily="SimHei" horizontalCenter="-6" touchEnabled="false"/>
+	<ns1:BDZPoker id="poker1" skinName="BDZPokerSkin" x="6" y="25" cacheAsBitmap="false"/>
+	<ns1:BDZPoker id="poker2" skinName="BDZPokerSkin" x="65" y="25" cacheAsBitmap="false"/>
+	<ns1:BDZPoker id="poker3" skinName="BDZPokerSkin" x="124" y="25" cacheAsBitmap="false"/>
+	<ns1:BDZPoker id="poker4" skinName="BDZPokerSkin" x="183" y="25" cacheAsBitmap="false"/>
+	<e:BitmapLabel id="huanpaiLabel" y="43.2" font="bdz_huanpai_num_fnt" text="131" anchorOffsetY="0" width="22" lineSpacing="35" height="154.4" textAlign="center" touchEnabled="false" right="12"/>
+	<e:Rect id="qipaiRect" width="355" height="211" fillAlpha="0.4" visible="false"/>
+	<e:Image id="kuangImage" source="bdz_img_5_png" touchEnabled="false"/>
+</e:Skin>

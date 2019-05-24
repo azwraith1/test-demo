@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DZMJGameRecordBarSkin" width="820" height="30" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group height="30" x="0" y="0" width="820">
+		<e:Label id="paijunumber" text="192222999" x="10.4" width="253.6" size="20"    textAlign="center" anchorOffsetX="0" scaleX="1" scaleY="1" textColor="0x42280c" y="6"/>
+		<e:Label id="room" text="初级场" x="270.2" width="109.6" textColor="0x42280c" size="20"    textAlign="center" y="6" scaleX="1" scaleY="1" anchorOffsetX="0"/>
+		<e:Label id="winOrLose" text="0" x="433.67" width="111.25" textColor="0xe70909" size="20"    textAlign="center" anchorOffsetX="0" y="6" scaleX="1" scaleY="1"/>
+		<e:Label id="gametimes" text="2018-09-01 18:00:00" x="552.34" width="281.67" textColor="0x42280c" size="20"    textAlign="center" y="6" scaleX="1" scaleY="1" anchorOffsetX="0"/>
+	</e:Group>
+</e:Skin>

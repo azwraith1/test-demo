@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BDZCMSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="78" height="82">
+	<e:Image id="cmColor" source="bdz_cm_1_png" x="0" y="0"/>
+	<e:BitmapLabel id="goldLabel" font="bdz_cm_fnt" text="100" x="14.33" y="29" anchorOffsetX="0" width="48.67" textAlign="center"/>
+</e:Skin>

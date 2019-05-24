@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MineHuShowSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="618" height="71">
+	<e:Group id="mineHuShow" touchChildren="true" touchThrough="true" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image id="image0" x="0" y="0" source="mine_paimian_13_png"  visible="false"/>
+		<e:Image id="image1" x="46.52" source="mine_paimian_12_png"  visible="false"/>
+		<e:Image id="image2" x="93" source="mine_paimian_11_png"  visible="false"/>
+		<e:Image id="image3" x="140.5" y="0" source="mine_paimian_10_png"  visible="false"/>
+		<e:Image id="image4" x="187.5" y="0" source="mine_paimian_9_png"  visible="false"/>
+		<e:Image id="image5" x="233.5" y="0" source="mine_paimian_8_png"  visible="false"/>
+		<e:Image id="image6" x="281.5" source="mine_paimian_7_png"  visible="false"/>
+		<e:Image id="image7" x="327.26" source="mine_paimian_6_png"  visible="false"/>
+		<e:Image id="image8" x="374.43" y="0" scaleY="1" source="mine_paimian_5_png"  visible="false"/>
+		<e:Image id="image9" x="421.43" y="0" source="mine_paimian_4_png"  visible="false"/>
+		<e:Image id="image10" x="468.43" source="mine_paimian_3_png" visible="false"/>
+		<e:Image id="image11" x="515.93" y="0" source="mine_paimian_2_png" visible="false"/>
+		<e:Image id="image12" x="562.55" source="mine_paimian_1_png" visible="false"/>
+		<e:Image id="image13" x="611.97" source="mine_paimian_1_png" y="-0.64" visible="false"/>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="mineHuShow_color" touchChildren="true" touchThrough="true" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image id="color0" skewX="5" anchorOffsetY="0" height="53.61" anchorOffsetX="0" width="45.2" x="4.4" source="" />
+		<e:Image id="color1" skewX="5" anchorOffsetY="0" height="53.61" anchorOffsetX="0" width="45.2" x="53.19" y="0"
+		         source="" />
+		<e:Image id="color2" skewX="4.5" anchorOffsetY="0" height="53.61" anchorOffsetX="0" width="44" x="100.64" y="0.4"
+		         source="" />
+		<e:Image id="color3" skewX="4" anchorOffsetY="0" height="53.61" anchorOffsetX="0" width="42.4" x="148.34" y="0.4"
+		         source="" />
+		<e:Image id="color4" skewX="3" anchorOffsetY="0" height="53.61" anchorOffsetX="0" width="42.4" x="195.67" y="0.4"
+		         source="" />
+		<e:Image id="color5" skewX="2" anchorOffsetY="0" height="53.61" anchorOffsetX="0" width="42.4" x="241.2" y="0.4"
+		         source="" />
+		<e:Image id="color6" skewX="1" anchorOffsetY="0" height="53.61" anchorOffsetX="0" width="42.4" x="287.54" y="0.4"
+		         source="" />
+		<e:Image id="color7" anchorOffsetY="0" height="53.61" anchorOffsetX="0" width="42.4" x="333.37" y="0.4" source="" />
+		<e:Image id="color8" anchorOffsetY="0" height="53.61" anchorOffsetX="0" width="42.4" x="380.25" y="0.4" skewX="-1"
+		         source="" />
+		<e:Image id="color9" anchorOffsetY="0" height="53.61" anchorOffsetX="0" width="42.4" x="427.26" y="0" skewX="-2"
+		         source="" />
+		<e:Image id="color10" anchorOffsetY="0" height="53.61" anchorOffsetX="0" width="42.4" x="473.79" y="0.43" skewX="-3"
+		         source="" />
+		<e:Image id="color11" anchorOffsetY="0" height="53.61" anchorOffsetX="0" width="42.4" x="520.83" y="0.47" skewX="-4"
+		         source="" />
+		<e:Image id="color12" anchorOffsetY="0" height="53.61" anchorOffsetX="0" width="42.4" x="566.98" y="0.53" skewX="-5"
+		         source="" />
+		<e:Image id="color13" anchorOffsetY="0" height="53.61" anchorOffsetX="0" width="42.4" x="614.87" y="1.41" skewX="-5" source=""/>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

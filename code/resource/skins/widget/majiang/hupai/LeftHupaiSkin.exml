@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="majiang.LeftHupaiSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bgImage1" x="0" y="0" source="left_hupai_1_png"/>
+	<e:Image id="bgImage" x="0" y="0" source="left_hupai_1_png"/>
+	<e:Image id="colorImage" width="33" height="58" x="67.94" y="4.6" anchorOffsetX="0" anchorOffsetY="0" skewX="90" skewY="101" source=""/>
+	<e:Rect id="maskRect" left="0" visible="false" right="0" bottom="0" top="0" fillAlpha="0.3" fillColor="0xDD650B"/>
+</e:Skin>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DNTGRecordSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="resizeGroup">
+		<e:Rect strokeAlpha="0" fillAlpha="0" scaleX="1" scaleY="1" top="0" bottom="0" y="0" left="640" right="640"/>
+		<e:Group width="1280" height="720" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+			<e:Image source="dntg_common_bg_png" verticalCenter="0" y="107" scaleX="1" scaleY="1" anchorOffsetX="0" width="1137.37" horizontalCenter="21.5" scale9Grid="12,12,821,475"/>
+			<e:Image source="dntg_record_text_png" horizontalCenter="0" x="551" scaleX="1" scaleY="1" top="114"/>
+			<e:Image source="dntg_wenzi_bg_png" anchorOffsetX="0" width="995.82" anchorOffsetY="0" scale9Grid="9,8,34,23" scaleX="1" scaleY="1" top="176" horizontalCenter="22"/>
+			<e:Image source="dntg_shijian_text_png" x="221.95" scaleX="1" scaleY="1" top="181"/>
+			<e:Image x="523.83" source="dntg_record_game_text_png" scaleX="1" scaleY="1" top="181"/>
+			<e:Image source="dntg_total_bet_png" scaleX="1" scaleY="1" x="684.19" top="181"/>
+			<e:Image source="dntg_goal_text_png" scaleX="1" scaleY="1" top="181" x="956.27"/>
+			<e:Scroller id="gameRecordScroller" width="987.27" height="360" y="227" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="21.5" x="260" scaleX="1" scaleY="1">
+			<e:List id="gameRecordList" anchorOffsetX="0" width="852.42" x="-92.42" y="0"/>
+			</e:Scroller>
+			<e:Button id="closeBtn" label="" scaleX="1" scaleY="1" right="53" top="104">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="dntg_close_record_png" source.down="dntg_close_record_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

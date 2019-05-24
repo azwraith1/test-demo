@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="majiang.TextButtonSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Image x="0" source="hsz_btn_bg_png" touchEnabled="false"/>
+    <e:Label id="labelDisplay"
+             size="25"
+             verticalAlign="middle" fontFamily="Microsoft YaHei" text="确定" textColor="0xfff1dd" bold="false" borderColor="0x000000" stroke="2" strokeColor="0x983f20" width="141" height="49" textAlign="center" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-4.5" y="2" touchEnabled="false"/>
+</e:Skin>

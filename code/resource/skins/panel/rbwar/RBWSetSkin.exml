@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RBWSetSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="resizeGroup" width="1280" height="720">
+		<e:Rect id="rect" width="1280" height="720" scaleX="1" scaleY="1" fillAlpha="0.3" horizontalCenter="0" verticalCenter="0" x="0" y="0"/>
+		<e:Group anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="-5.5" verticalCenter="8">
+			<e:Image anchorOffsetY="0" anchorOffsetX="0" scale9Grid="225,120,188,72" source="rbw_sezi_bg_png" x="0" y="1" width="515" height="327"/>
+			<e:Group id="musicGroup" anchorOffsetX="0" anchorOffsetY="0" x="141" y="97" height="44" width="247">
+				<e:ToggleSwitch id="musicBtn" label="ToggleButton" scaleX="1" scaleY="1" width="247" height="44" x="0" y="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled" width="247" height="44">
+						<e:Image source="rbw_sezi_g_png" source.down="rbw_sezi_k_png" width="247" height="44"/>
+	<e:Image source="rbw_sezi_kg_png" height="43" width="111" x="131" x.down="4" y.down="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:ToggleSwitch>
+			</e:Group>
+			<e:Group id="soundGroup" x="141" y="197">
+				<e:ToggleSwitch id="soundBtn" label="ToggleButton" scaleX="1" scaleY="1" width="247" height="44" x="0" y="0">
+					<e:skinName>
+					<e:Skin states="up,down,disabled" width="247" height="44">
+						<e:Image source="rbw_sezi_g_png" source.down="rbw_sezi_k_png" width="247" height="44"/>
+						<e:Image source="rbw_sezi_kg_png" height="43" width="111" x="131" x.down="4" y.down="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:ToggleSwitch>
+			</e:Group>
+			<e:Image y="7" source="rbw_sezi_sz_png" x="213"/>
+			<e:Image x="32" y="206" source="rbw_sezi_s_png"/>
+			<e:Image x="32" y="106" source="rbw_sezi_m_png"/>
+			<e:Button id="closeBtn" label="" x="454" y="5" width="50" height="50">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:rbwar="rbwar.*">
+					<e:Image width="100%" height="100%" source="rbw_close_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+	</e:Group>
+	<w:Config id="1683ad4d1b2"/>
+</e:Skin>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NiuniuNewtimeDirectionBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="nns_djs_png" y="0" x="0"/>
+
+	<e:Label id="timeLabel" text="00" anchorOffsetY="0" anchorOffsetX="0" size="42"    width="67" textAlign="center" horizontalCenter="0" verticalCenter="6" textColor="0xffffff"/>
+</e:Skin>

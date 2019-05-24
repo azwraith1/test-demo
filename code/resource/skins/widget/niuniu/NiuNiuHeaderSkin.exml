@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NiuNiuHeaderSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="106">
+	<e:Image source="nn_img_kuang_png" y="34" x="6" scaleX="1.2" scaleY="1.2"/>
+	<e:Image source="nn_image_bg_png" anchorOffsetY="0" height="161" width="106" y="2" x="2"/>
+
+	<e:Label id="nameLabel" text="小骄傲" y="8" size="20" anchorOffsetX="0" width="102" textAlign="center"    height="22" textColor="0xf8cc9d" x="2"/>
+
+	<e:BitmapLabel id="goldLabel" y="134" font="nn_gold_number_fnt" text="0" letterSpacing="-5" width="96" height="19" textAlign="center" x="5"/>
+	<e:Image id="headerImage" x="11" y="39" anchorOffsetX="0" width="73.5" anchorOffsetY="0" height="73.5" scaleX="1.2" scaleY="1.2" source="hall_header_1_1_png"/>
+	<e:Image id="headerImage_k" anchorOffsetX="0" anchorOffsetY="0" source="nn_header_select_png" width="110" height="165" y="0" x="0" visible="false"/>
+	<e:Group id="beishuGroup" y="30" x="110" width="70" visible="false">
+		<e:BitmapLabel id="beishuLabel" text="x4" font="niuniu_beishu_fnt" x="0" y="0" width="70"/>
+		<e:Image id="bqImage" x="0" y="0" source="nn_qz_bq_png"/>
+	</e:Group>
+	<e:Label id="indexLabel" text="" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="zhuangImage" x="103" y="2" source="nn_zhuang_png" width="44" height="45" anchorOffsetX="22" anchorOffsetY="22.5" visible="false"/>
+	<e:Label id="liushuiLabel" text="" y="-25" size="20" anchorOffsetX="0" width="102" textAlign="center"    height="22" textColor="0xF8CC9D" x="2"/>
+	<w:Config id="1668534969b"/>
+</e:Skin>

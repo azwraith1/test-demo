@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DNTGGameRecordItemSkin" width="987" height="40" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="760" height="40" x="0" y="0">
+		<e:Label id="timeText" text="2019年10月1日 11:11:11" x="12"    verticalCenter="0" anchorOffsetX="0" width="333.33" textAlign="left" verticalAlign="middle" height="30"/>
+		<e:Image source="dntg_fengexian_png" y="32.5" width="987" x="0"/>
+		<e:Label id="gameNameText" text="大闹天宫" x="356" anchorOffsetX="0" width="156.66" verticalCenter="0" textAlign="left"   />
+		<e:Label id="totalBetText" text="111212" x="538" anchorOffsetX="0" width="136.67" anchorOffsetY="0"    verticalCenter="0"/>
+		<e:Label id="totalWinText" text="121212" x="802.97" anchorOffsetX="0" verticalCenter="0" width="114"   />
+	</e:Group>
+</e:Skin>

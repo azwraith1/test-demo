@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BJLPlayerHeaderSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="110" height="140">
+	<e:Group width="110" height="140" x="0" y="0">
+		<e:Image scaleX="1" scaleY="1" source="bjle_header_player_bg_png" width="110" height="140" scale9Grid="13,16,84,102" horizontalCenter="0" verticalCenter="0"/>
+		<e:Group id="headerGroup" width="108" height="109" x="1" y="4">
+			<e:Image id="maskImage" source="bjle_header_k_mask_png" scaleX="1" scaleY="1" x="4" y="5"/>
+			<e:Image id="headerImage" scaleX="1" scaleY="1" source="hall_header_1_2_png" x="2" y="3"/>
+			<e:Image source="bjle_header_k_png" scaleX="1" scaleY="1" x="0" y="0"/>
+		</e:Group>
+		<e:Image id="no1orSsz" source="bjle_header_fh1_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="30.5"/>
+		<e:Image id="fuhao" source="bjle_header_fh_yellow_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="36.5"/>
+		<e:Image id="king" source="bjle_header_king_png" scaleX="1" scaleY="1" right="-9" top="-7"/>
+		<e:Image id="no2image" source="bjle_header_no2_png" scaleX="1" scaleY="1" left="-5" top="0"/>
+		<e:Image id="no1image" source="bjle_header_no1_png" scaleX="1" scaleY="1" left="-10" top="-8"/>
+		<e:Label id="nameLabel" text="Label" anchorOffsetY="0" size="16" anchorOffsetX="0" width="92.5" textAlign="center" scaleX="1" scaleY="1" textColor="0xdac896" horizontalCenter="0" bottom="3"/>
+		<e:Label id="indexLabel" text="" anchorOffsetY="0" size="16" anchorOffsetX="0" width="92.5" textAlign="center" scaleX="1" scaleY="1" textColor="0xDAC896" horizontalCenter="0" verticalCenter="-3"/>
+		<e:Group id="dbGroup" width="110" height="140" x="0" y="0" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

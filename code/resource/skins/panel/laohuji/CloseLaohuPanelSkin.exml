@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CloseLaohuPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="resizeGroup" width="1280">
+		<e:Rect fillAlpha="0" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" x="0" y="0"/>
+		<e:Group height="720" verticalCenter="0" y="1" scaleX="1" scaleY="1" width="533" horizontalCenter="0">
+			<e:Image horizontalCenter="0" verticalCenter="0" source="dntg_leave_k_png"/>
+			<e:Button id="leave_btn" label="" anchorOffsetX="0" width="137" anchorOffsetY="0" height="49" horizontalCenter="-92.5" y="400">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="dntg_leave1_png" source.down="dntg_leave1_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Button id="cancel_leave_btn" label="" width="137" height="49" horizontalCenter="94.5" y="400">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="dntg_leave3_png" source.down="dntg_leave3_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Image y="262" horizontalCenter="0" source="dntg_leave2_png"/>
+		</e:Group>
+	</e:Group>
+
+
+
+
+
+
+</e:Skin>

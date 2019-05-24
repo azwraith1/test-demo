@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NiuniuFenSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group>
+		<e:Image id="niuFen" scaleX="1" scaleY="1" source="nn_1_png"/>
+		<e:Label id="beishu" text="(2倍)" size="20"    skewX="15" skewY="-7" stroke="1" strokeColor="0x565656" scaleX="1" scaleY="1" x="70.3" y="10.69"/>
+	</e:Group>
+</e:Skin>
